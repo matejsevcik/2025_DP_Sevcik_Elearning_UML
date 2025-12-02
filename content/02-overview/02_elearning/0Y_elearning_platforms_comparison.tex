@@ -1,0 +1,77 @@
+% \section{\ac{lms}}\textsuperscript{1}
+% \footnotetext[1]{This text was made with the use of \ac{genai}} 
+
+\section[\ac{lms}]{\ac{lms}\footnotemark[1]}
+% \footnotetext{This section was made with the use of \ac{genai}}
+
+
+\ac{lms} have become an increasingly popular choice for educational institutions and individual educators seeking flexibility, transparency, and cost-effective solutions. These platforms offer a wide range of features to support online learning, from course management and content delivery to assessment and communication tools.
+
+In this section, we briefly examine several prominent open-source \ac{lms} platforms, evaluating their general characteristics, strengths, and limitations. Each system offers a unique set of features. We will perform a comparison based on our assumed requirements that will be described later in section. %\todo{REF}.
+
+\textbf{Moodle}\footnote{"Moodle," \textit{Moodle Project}, https://moodle.org/, accessed May 25, 2025.}
+
+
+Moodle is a widely-used and feature-rich open-source learning management system that supports a broad range of teaching styles and learning needs. It offers powerful tools for content delivery, assessment, tracking learner progress, and supporting collaborative learning through forums and wikis. Thanks to its extensive plugin ecosystem, Moodle supports gamification, microlearning, adaptive learning, and integration with external tools. While highly customizable, its interface and complex configuration may feel overwhelming to users seeking simplicity.
+
+\newpage
+
+\textbf{Open edX}\footnote{"Open edX," \textit{Open edX Project}, https://openedx.org/, accessed May 25, 2025.}
+
+Open edX is a scalable and modular LMS originally developed by Harvard and MIT. It is especially strong in supporting self-paced and adaptive learning through structured content, video lectures, quizzes, and analytics tools. Its powerful authoring tool, Studio, allows course creators to design interactive and engaging learning experiences. While Open edX is ideal for research-driven or large-scale deployments, it has a steeper learning curve and requires more technical resources to deploy and maintain.
+
+\textbf{Chamilo}\footnote{"Chamilo," \textit{Chamilo Association}, https://chamilo.org/en/, accessed May 25, 2025.}
+
+
+Chamilo is an open-source LMS focused on ease of use and fast deployment, making it suitable for institutions prioritizing simplicity over advanced customization. It includes built-in tools for course management, assessments, certification, and collaboration. Chamilo enables tracking student progress and provides basic support for gamification and interactive learning. Its clean interface and low technical demands make it a solid choice for smaller teams or pilot e-learning projects, though it offers fewer integrations than larger platforms.
+
+\textbf{ILIAS}\footnote{"ILIAS," \textit{ILIAS Open Source e-Learning}, https://www.ilias.de/en/, accessed May 25, 2025.}
+
+
+ILIAS is a mature, flexible LMS that supports complex learning scenarios, including competency-based education, learning paths, and detailed tracking of user progress. Originally developed for academic institutions and public organizations, it emphasizes structure, reusability of content, and rich assessment tools. ILIAS also includes collaborative tools such as blogs, forums, and group workspaces. While powerful, its interface can appear outdated and may require configuration to meet modern usability expectations.
+
+\textbf{Canvas LMS}\footnote{"Canvas LMS," \textit{Instructure}, https://www.instructure.com/canvas, accessed May 25, 2025.}
+
+Canvas LMS offers a modern, user-friendly experience with a focus on intuitive design and ease of use. Developed by Instructure, its open-source version includes core features such as course creation, grading, analytics, and communication tools. Canvas supports REST APIs, making it easy to extend or integrate with external tools like custom diagram editors or assessment modules. Though some advanced analytics and AI features are exclusive to the commercial version, the open-source release remains highly capable and suitable for most academic settings.
+
+\newpage
+
+\textbf{Overall comparison}
+
+\begin{table}[ht]
+\centering
+\small
+\begin{tabular}{|>{\raggedright\arraybackslash}p{2.5cm}|
+                >{\raggedright\arraybackslash}p{1.9cm}|
+                >{\raggedright\arraybackslash}p{1.9cm}|
+                >{\raggedright\arraybackslash}p{1.9cm}|
+                >{\raggedright\arraybackslash}p{1.9cm}|
+                >{\raggedright\arraybackslash}p{1.7cm}|}
+\hline
+\textbf{Feature} & \textbf{Moodle} & \textbf{Open edX} & \textbf{Canvas LMS} & \textbf{ILIAS} & \textbf{Chamilo} \\
+\hline
+\textbf{Simplicity (UI/UX)} & Moderate & Moderate & High & Low & High \\
+\hline
+\textbf{Progress Monitoring} & Yes & Yes & Yes & Yes & Yes \\
+\hline
+\textbf{Customization} & Very High & High & Moderate & Moderate & High \\
+\hline
+\textbf{Ease of Content Extension} & High & High & Moderate & Moderate & High \\
+\hline
+\textbf{Gamification} & Yes (plugins) & Limited & Yes (plugins) & Yes & Yes \\
+\hline
+\textbf{Microlearning} & Yes & Yes & Moderate & Yes & Yes \\
+\hline
+\textbf{Adaptive Learning} & Yes (plugins) & Yes & Limited & Limited & Moderate \\
+\hline
+\textbf{Community and Plugin Availability} & Very Large & Large & Moderate & Moderate & Growing \\
+\hline
+\textbf{Feedback Channels} & Yes & Yes & Yes & Yes & Yes \\
+\hline
+\textbf{Ideal Use Case} & Schools, Universities & MOOCs, Corporations & Schools, Universities & Corporate, Government & Schools, NGOs \\
+\hline
+\end{tabular}
+\caption{Comparison of selected open-source Learning Management Systems}
+\label{tab:lms_comparison}
+\end{table}
+

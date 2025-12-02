@@ -1,0 +1,170 @@
+% \begin{itemize}
+%     \item vyznam
+%     \item vyuzitie-kto,ako,kedy, preco
+%     \item podla toho, v akej faze sme*
+%     \item fungovanie (pozostava z...)
+%     \item zoznam komponentov a znaciek s vysvetleniami
+%     \item ukazka s vysvetlivkami alebo aspon opisom
+%     \item zhrnutie
+% \end{itemize}
+
+% *Design phase: Helps define system architecture before coding.
+% Documentation: Used for explaining system structure to developers.
+% Code Generation: Tools like UML-to-Code transformation (e.g., in Java, C#).
+
+% \subsection{Introduction}
+
+The class diagram is the most prominent \ac{uml} diagram. It describes the elements of the system as well as their relationships, creating the basis for numerous other diagrams and modeling techniques \cite{rumpe2016modeling}. These aspects are static, meaning that they do not change with time. Despite that, it is used in multiple phases of system development, applying various levels of abstraction. 
+%It is suitable for both quick sketches and more detailed representations. 
+It is even possible to generate code from the class diagram. It is commonly used as a part of documentation \cite{seidl2015uml}, as it provides an easy to understand overview of the system. %\todo{znova, takmer cely odstavec je citacia}
+
+% \todo{\cite{rumpe2016modeling} keby sme cheli toho viac tak tuto sa da daco najst este}
+
+% \subsection{Perspecitves of a class diagram\textsuperscript{1}}
+% \footnotetext[1]{The section was made with the use of \ac{genai}}
+
+\subsection[Perspecitves of Class Diagrams]{Perspecitves of the Class Diagram\footnotemark[3]}
+% \footnotetext{This section was made with the use of \ac{genai}}
+
+%\todo{refs to explanations}
+
+Class diagrams are one of the most fundamental diagram types in the Unified Modeling Language (UML) and serve various purposes throughout the software development lifecycle. They apply various levels of abstraction and each level of abstraction uses class diagrams slightly differently, but they all help bridge the gap between stakeholder understanding and technical implementation.
+
+\textbf{Domain Model} At the highest level of abstraction, class diagrams are used to model concepts from the problem domain. These diagrams represent real-world entities and their relationships, often using language familiar to stakeholders. The focus here is on understanding and communicating the essential structure of the domain.
+
+\textbf{Logical Model} As the design progresses, the domain model is refined into a logical model. This level introduces more technical detail, such as class responsibilities, access modifiers, and associations with navigability or multiplicity. It provides a blueprint for the software's internal design while remaining independent of specific implementation technologies.
+
+\textbf{Physical Model} Eventually, the logical model is translated into a physical model, where class diagrams may reflect actual code structures, database schemas, or deployment components. At this stage, technical constraints and implementation details (such as data types or platform-specific features) are included.
+
+
+Class diagrams also share conceptual similarities with Entity-Relationship (ER) diagrams, which are commonly used in database design. In fact, UML class diagrams can serve as a richer alternative to ER diagrams, especially when modeling object-oriented systems:
+
+\begin{itemize}
+        \item Entities in ER diagrams correspond to classes in UML
+        \item Attributes are represented similarly
+        \item Relationships in ER diagrams map to associations, aggregations, or compositions in class diagrams, often with multiplicity annotations
+        \item UML also supports advanced features such as inheritance and method specification, which are typically absent in ER diagrams
+\end{itemize}
+
+
+\subsection{Components of Class Diagrams}
+
+A class diagram consists of multiple components. In broad terms, those components are classes, their attributes and operations, and the relationships between different classes.
+
+Classes and objects are closely related. A class is a blueprint for creating objects - it describes what attributes and operations an object is going to have and how it is going to interact with other entities.
+
+An object is an instance of a class. For example, a class Table is an abstract idea that is used for creating real tables. A table in the local library is an object - a specific instance of a table that follows the specifications described in the class Table.
+
+\textbf{Attributes}
+
+Attributes describe the properties of a class. A class defines the list of attributes along with their data types %\todo{reference to section} 
+and visibility. %\todo{ref as well}. 
+The class may also define an attribute's multiplicity - the number of values that are to be assigned to it. The default amount is 1. In the case of an object, the attributes are assigned specific values.
+
+\textbf{Operations}
+
+Operations are activities that instances of a class can perform. They include things like performing calculations or altering a value. A class describes the visibility %\todo{ref}
+, input parameters, return type, and the name of the operation.
+
+% \todo{Parameter Directionality - just in case, I do not think it necessary}
+
+\textbf{Data types}
+
+Data types define what kind of information can be stored in a variable (or returned by an operation). Examples are integer, character, string, or even an instance of another class.
+
+\textbf{Visibility}
+
+Visibility sets which entities are allowed to view and interact with an attribute or an operation. There are four types of visibility - public, protected, default and private. 
+
+\textbf{Modifiers}\footnotemark[3]
+% \footnotetext{This section was made with the use of \ac{genai}}
+
+
+Modifiers in UML class diagrams provide additional information about the behavior and constraints of classes, attributes, and operations. Common modifiers include abstract, which indicates that a class or method cannot be instantiated or directly invoked and must be extended or overridden; final, which marks a class as not extendable or a method as not overridable; and static, which signifies that an attribute or operation belongs to the class itself rather than to any instance of it.
+
+UML also supports the interface modifier to represent interfaces—types that declare operations without implementing them, which classes can then realize. These modifiers help clarify the intended usage, inheritance, and design principles of class components in object-oriented modeling.
+
+\textbf{Example of a class}\footnotemark[3]
+
+The following figure displays an example of a class from a class diagram. It models a simplified bank account that has an identifier, balance and interest rate, allowing a potential owner to deposit or withdraw money and view the current balance of the account. It demonstrates the key features of a class, such as attributes, operations, types, operation parameters or access modifiers.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=1\textwidth]{assets/images/overview/class_example_arrows.png}
+\caption{An example of a class}
+\caption*{Made with: "Visual Paradigm," \textit{Visual Paradigm Online}, https://online.visual-paradigm.com/, accessed May 23, 2025.}
+\label{fig:class_diagram_example}
+\end{figure}
+
+\newpage
+% \subsection{Relationships}
+
+% The class diagram defines a number of possible relationships between different classes. Those are - association, aggregation, composition, inheritance, dependency and realization.
+
+% \subsection{Relationships\textsuperscript{1}}
+% \footnotetext[1]{The section was made with the use of \ac{genai}}
+
+\section[Relationships]{Relationships\footnotemark[3]}
+% \footnotetext{This section was made with the use of \ac{genai}}
+
+The class diagram defines several types of relationships between different classes, each representing a distinct kind of interaction or connection within a system.
+
+\textbf{Association}
+
+Association represents a general connection between two or more classes. It indicates that objects of one class are connected to objects of another. This is the most basic relationship and can be bidirectional or unidirectional.
+
+\textbf{Aggregation}
+
+Aggregation is a specialized form of association that represents a whole–part relationship between the aggregate (whole) and its parts. Unlike composition, aggregation implies a weaker relationship where the parts can exist independently of the whole.
+
+\textbf{Composition}
+
+Composition is a stronger form of aggregation. It also represents a whole–part relationship, but with the key difference that the part cannot exist independently of the whole. If the whole is destroyed, its parts are typically destroyed as well.
+
+\textbf{Inheritance}
+
+Inheritance (also known as generalization) represents an "is-a" relationship between a more general superclass and a more specific subclass. The subclass inherits the attributes and behaviors of the superclass, allowing for code reuse and polymorphism.
+
+\textbf{Dependency}
+
+Dependency indicates a relationship where one class depends on another because it uses it temporarily, such as by calling its methods or using its data. It is typically a weaker relationship and often represents a "uses-a" connection.
+
+\textbf{Realization}
+
+Realization is a relationship between an interface and a class that implements that interface. It shows that the class provides concrete implementations for the methods defined in the interface.
+
+\textbf{Cardinality}
+
+Cardinality tells how many instances of a class are to be associated with an instance of another class. The most common cardinalities are one-to-one, one-to-many or many-to-many.
+
+% \subsection{Example class diagram\textsuperscript{1}}
+% \footnotetext[1]{The section was made with the use of \ac{genai}}
+
+
+\section[Example of a Class Diagram]{Example of a Class Diagram\footnotemark[3]}
+% \footnotetext{This section was made with the use of \ac{genai}}
+
+% \todo{optional: notation with descriptions of what each component looks like. But that is tedious, so only if we have time to spare}
+
+% \todo{optional - describe code generation from class diagrams}
+
+% \todo{things that might be added to this section: 
+% -point out difference between Multiplicity vs. Cardinality
+% -Navigability of relationship (arrows pointing in directions)
+% }
+
+The following figure displays an example class diagram. It represents a simplified model of an eshop, where customers place orders and admins manage product catalogs. Orders contain multiple items and can be paid using various payment methods.
+
+It demonstrates many of the essential concepts of a class diagram, mainly inheritance, aggregation, composition, association, multiplicity, realization, and classes with their attributes and operations.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=1\textwidth]{assets/images/overview/class_diagram_demonstration.jpg}
+\caption{An example of a class diagram.}
+\caption*{Made with: Visual Paradigm, \textit{Visual Paradigm Online}, \url{https://online.visual-paradigm.com/}, accessed May 23, 2025.}
+\label{fig:class_diagram_example}
+\end{figure}
+
+% \todo{su tie captions pod obrazkami ok?}
+
+\newpage

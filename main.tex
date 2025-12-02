@@ -1,0 +1,130 @@
+% TEMPLATE AUTHOR: https://bitbucket.org/m_by/fiit-stu-thesis-template-for-latex
+% EDIT: Jozef Gáborík
+
+
+% SETTINGS - LATEX
+% to change name, title, supervisor etc. go to preamble/preamble.tex
+\newcommand{\myFontSize}[0] {11pt}
+\newcommand{\mySpacing}[0] {1.1}
+\newcommand{\myBibliography}[0] {bib/refs, appendices/refs1}
+
+% \documentclass[\myFontSize,a4paper,twoside,openright,english]
+\documentclass[11pt,a4paper,twoside,openright,english]{book}
+% {book}
+\input{preamble/preamble}
+
+% GN setting begin
+    % https://tug.org/FontCatalogue/
+    % \usepackage{mathpazo}           % nicer EN + math font in one
+    \usepackage{newpxtext}        % slovencina, aby nerobila problem s CRZP
+    % \usepackage{eulerpx}          % math font for newpxtext
+    \usepackage{amsfonts, amssymb, amsmath}     % math symboly
+    
+    \usepackage[hidelinks,unicode]{hyperref}
+    \usepackage{pdfpages}
+    
+    % Clean the space among items
+    \usepackage{etoolbox}
+    \AtBeginEnvironment{itemize}{\setlength\parskip{0pt}}
+    \AtBeginEnvironment{enumerate}{\setlength\parskip{0pt}}
+        
+    % todo poznamky
+    \usepackage{todonotes}
+
+    % Acronyms in automatic way
+    % \usepackage{longtable}
+    % \usepackage{acro}[=v2]
+    % \include{appendices/acronyms}
+    % \acsetup{list-style=longtable}
+% GN setting end
+
+\begin{document}
+
+% Minted
+% pygmentize -L styles
+%\usemintedstyle{autumn}
+
+% Title page
+\include{preamble/title}
+
+% Annotation
+\include{preamble/annotation}
+
+% Acknowledgements
+\include{preamble/acknowledgements}
+
+% Table of contents
+\tableofcontents{}
+
+% References segment
+\begin{refsegment}
+
+% Introduction
+% \clearpage\null
+\input{content/01-introduction/intro}
+
+% Overview
+% \clearpage\null
+\input{content/02-overview/overview}
+
+% Objectives and methodology
+% \clearpage\null
+\input{content/03-objectives-methodology/objectives-methodology}
+
+% Design 
+% \clearpage\null
+\input{content/04-design/design}
+
+% Implementation
+% \clearpage\null
+% \input{content/05-implementation/implementation}
+
+% Evaluation
+% \clearpage\null
+% \input{content/06-evaluation/eva}
+
+% Conclusion
+% \clearpage\null
+% \input{content/07-conclusion/conclusion}
+
+% Resume: 10% in SK if the Thesis is written in EN
+% Resume
+% \clearpage\null
+% \addcontentsline{toc}{chapter}{Resumé}
+% \input{content/08-resume/resume}
+
+% List of Abbreviations
+% \newpage
+\addcontentsline{toc}{chapter}{List of Abbreviations}
+\printacronyms[name=List of Abbreviations, heading=chapter*]
+
+% List of Figures
+\listoffigures
+\addcontentsline{toc}{chapter}{List of Figures}
+
+% List of Tables
+\listoftables
+\addcontentsline{toc}{chapter}{List of Tables}
+
+% List of listings
+%\listoffigures\newpage{}
+%\renewcommand\listoflistingscaption{List of Listings}
+%\listoflistings\newpage{}
+
+
+% Bibliography
+% \clearpage\null
+\printbibliography[heading=references,segment=\therefsegment,resetnumbers=true]
+
+\end{refsegment}
+
+
+% Appendix
+\appendix
+% \include{appendices/appendix1}
+% \include{appendices/cdrom}
+
+% \include{appendices/digital_medium}
+\include{appendices/plan}
+
+\end{document}

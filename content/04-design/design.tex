@@ -1,0 +1,196 @@
+\chapter{Design}
+
+\section{Solution description}
+
+When designing our intended class diagram course, we will take into account a number of requirements. Firstly, we have the platform or \ac{lms} on which to implement the course, then there are e-learning techniques to use, specific types of exercises and other educational content we want to apply, and lastly we need to propose an effective and objective evaluation method to determine the potential of the project for further research.
+
+\textbf{E-learning platform}
+
+We want to create the course on a preexisting \ac{lms}. Doing so will significantly reduce the development time, allowing us to focus on the educational content. 
+
+The platform should satisfy the following conditions:
+
+\begin{itemize}
+    \item easy to use and learn
+    \item record and store students' scores and progress for result comparison and material recommendations 
+    \item option to propose changes and improvements, report mistakes and bugs
+    \item easy to include new features and content 
+    \item free to use or open source
+    \item support for gamification, microlearning, social learning, adaptive learning
+    \item support for interactive exercises
+\end{itemize}
+
+\textbf{E-learning techniques}
+
+Based on our analysis, we concluded that the most suitable e-learning techniques are microlearning, gamification, adaptive learning and social learning. Our course will also apply self-directed learning, since a course can be taken at any time and at any place, and blended learning, as it is meant to be a complementary tool to normal classes rather than a stand-alone learning material.
+
+Under microlearning we understand breaking down content in the sections dedicated to explaining the concepts into small pieces. 
+
+Gamification offers the largest amount of possible features in an online course out of all the e-learning techniques. We plan to implement a system for awarding experience points for completing tasks, where reaching certain milestones will trigger some changes in the aesthetics of the course. They will be used for tracking and visualizing progress in the course and exercises will ranked by difficulty - the more difficult exercises will award more points. Another gamification element we want to include is visually enhanced feedback.
+
+Adaptive learning should allow the course to propose content to the student based on their mistakes in exercises.
+
+When it comes to social learning, extensive collaborations on modeling tasks are not allowed by the time available to test out the proposed course. For this reason, we will restrict the practice to merely displaying a number of metrics to the users, such as the average score on a given exercise, average completion time or the overall progress of other students in the course. Doing so will apply some social pressure to perform better on the students and potentially trigger their competitive tendencies. This practice is sometimes mentioned as a part of gamification. 
+
+E-learning techniques that are to be implemented:
+
+\begin{itemize}
+    \item microlearning
+    \item gamification
+    \item adaptive learning
+    \item social learning 
+    \item self-paced learning
+    \item blended learning
+\end{itemize}
+
+\textbf{Content} 
+% POZN - V ODRAZKACH JE VIAC NAVRHOV NA OBSAH
+
+This section is aimed at describing what specific types of content the course should contain. We will divide it into three sections - one theoretical section dedicated to explaining concepts, one for practical exercises, and one for tests for skill assessment. There will also be an introductory and final test available for the purposes of documenting the student progress before and after taking the course.
+
+The theoretical section will contain a set of chapters each dedicated to a single concept or component of a class diagram. The illustrative examples should be interactive - hovering over an element will highlight the corresponding text, and the models should also be modifiable so that the students can explore the concepts in a more personal way. 
+
+Since students understand \ac{uml} better when they see corresponding code \cite{umple}, there should also be a snippet of code available for each diagram demonstration.
+
+Examples of complete class diagrams with precise descriptions of concepts and modeling decisions will be included as well.
+
+The exercise section will be referred to after the completion of each theoretical chapter. The student will be given material recommendations based on the mistakes they made in the exercises. The available exercises will be of the following types:
+
+\begin{itemize}
+    \item assign the type of relationship based on the description
+    \item find what is missing in a diagram with drag-and-drop fill-in option
+    \item find mistakes in a diagram
+    \item compare a diagram with its corresponding code. Find places where they do not align
+    \item match class diagram components with their descriptions and pictures
+    \item alter a diagram according to provided conditions
+    \item theoretical questions
+\end{itemize}
+
+The section with tests will consist of a number of exercises selected from across all of the course's topics. The results will be recorded and, again, the student will receive material and study topic recommendations based on the mistakes they made.
+
+% POZN - V ODRAZKACH JE VIAC NAVRHOV NA OBSAH
+
+\textbf{Evaluation}
+
+The first part of evaluation will consist of a questionnaire with questions about subjective opinions and impressions of the students. The most important questions will concern whether the students thought the course was helpful, whether it improved their understanding of the class diagram and, most importantly, if they thought the course was an improvement over merely using materials from lectures or reading articles.
+
+The second, objective part of evaluation will be a test containing theoretical questions and practical exercises about the class diagram. The test will be taken by both students who completed the course and those who did not, but still received an introduction to the class diagram in a university class.
+
+\section{Requirements}
+
+From the solution description, we can extract lists of functional and nonfunctional requirements.
+
+
+\textbf{Functional requirements}
+
+\begin{itemize}
+    \item Users can propose changes, improvements and report bugs easily
+    \item Automated exercise/test correction with and instant personalized feedback
+    \item Content can be accessed anytime, anywhere
+    \item Support for:
+        \begin{itemize}
+            \item Gamification- points, milestones, visual feedback, difficulty indicators, badges...
+            \item Microlearning
+            \item Adaptive learning - content recommendations based on a student's results
+            \item Social learning - progress tracking, displaying other students' performance (anonymized)
+        \end{itemize}
+    \item Support for various interactive exercises and learning materials
+        \begin{itemize}
+            \item Interactive diagrams (hover to highlight, modifiable diagrams)
+            \item UML code snippets linked to diagrams
+            \item Full examples with explanation of modeling decisions
+            \item Drag and drop exercises % fill in what is missing
+            \item Matching exercises
+            \item Find and correct mistakes in a diagram
+            \item Modify diagrams based on provided conditions
+            \item Theoretical questions 
+            \item \todo{idk rn, mas dalsie poznamky v dp2.txt ale tie su pomerne chaoticke, prikladam v komentaroch}
+            % \item Compare diagrams with code to spot mismatches
+            % what can be deduced from this diagram?
+            % diagram description -> do it yourself -> a sample solution with explaining each step (it would be nice to be interactive, like you can uncover little bits of the solution as hints)
+
+% EXERCISE TYPES
+% -there is a description of a system, classes with ids but no relationships. Fill in relationships instead of IDs
+% -04_micro_pieces_of_class_interaction_solution
+% -[class diagram describing a chess site?]
+% -https://www.uml-diagrams.org/class-diagrams-examples.html      ma ukazky + podrobny opis, uzitocne
+% -vseobecne otazky- abcd, T/F, multiple choice...       https://quizlet.com/799081077/uml-diagrams-quiz-flash-cards/          https://quizizz.com/signup/qdp?quizId=6726e52f56468cc23681227f&fromPage=/admin/quiz/6726e52f56468cc23681227f/uml-class-diagrams&action=preview&ctaSource=preview_cta    
+
+% LEARN STUFF
+% -nech je cela sekcia 1 system, kde sa postupne pridavaju jednotlive komponenty ako idu sekcie, spolu s vysvetleniami preco tam ktory ide
+% -pomedzi sekcie su otazky na poslednu sekciu + nejake opakovacie (tie mozu byt optional?)
+% -strategies and recommended [postup] when starting to draw a diagram (how did I not think of this)
+
+        \end{itemize}
+    \item Students need to provide anonymous feedback on the content
+    \item Tests of students' skills
+        \begin{itemize}
+            \item Introductory assessment
+            \item Short tests within the course
+            \item Final assessment
+        \end{itemize}
+\end{itemize}
+
+
+
+
+\textbf{Nonfunctional requirements (e-learning platform)}
+
+\begin{itemize}
+    \item Easy to learn and use
+    \item Open source or free to use
+    \item Capable of storing and retrieving student data
+    \item Scalable and maintainable for future expansion
+    \item Easily extensible (adding new features/content)
+    \item Restricted access - allow access only to students and teachers at \ac{fiit}
+    %(moodle cloud or private servers? Both should work though, at the very worst we can generate accounts for all volunteer students of ours)
+\end{itemize}
+
+
+
+
+% Contact the other guy for eval
+
+% \begin{itemize}
+  % \item 
+  %   \begin{itemize}
+  %       \item microlearning (lessons will be small chunks aimed at a single concept. I mean, as small as possible)
+  %       \item social learning (they have discord where they can ask each other for help, but we will display things like average results and progress for a task VS your progress)
+  %       \item gamification (exercises will be assigned difficulty levels and some exercises and lessons will require a certain level of accomplishment to be taken- score in the introductory test, or some amount of points... we might have badges for completing all exercises/lessons in a category. We might award points for completing each section and use them to unlock more advanced topics. The amount of required points might be dynamically adjusted based on one's results in the introductory test and speed and quality). Also things like visualizing progress
+  %       \item self-directed learning (The students will be able to decide when and which lessons to take... though they will likely do nothing unless we bribe/force them into this... )
+  %       \item adaptive learning (based on the students' mistakes, we should be able to recommend them the most helpful materials)
+  %       \item blended learning - this is a complementary tool intended to be used along with real classes at school, not to replace them
+  %   \end{itemize}
+    
+%   \item \textbf{content}
+%     \begin{itemize}
+%         \item a warning that uml is underestimated and most people know little about it even though they claim otherwise
+%         \item an introductory test (for material recommendations and skill assessment, for finding how much the students improved when taking the final test)
+%         \item final test (to gather info on how much students improved)
+%         \item a quick overview (all essential info in one page, hover over a complete class diagram and explanations will appear, potentially portrayed as advice coming from an octopus)
+%         \item a page for each concept (microlearning, ideally components with hover explanations and potentially illustratory stories)
+%             \begin{itemize} 
+%                 \item priradit spravny druh vztahu
+%         	\item co chyba v diagrame
+%         	\item mame opis systemu, treba spravne natahat vztahy, metody, atributy...
+%         	\item najdi chybu (katalogy chyb)
+%         	\item prirad komponent ku kategorii a nazvu (akoze utried druhy vztahov a tak)
+%         	\item drag and drop components
+%             \item transform diagram into code / vice versa, but that might need an external tool for conversion. It is a really good exercise though
+%             \end{itemize}
+%         \item there are catalogues of mistakes made by students. It would be a nice section (each mistake its own section) to describe deal with the most common/instructive ones
+%         \item some form of recap (+calculation when it is recommended to go over the material again for best retention) - some smart shuffle of completed exercises, with higher chances of recommending the more problematic exercises
+%         \item (optional)more advanced content for those who know what they are doing
+%         \item (optional) examples of descriptions of systems captured in a class diagram -> would be cool if it were an animation that highlights a part in the textual description and adds them to the diagram gradually
+%         \item a section with useful links to other related materials
+%     \end{itemize}
+
+%   \item \textbf{evaluation methods}
+%     \begin{itemize}
+%         \item questionnaire (did you learn anything, was this any helpful compared to reading an article, would you use this without having been bribed..., which of the following materials do you find appealing and should be included in future versions?..., which tool do you like better-mine or kolega Smutny's?)
+%         \item it would be ideal to create eval in cooperation with kolega Smutny, so that each student group gets to do an unseen portion of the test. The test should contain my questions, kolega Smutny's questions. Then both student groups will have an "unbiased" set of questions
+%     \end{itemize}
+    
+% \end{itemize}
+
+

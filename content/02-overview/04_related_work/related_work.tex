@@ -1,0 +1,79 @@
+% \todo{It is a known fact that in student-centered education
+% environments learning by doing is essential which
+% meaning more and more practical exercises should be
+% given to students. Software design and development,
+% as one of the subjects taught in higher and further
+% education institutions, requires a lot of learning by
+% doing exercises \cite{uml_eval_auto} NOTE this was copy paste. We need to justify why we are not making a diagram drawing tool. I propose it is because "just do some diagrams" results in rushed work and incomplete knowledge because students are both impatient and usually low on time, making them inclined to do the bare minimum and, again, rushing their schoolwork}
+
+
+There are multiple studies that tried to create e-learning modules or tools aimed at enhancing the teaching of the \ac{uml} class diagram. They applied various approaches and ideas to the task. %and all of them achieved promising results. 
+% \todo{NOT ENTIRELY TRUE. That is what you get for writing conclusions sooner that studying... That means that the experimental groups who were exposed to the e-learning materials scored higher in the evaluation phase than the control groups. citations of results}
+
+
+\textbf{Automated diagram assessment tools}
+
+Much of the other researchers' efforts were aimed at creating modeling tools that would enable students to draw their own class diagrams from scratch and then automatically evaluate their submissions. The goal is to provide fast and personalized feedback to the students and reduce the teachers' workload. 
+
+In these studies, the requirements for those tools were fairly similar; the drawing tools should be simple and intuitive and should be able to export the created diagrams in a format compatible with the evaluation algorithm (XMI in most cases). Then the diagram would compare the student's solution with a premade example solution and list errors or recommendations for improvement for the student. 
+
+One of the main issues with automated class diagram assessment is the fact that a modeling task is very likely going to have multiple correct solutions. One way of dealing with this issue is to store a number of possible solutions for each given problem and use the solution that is most similar to the student's current submission \cite{soler2010formative}. However, it is also possible to only use one sample solution. Doing so presents the risk of providing misleading feedback, missing errors or marking correct options as errors. In practice, these issues do not seem to be significant \cite{schramm2012teaching}. A less common approach to diagram quality assessment was using machine learning which achieved promising results, though only provided grading of the diagrams without specific feedback \cite{BERGSTROM2022111413}. % there is the line about needing to name all the components because the eval would not work with random component names \cite{soler2010formative}
+
+Modi et al.\cite{uml_eval_auto} described a tool for drawing and automatically assessing submitted diagrams. Unlike most other tools of the kind, which only support one type of diagram, the proposed tool supports a number of various \ac{uml} diagrams, including the class diagram. The study also includes a brief comparison of similar tools and concludes that such tools can decrease the time and effort needed from teachers when evaluating students' diagrams.
+
+Schramm et al.\cite{schramm2012teaching} also introduced an automated tool for correcting students’ diagrams by comparing them to an example solution. The results of the study did not suggest that using an automated system for correcting diagrams yields better results than relying on feedback from a teacher. However, they demonstrate that such a system can save the teachers’ time and resources without compromising the students’ learning process.
+
+%%%%%%%%%%%%
+% \todo{There are more studies of this kind in case we need them:
+% A Proposed Architecture of an Intelligent System for
+% Assessing the Student’s UML Class Diagram,
+% A Design of an Assessment System
+% for UML Class Diagram ,
+% A web-based e-learning tool for UML class diagrams (this is soler more or less duplicate),
+% Teaching UML Skills to Novice Programmers Using a
+% Sample Solution Based Intelligent Tutoring System ,
+% UML-Test Application for Automated Validation of Students' UML Class Diagram
+% }
+%%%%%%%%%%%%
+
+\textbf{E-learning applied to the \ac{uml} Class Diagram}
+
+There were other studies aimed at teaching the \acl{uml} class diagram using other techniques than an automated tool for correction of the diagrams. They created platforms with various forms of quizzes and exercises and some of them applied e-learning practices such as gamification or microlearning.
+
+In a study performed by Ramle et al.\cite{ramle2021uml}, a simple e-learning application for teaching several types of diagrams was designed and tested on a small sample of students. The section dedicated to explaining the concepts contains small-sized bits of information as to avoid overwhelming the students (an example of the use of microlearning). The application was generally well received by the students and, according to a survey filled by the participants, also helped them understand \ac{uml} better.
+
+Cagnazzo et al.\cite{cagnazzo2023umlegend} proposes using gamification mechanics to enhance the modeling classes. It introduces a web-based tool that allows the students to draw diagrams and have them automatically evaluated for mistakes. The gamified practices include levels, where a student's accomplishment is determined by a numeric value. The level can be increased by solving exercises. Another mechanics implemented in the tool are offering the students the option to customize their avatars (a picture that represents them in the application) and visually enhanced feedback that highlights their mistakes.
+
+% https://d1wqtxts1xzle7.cloudfront.net/57500726/IUCEL_2018_Proceedings.pdf?1738377916=&response-content-disposition=inline%3B+filename%3DIUCEL_2018_Proceedings_pdf.pdf&Expires=1747553810&Signature=bBNsgIibrMlk3bSk6N0f6CDl6OWMDoVWd6mUS2liyY8XsRXcdSreTkzSAfwzkCXph0dYqBQ9Qq9LLUc5TQR0CtkIkz2qFWB1iAPtgCI3SGfqdBHdTD4UnoLtyo-UHbsL2sFjKnoYYmSI7F9~w1m13-l9eD7zPIhZbtgle7xnYiHHh5PPxra4e3BfPc8jTGeizwGpny72qn6YEUe2uGtsGZ1fA0wjzCHP5OmBVhm2A-e2FWJMMSaLLOk3nXoRwkXvK~ytGJ~fh4a89rOq4gXf29Ev-y-ELSY1XvOiTYwmNiHSTv~bBeCqgJSI~gIUeE~PLDJl2QLQJ9Kv1B9TpDkqfw__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA#page=434
+There are more proposed enhancement for the teaching of \ac{uml}. Almadi et al.\cite{almadi2018cdrs} propose creating a recommender system to suggest the most relevant modeling exercises to students. Lethbridge et al.\cite{umple} describe how using tools that convert diagrams to code and vice versa in classrooms helps students understand the abstract concepts of modeling. Shmallo et al.\cite{shmallo2020constructive} arranged an activity during which students were to find mistakes in each other's diagrams. Such an activity significantly improved both their modeling skills and motivation. 
+% \todo{there was a study that forced collaborative learning onto students, worth a mention}
+
+
+% \todo{consistent captions in the word class diagram}
+
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabularx}{\textwidth}{@{}l X X@{}}
+\toprule
+\textbf{Study} & \textbf{Notable Features} & \textbf{Key Findings} \\
+\midrule
+Ramle et al.~\cite{ramle2021uml} & A course on \ac{uml}, microlearning, self-directed learning & Well structured, interactive exercises and self-paced approach in the course were well received by students and improved their understanding of \ac{uml} \\
+Jurgelaitis et al.~\cite{jurgelaitis2019implementing} & A gamified online course used in a university software modeling class & Gamification increased both students' motivation and their average scores \\
+Soler et al.~\cite{soler2010formative} & An automated diagram assessment tool used in a classroom & The group who used the tool scored higher in an exam than the group who used any other resource of choice \\
+Cagnazzo et al.~\cite{cagnazzo2023umlegend} & An automated diagram assessment tool, learning platform with gamified elements & Instant feedback on modeling exercises and gamified elements improved both student engagement and modeling skills \\
+Bucchiarone et al.~\cite{BUCCHIARONE2023102974} & Online learning tool applying gamified mechanics & Using a gamified learning tool improved motivation and results of the students. They also found using the tool enjoyable \\
+Ramollari et al.~\cite{trapp2011collaborative} & Collaborative learning environment – students discussed, evaluated and helped each other in modeling exercises & The extensive collaboration helped the students comprehend the taught materials, found it to be an effective learning method and the feedback on the system was largely positive \\
+Shmallo et al.~\cite{shmallo2020constructive} & Identification of mistakes in diagrams as a collaborative exercise (not an e-learning tool, however) & Searching for mistakes in each other's diagrams and discussing them both engaged the students and improved their modeling skills \\
+Schramm et al.~\cite{schramm2012teaching} & An automated diagram assessment tool & The proposed automated diagram assessment tool saved teachers' time and energy without reducing the quality of provided education \\
+Almadi et al.~\cite{almadi2018cdrs} & Recommender system to propose exercises to students & Personalized exercise recommendations help students better understand \ac{uml} and promote self-directed learning \\
+Lethbridge et al.~\cite{umple} & Modeling tool that converts diagrams to code and vice versa & Students understand \ac{uml} better when they see code corresponding to the diagrams \\
+\bottomrule
+\end{tabularx}
+\caption{Summary of notable e-learning tools and methods for teaching UML and modeling}
+\label{tab:uml-elearning-studies}
+\end{table}
+
+\newpage
+
