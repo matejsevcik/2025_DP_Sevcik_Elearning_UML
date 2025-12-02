@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.2)  2 DEC 2025 23:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.2)  2 DEC 2025 23:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1687,8 +1687,12 @@ Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
 (Font)              scaled to size 10.95pt on input line 41.
+ (main.aux (preamble/title.aux)
+(preamble/annotation.aux) (preamble/acknowledgements.aux)
 
-No file main.aux.
+LaTeX Warning: Label `fig:class_diagram_example' multiply defined.
+
+(appendices/plan.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
@@ -1709,6 +1713,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
 LaTeX Font Info:    ... okay on input line 41.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
 LaTeX Font Info:    ... okay on input line 41.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1827,6 +1832,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Package hyperref Info: Link coloring OFF on input line 41.
+(main.out) (main.out)
 \@outlinefile=\write6
 \openout6 = `main.out'.
 
@@ -1895,12 +1901,12 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 61--76
  []
 
 [9] [10]
-<assets/zadanie_sk.pdf, id=57, 597.51233pt x 845.0471pt>
+<assets/zadanie_sk.pdf, id=189, 597.51233pt x 845.0471pt>
 File: assets/zadanie_sk.pdf Graphic file (type pdf)
 <use assets/zadanie_sk.pdf>
 Package pdftex.def Info: assets/zadanie_sk.pdf  used on input line 103.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
-<assets/zadanie_sk.pdf, id=59, page=1, 597.51233pt x 845.0471pt>
+<assets/zadanie_sk.pdf, id=191, page=1, 597.51233pt x 845.0471pt>
 File: assets/zadanie_sk.pdf Graphic file (type pdf)
 <use assets/zadanie_sk.pdf, page 1>
 Package pdftex.def Info: assets/zadanie_sk.pdf , page1 used on input line 103.
@@ -1936,18 +1942,28 @@ LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
 (Font)              scaled to size 24.88pt on input line 57.
 LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
 (Font)              scaled to size 24.88pt on input line 57.
+ (main.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
 
-No file main.toc.
+(C:\Users\matej\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
+
+(C:\Users\matej\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+[15
+
+
+
+])
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
 Package biblatex Info: Reference segment=1 on input line 60.
 Package biblatex Info: Setting label 'refsegment:01' on input line 60.
-(content/01-introduction/intro.tex [15
-
-
-
-]
+ (content/01-introduction/intro.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1955,23 +1971,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[16
-
-]
+[16]
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
 (Font)              scaled to size 20.74pt on input line 1.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 18.
-
-(C:\Users\matej\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 18.
-
-
-(C:\Users\matej\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
 (Font)              scaled to size 8.0pt on input line 18.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
@@ -1988,4 +1991,898 @@ ing Lan-guage," \T1/zpltlf/m/it/9 IBM De-vel-oper\T1/zpltlf/m/n/9 ,
 
 
 Overfull \hbox (22.13976pt too wide) in paragraph at lines 24--25
-\T1/zpltlf/m/n/10.95
+\T1/zpltlf/m/n/10.95 ma-te-ri-als by in-tro-duc-ing gam-i-fi-ca-tion el-e-ments
+ or a sense of com-pe-ti-tion to the courses. 
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.28 O
+      ur course will implement a number of modern e-learning approaches to i...
+[1
+
+]) (content/02-overview/overview.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[2]
+Chapter 2.
+(content/02-overview/01_uml/01_uml_general.tex
+LaTeX Font Info:    Font shape `T1/zpltlf/m/it' will be
+(Font)              scaled to size 10.95pt on input line 17.
+
+Underfull \hbox (badness 5316) in paragraph at lines 17--17
+[][][]\T1/zpltlf/m/n/9 Conrad Bock et al., "Uni-fied Mod-el-ing Lan-guage," \T1
+/zpltlf/m/it/9 Ob-ject Man-age-ment Group (OMG)\T1/zpltlf/m/n/9 ,
+ []
+
+
+Overfull \hbox (4.91862pt too wide) in paragraph at lines 17--18
+\T1/zpltlf/m/n/10.95 footnoteVisual Paradigm, "What is Uni-fied Mod-el-ing Lan-
+guage (UML)?," \T1/zpltlf/m/it/10.95 Vi-sual Paradigm\T1/zpltlf/m/n/10.95 ,
+ []
+
+
+Overfull \hbox (27.2135pt too wide) in paragraph at lines 17--18
+\T1/zpltlf/m/n/10.95 https://www.visual-paradigm.com/guide/uml-unified-modeling
+-language/what-is-uml/,
+ []
+
+
+LaTeX Warning: Citation 'jacobson2021unified' on page 3 undefined on input line
+ 23.
+
+[3
+
+]
+
+LaTeX Warning: Citation 'seidl2015uml' on page 4 undefined on input line 31.
+
+LaTeX Font Info:    Trying to load font information for TS1+zpltlf on input lin
+e 38.
+(C:\Users\matej\AppData\Local\Programs\MiKTeX\tex/latex/newpx\ts1zpltlf.fd
+File: ts1zpltlf.fd 2021/11/24 v1.0 fd file for TS1/zpltlf
+)
+LaTeX Font Info:    Font shape `TS1/zpltlf/m/n' will be
+(Font)              scaled to size 10.95pt on input line 38.
+<assets/images/overview/Uml_diagram.png, id=301, 1204.5pt x 602.25pt>
+File: assets/images/overview/Uml_diagram.png Graphic file (type png)
+<use assets/images/overview/Uml_diagram.png>
+Package pdftex.def Info: assets/images/overview/Uml_diagram.png  used on input 
+line 61.
+(pdftex.def)             Requested size: 418.25368pt x 209.12733pt.
+LaTeX Font Info:    Trying to load font information for T1+npxtt on input line 
+63.
+
+(C:\Users\matej\AppData\Local\Programs\MiKTeX\tex/latex/newpx\t1npxtt.fd
+File: t1npxtt.fd 2000/12/14 v1.0
+)
+LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
+(Font)              scaled to size 10.95pt on input line 63.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[4{C:/Users/matej/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newpx/zpl_TOsF.
+enc}]
+LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
+(Font)              scaled to size 10.0pt on input line 74.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[5 <./assets/images/overview/Uml_diagram.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[6]) (content/02-overview/01_uml/02_class_diagram.tex
+
+LaTeX Warning: Citation 'rumpe2016modeling' on page 7 undefined on input line 1
+7.
+
+
+LaTeX Warning: Citation 'seidl2015uml' on page 7 undefined on input line 19.
+
+LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 26.
+LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
+(Font)              scaled to size 12.0pt on input line 26.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[7]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[8]
+<assets/images/overview/class_example_arrows.png, id=346, 1589.94pt x 1001.7425
+pt>
+File: assets/images/overview/class_example_arrows.png Graphic file (type png)
+<use assets/images/overview/class_example_arrows.png>
+Package pdftex.def Info: assets/images/overview/class_example_arrows.png  used 
+on input line 93.
+(pdftex.def)             Requested size: 418.25368pt x 263.51926pt.
+
+Underfull \hbox (badness 1509) in paragraph at lines 95--95
+[]|\T1/zpltlf/m/n/10.95 Made with: "Vi-sual Paradigm," \T1/zpltlf/m/it/10.95 Vi
+-sual Paradigm On-line\T1/zpltlf/m/n/10.95 , https://online.visual-
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[9 <./assets/images/overview/class_example_arrows.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[10]
+<assets/images/overview/class_diagram_demonstration.jpg, id=357, 1875.4065pt x 
+1342.41525pt>
+File: assets/images/overview/class_diagram_demonstration.jpg Graphic file (type
+ jpg)
+<use assets/images/overview/class_diagram_demonstration.jpg>
+Package pdftex.def Info: assets/images/overview/class_diagram_demonstration.jpg
+  used on input line 162.
+(pdftex.def)             Requested size: 418.25368pt x 299.38802pt.
+
+Underfull \hbox (badness 6094) in paragraph at lines 164--164
+[]|\T1/zpltlf/m/n/10.95 Made with: Vi-sual Paradigm, \T1/zpltlf/m/it/10.95 Vi-s
+ual Paradigm On-line\T1/zpltlf/m/n/10.95 , []$\T1/npxtt/m/n/10.95 https : / / o
+nline .
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[11 <./assets/images/overview/class_diagram_demonstration.jpg>])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[12
+
+]
+Chapter 3.
+(content/02-overview/02_elearning/01_introduction_to_elearning.tex)
+(content/02-overview/02_elearning/0X_comparison_of_elearning_and_analog.tex
+[13]
+
+LaTeX Warning: Citation 'ramle2021uml' on page 14 undefined on input line 11.
+
+
+LaTeX Warning: Citation 'jurgelaitis2019implementing' on page 14 undefined on i
+nput line 13.
+
+
+LaTeX Warning: Citation 'soler2010formative' on page 14 undefined on input line
+ 15.
+
+) (content/02-overview/02_elearning/02_elearning_techniques.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[14]
+Overfull \hbox (15.49248pt too wide) in paragraph at lines 17--18
+\T1/zpltlf/m/n/10.95 meth-ods. This hy-brid model takes ad-van-tage of the stre
+ngths of both ap-proaches^^Vpersonal
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[15])
+(content/02-overview/02_elearning/03_elearning_techniques_class_diagram.tex
+
+LaTeX Warning: Citation 'chou2019actionable' on page 16 undefined on input line
+ 7.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[16]
+
+LaTeX Warning: Citation 'cagnazzo2023umlegend' on page 17 undefined on input li
+ne 10.
+
+
+Overfull \hbox (46.22926pt too wide) in paragraph at lines 10--11
+[]\T1/zpltlf/m/n/10.95 The prac-tice of gam-i-fi-ca-tion in-volves sev-eral tec
+h-niques. Cagnazzo et al.[[]]
+ []
+
+
+LaTeX Warning: Citation 'jurgelaitis2019implementing' on page 17 undefined on i
+nput line 14.
+
+
+LaTeX Warning: Citation 'BUCCHIARONE2023102974' on page 17 undefined on input l
+ine 16.
+
+
+LaTeX Warning: Citation 'ramle2021uml' on page 17 undefined on input line 27.
+
+LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
+(Font)              scaled to size 9.0pt on input line 29.
+
+Underfull \hbox (badness 1337) in paragraph at lines 29--29
+[][][]\T1/zpltlf/m/n/9 Christopher Pap-pas. "Mi-crolearn-ing in On-line Train-i
+ng: 5 Ad-van-tages and 3 Dis-ad-van-
+ []
+
+
+Underfull \hbox (badness 1939) in paragraph at lines 29--29
+\T1/zpltlf/m/n/9 tages." \T1/zpltlf/m/it/9 eLearn-ing In-dus-try\T1/zpltlf/m/n/
+9 , March 15, 2016. Avail-able at: []$\T1/npxtt/m/n/9 https : / / elearningindu
+stry . com /
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[17]
+
+LaTeX Warning: Citation 'trapp2011collaborative' on page 18 undefined on input 
+line 33.
+
+) (content/02-overview/02_elearning/0Y_elearning_platforms_comparison.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[18]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[19]
+LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
+(Font)              scaled to size 10.0pt on input line 51.
+) (content/02-overview/02.1_other/students_issues_when_uml.tex
+
+LaTeX Warning: Citation 'kaur2023improving' on page 20 undefined on input line 
+7.
+
+
+Underfull \hbox (badness 7326) in paragraph at lines 7--7
+[][][]\T1/zpltlf/m/n/9 Donald Bell, "An In-tro-duc-tion to the Uni-fied Mod-el-
+ing Lan-guage," \T1/zpltlf/m/it/9 IBM De-vel-oper\T1/zpltlf/m/n/9 ,
+ []
+
+
+LaTeX Warning: Citation 'reuter2020insights' on page 20 undefined on input line
+ 9.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[20]
+
+LaTeX Warning: Citation 'shmallo2020constructive' on page 21 undefined on input
+ line 13.
+
+
+LaTeX Warning: Citation 'chren2019mistakes' on page 21 undefined on input line 
+13.
+
+
+LaTeX Warning: Citation 'reuter2020insights' on page 21 undefined on input line
+ 13.
+
+
+LaTeX Warning: Citation 'chren2019mistakes' on page 21 undefined on input line 
+13.
+
+
+Overfull \hbox (54.09178pt too wide) in paragraph at lines 13--14
+\T1/zpltlf/m/n/10.95 class di-a-grams. The stud-ies [[]], [[]], [[]]
+ []
+
+
+LaTeX Warning: Citation 'reuter2020insights' on page 21 undefined on input line
+ 15.
+
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[21]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[22
+
+]
+Chapter 4.
+(content/02-overview/04_related_work/related_work.tex
+
+LaTeX Warning: Citation 'soler2010formative' on page 23 undefined on input line
+ 20.
+
+
+LaTeX Warning: Citation 'schramm2012teaching' on page 23 undefined on input lin
+e 20.
+
+
+LaTeX Warning: Citation 'BERGSTROM2022111413' on page 23 undefined on input lin
+e 20.
+
+[23]
+
+LaTeX Warning: Citation 'uml_eval_auto' on page 24 undefined on input line 22.
+
+
+LaTeX Warning: Citation 'schramm2012teaching' on page 24 undefined on input lin
+e 24.
+
+
+LaTeX Warning: Citation 'ramle2021uml' on page 24 undefined on input line 43.
+
+
+LaTeX Warning: Citation 'cagnazzo2023umlegend' on page 24 undefined on input li
+ne 45.
+
+
+LaTeX Warning: Citation 'almadi2018cdrs' on page 24 undefined on input line 48.
+
+
+
+LaTeX Warning: Citation 'umple' on page 24 undefined on input line 48.
+
+
+LaTeX Warning: Citation 'shmallo2020constructive' on page 24 undefined on input
+ line 48.
+
+
+Overfull \hbox (30.32245pt too wide) in paragraph at lines 48--50
+[]\T1/zpltlf/m/n/10.95 There are more pro-posed en-hance-ment for the teach-ing
+ of UML[]. Al-madi et al.[[]]
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[24]
+
+LaTeX Warning: Citation 'ramle2021uml' on page 25 undefined on input line 73.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[]|\T1/zpltlf/m/n/10 Well struc-tured,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+\T1/zpltlf/m/n/10 by stu-dents and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+\T1/zpltlf/m/n/10 im-proved their
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+\T1/zpltlf/m/n/10 un-der-stand-ing of
+ []
+
+
+LaTeX Warning: Citation 'jurgelaitis2019implementing' on page 25 undefined on i
+nput line 73.
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 73--73
+[]|\T1/zpltlf/m/n/10 A gam-i-fied on-line
+ []
+
+
+Underfull \hbox (badness 2600) in paragraph at lines 73--73
+\T1/zpltlf/m/n/10 course used in a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[]|\T1/zpltlf/m/n/10 Gamification in-
+ []
+
+
+Underfull \hbox (badness 4266) in paragraph at lines 73--73
+\T1/zpltlf/m/n/10 creased both stu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+\T1/zpltlf/m/n/10 dents' mo-ti-va-tion
+ []
+
+
+Underfull \hbox (badness 3148) in paragraph at lines 73--73
+\T1/zpltlf/m/n/10 and their av-er-age
+ []
+
+
+LaTeX Warning: Citation 'soler2010formative' on page 25 undefined on input line
+ 73.
+
+
+Underfull \hbox (badness 1803) in paragraph at lines 73--73
+[]|\T1/zpltlf/m/n/10 An au-to-mated di-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+\T1/zpltlf/m/n/10 a-gram as-sess-ment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[]|\T1/zpltlf/m/n/10 The group who
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+\T1/zpltlf/m/n/10 than the group
+ []
+
+
+LaTeX Warning: Citation 'cagnazzo2023umlegend' on page 25 undefined on input li
+ne 73.
+
+
+Underfull \hbox (badness 1803) in paragraph at lines 73--73
+[]|\T1/zpltlf/m/n/10 An au-to-mated di-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+\T1/zpltlf/m/n/10 a-gram as-sess-ment
+ []
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 73--73
+\T1/zpltlf/m/n/10 mod-el-ing ex-er-cises
+ []
+
+
+Underfull \hbox (badness 7704) in paragraph at lines 73--73
+\T1/zpltlf/m/n/10 and gam-i-fied el-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+\T1/zpltlf/m/n/10 e-ments im-proved
+ []
+
+
+Underfull \hbox (badness 7291) in paragraph at lines 73--73
+\T1/zpltlf/m/n/10 both stu-dent en-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+\T1/zpltlf/m/n/10 gage-ment and
+ []
+
+
+LaTeX Warning: Citation 'BUCCHIARONE2023102974' on page 25 undefined on input l
+ine 73.
+
+
+Underfull \hbox (badness 6300) in paragraph at lines 73--73
+\T1/zpltlf/m/n/10 ap-ply-ing gam-i-fied
+ []
+
+
+Underfull \hbox (badness 3989) in paragraph at lines 73--73
+[]|\T1/zpltlf/m/n/10 Using a gam-i-fied
+ []
+
+
+Underfull \hbox (badness 5388) in paragraph at lines 73--73
+\T1/zpltlf/m/n/10 learn-ing tool im-
+ []
+
+
+Underfull \hbox (badness 4582) in paragraph at lines 73--73
+\T1/zpltlf/m/n/10 proved mo-ti-va-tion
+ []
+
+
+LaTeX Warning: Citation 'trapp2011collaborative' on page 25 undefined on input 
+line 73.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+\T1/zpltlf/m/n/10 eval-u-ated and
+ []
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 73--73
+[]|\T1/zpltlf/m/n/10 The ex-ten-sive col-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+\T1/zpltlf/m/n/10 lab-o-ra-tion helped
+ []
+
+
+Underfull \hbox (badness 1762) in paragraph at lines 73--73
+\T1/zpltlf/m/n/10 the stu-dents com-
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 73--73
+\T1/zpltlf/m/n/10 to be an ef-fec-tive
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+\T1/zpltlf/m/n/10 learn-ing method
+ []
+
+
+Underfull \hbox (badness 4048) in paragraph at lines 73--73
+\T1/zpltlf/m/n/10 and the feed-back
+ []
+
+
+LaTeX Warning: Citation 'shmallo2020constructive' on page 25 undefined on input
+ line 73.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[]|\T1/zpltlf/m/n/10 Identification of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+\T1/zpltlf/m/n/10 mis-takes in di-a-
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 73--73
+\T1/zpltlf/m/n/10 an e-learning tool,
+ []
+
+
+Underfull \hbox (badness 1009) in paragraph at lines 73--73
+[]|\T1/zpltlf/m/n/10 Searching for mis-
+ []
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 73--73
+\T1/zpltlf/m/n/10 di-a-grams and dis-
+ []
+
+
+Underfull \hbox (badness 6493) in paragraph at lines 73--73
+\T1/zpltlf/m/n/10 en-gaged the stu-
+ []
+
+
+LaTeX Warning: Citation 'schramm2012teaching' on page 25 undefined on input lin
+e 73.
+
+
+Underfull \hbox (badness 1803) in paragraph at lines 73--73
+[]|\T1/zpltlf/m/n/10 An au-to-mated di-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+\T1/zpltlf/m/n/10 a-gram as-sess-ment
+ []
+
+
+LaTeX Warning: Citation 'almadi2018cdrs' on page 25 undefined on input line 73.
+
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 73--73
+[]|\T1/zpltlf/m/n/10 Recommender sys-
+ []
+
+
+Underfull \hbox (badness 7944) in paragraph at lines 73--73
+[]|\T1/zpltlf/m/n/10 Personalized ex-er-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+\T1/zpltlf/m/n/10 cise rec-om-men-da-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+\T1/zpltlf/m/n/10 bet-ter un-der-stand
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 73--73
+\T1/zpltlf/m/n/10 self-directed learn-
+ []
+
+
+LaTeX Warning: Citation 'umple' on page 25 undefined on input line 73.
+
+
+Underfull \hbox (badness 6708) in paragraph at lines 73--73
+\T1/zpltlf/m/n/10 con-verts di-a-grams
+ []
+
+
+Underfull \hbox (badness 2452) in paragraph at lines 73--73
+\T1/zpltlf/m/n/10 to code and vice
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[]|\T1/zpltlf/m/n/10 Students un-der-
+ []
+
+
+Underfull \hbox (badness 2012) in paragraph at lines 73--73
+\T1/zpltlf/m/n/10 stand UML bet-ter
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+\T1/zpltlf/m/n/10 cor-re-spond-ing to
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[25]
+Overfull \vbox (321.85432pt too high) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[26]) (content/02-overview/05_summary_and_objectives/summary_and_objectives.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[27])) (content/03-objectives-methodology/objectives-methodology.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[28]
+Chapter 5.
+[29
+
+]) (content/04-design/design.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[30]
+Chapter 6.
+[31
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[32]
+
+LaTeX Warning: Citation 'umple' on page 33 undefined on input line 53.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[33]
+Overfull \hbox (11.3138pt too wide) in paragraph at lines 92--93
+[]\T1/zpltlf/m/n/10.95 Gamification- points, mile-stones, vi-sual feed-back, di
+f-fi-culty in-di-ca-tors, badges... 
+ []
+
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 107.
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[34] [35
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[36
+
+] (main.lof)
+\tf@lof=\write8
+\openout8 = `main.lof'.
+
+ [37]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[38
+
+] (main.lot)
+\tf@lot=\write9
+\openout9 = `main.lot'.
+
+
+
+LaTeX Warning: Empty bibliography on input line 117.
+
+Package biblatex Info: Reference segment=0 on input line 119.
+[39]
+\openout2 = `appendices/plan.aux'.
+
+ (appendices/plan.tex [40
+
+
+]
+Appendix A.
+) [1] (main.aux (preamble/title.aux) (preamble/annotation.aux)
+(preamble/acknowledgements.aux) (appendices/plan.aux))
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2020/03/25>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 372901B81D91005A4125D226C1F08BDB;5027.
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 41023 strings out of 474486
+ 828556 string characters out of 5743755
+ 1947542 words of memory out of 5000000
+ 62427 multiletter control sequences out of 15000+600000
+ 624596 words of font info for 104 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 103i,17n,106p,1917b,2376s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\matej\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm
+1095.pk><C:/Users/matej/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfont
+s/t1xtt.pfb><C:/Users/matej/AppData/Local/Programs/MiKTeX/fonts/type1/public/ne
+wpx/zplb.pfb><C:/Users/matej/AppData/Local/Programs/MiKTeX/fonts/type1/public/n
+ewpx/zplr.pfb><C:/Users/matej/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+newpx/zplri.pfb>
+Output written on main.pdf (58 pages, 2418317 bytes).
+PDF statistics:
+ 601 PDF objects out of 1000 (max. 8388607)
+ 125 named destinations out of 1000 (max. 500000)
+ 307 words of extra memory for PDF output out of 10000 (max. 10000000)
+
