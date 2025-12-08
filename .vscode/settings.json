@@ -1,0 +1,58 @@
+{
+    "latex-workshop.latex.autoBuild.run": "onSave",
+    "latex-workshop.synctex.afterBuild.enabled": true,
+    "latex-workshop.latex.tools": [
+    {
+        "name": "xelatex",
+        "command": "xelatex",
+        "args": [
+            "-synctex=1",
+            "-interaction=nonstopmode",
+            "%DOC%"
+        ]
+    },
+    {
+        "name": "xelatex",
+        "command": "xelatex",
+        "args": [
+            "-synctex=1",
+            "-interaction=nonstopmode",
+            "%DOC%"
+        ]
+    },
+    {
+        "name": "bibtex",
+        "command": "bibtex",
+        "args": [
+            "%DOCFILE%"
+        ]
+    }
+],
+"latex-workshop.latex.recipes": [
+    {
+        "name": "XeLaTeX",
+        "tools": ["xelatex"]
+    },
+    {
+        "name": "xelatex → bibtex → xelatex → xelatex",
+        "tools": [
+            "xelatex",
+            "bibtex",
+            "xelatex",
+            "xelatex"
+        ]
+    }
+],
+"latex-workshop.latex.autoBuild.recipeDefault": "XeLaTeX",
+"latex-workshop.latex.watch.files.ignore": [
+    "**/*.bbl"
+],
+"latex-workshop.intellisense.file.exclude": [
+    "**/*.bbl"
+],
+"latex-workshop.chktex.enabled": false,
+
+
+
+"latex-workshop.latex.autoBuild.recipeDefault": "xelatex → bibtex → xelatex → xelatex"
+}
