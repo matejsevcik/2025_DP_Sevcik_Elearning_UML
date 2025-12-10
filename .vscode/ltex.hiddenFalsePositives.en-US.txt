@@ -1,0 +1,1 @@
+{"rule":"QUESTION_MARK","sentence":"^\\QShould we decide to make our courses public for all internet users to access, self-enrollment can be turned back on.\\E$"}

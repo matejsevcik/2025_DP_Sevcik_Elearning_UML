@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.12.8)  9 DEC 2025 20:55
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.12.8)  10 DEC 2025 16:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2111,7 +2111,7 @@ File: assets/images/design/course_diagram_conceptual_watermark.jpg Graphic file
  (type bmp)
 <assets/images/design/course_diagram_conceptual_watermark.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--176
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
 []|\TU/TeXGyrePagellaX(0)/m/n/10.95 Made with: Visual Paradigm, \TU/TeXGyrePage
 llaX(0)/m/it/10.95 Visual Paradigm Online\TU/TeXGyrePagellaX(0)/m/n/10.95 , []$
 [][][][][] [] [] [] [][][][][][] []
@@ -2120,45 +2120,6 @@ llaX(0)/m/it/10.95 Visual Paradigm Online\TU/TeXGyrePagellaX(0)/m/n/10.95 , []$
 
 LaTeX Warning: Marginpar on page 35 moved.
 
-File: assets/images/design/student_activity_watermark.jpg Graphic file (type bm
-p)
-<assets/images/design/student_activity_watermark.jpg>
-
-Underfull \hbox (badness 10000) in paragraph at lines 188--188
-[]|\TU/TeXGyrePagellaX(0)/m/n/10.95 Made with: Visual Paradigm, \TU/TeXGyrePage
-llaX(0)/m/it/10.95 Visual Paradigm Online\TU/TeXGyrePagellaX(0)/m/n/10.95 , []$
-[][][][][] [] [] [] [][][][][][] []
- []
-
-
-LaTeX Warning: Float too large for page by 516.23161pt on input line 190.
-
-
-LaTeX Warning: Marginpar on page 35 moved.
-
-
-LaTeX Warning: Marginpar on page 35 moved.
-
-File: assets/images/design/sequence diagram 2nd try_watermark.jpg Graphic file 
-(type bmp)
-<assets/images/design/sequence diagram 2nd try_watermark.jpg>
-
-Underfull \hbox (badness 10000) in paragraph at lines 199--199
-[]|\TU/TeXGyrePagellaX(0)/m/n/10.95 Made with: Visual Paradigm, \TU/TeXGyrePage
-llaX(0)/m/it/10.95 Visual Paradigm Online\TU/TeXGyrePagellaX(0)/m/n/10.95 , []$
-[][][][][] [] [] [] [][][][][][] []
- []
-
-
-LaTeX Warning: Float too large for page by 296.70822pt on input line 201.
-
-
-LaTeX Warning: Marginpar on page 35 moved.
-
-
-LaTeX Warning: Marginpar on page 35 moved.
-
-) (content/05-implementation/implementation.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2167,6 +2128,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [35]
+Underfull \hbox (badness 10000) in paragraph at lines 196--198
+
+ []
+
+File: assets/images/design/student_activity_watermark.jpg Graphic file (type bm
+p)
+<assets/images/design/student_activity_watermark.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+[]|\TU/TeXGyrePagellaX(0)/m/n/10.95 Made with: Visual Paradigm, \TU/TeXGyrePage
+llaX(0)/m/it/10.95 Visual Paradigm Online\TU/TeXGyrePagellaX(0)/m/n/10.95 , []$
+[][][][][] [] [] [] [][][][][][] []
+ []
+
+
+LaTeX Warning: Float too large for page by 516.23161pt on input line 205.
+
+
+LaTeX Warning: Marginpar on page 36 moved.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2175,6 +2156,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [36]
+Underfull \hbox (badness 10000) in paragraph at lines 214--216
+
+ []
+
+File: assets/images/design/sequence diagram 2nd try_watermark.jpg Graphic file 
+(type bmp)
+<assets/images/design/sequence diagram 2nd try_watermark.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+[]|\TU/TeXGyrePagellaX(0)/m/n/10.95 Made with: Visual Paradigm, \TU/TeXGyrePage
+llaX(0)/m/it/10.95 Visual Paradigm Online\TU/TeXGyrePagellaX(0)/m/n/10.95 , []$
+[][][][][] [] [] [] [][][][][][] []
+ []
+
+
+LaTeX Warning: Float too large for page by 296.70822pt on input line 223.
+
+
+LaTeX Warning: Marginpar on page 37 moved.
+
+) (content/05-implementation/implementation.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2191,16 +2193,34 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [38]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[39]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[40
+
+]
 Chapter 7.
 
-Overfull \hbox (7.69107pt too wide) in paragraph at lines 32--33
+LaTeX Warning: Marginpar on page 41 moved.
+
+[41]
+Overfull \hbox (7.69107pt too wide) in paragraph at lines 65--66
 []\TU/TeXGyrePagellaX(0)/b/n/10.95 Which of these e-learning practices are appl
 icable to a software modeling course? 
  []
 
-[39
-
-])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2208,9 +2228,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[40] [41
+[42]
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
-]
+ []
+
+)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2218,13 +2241,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[42
-
-] (main.lof)
-\tf@lof=\write8
-\openout8 = `main.lof'.
-
- [43]
+[43]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2234,11 +2251,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [44
 
-] (main.lot)
-\tf@lot=\write9
-\openout9 = `main.lot'.
-
- [45]
+] [45]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2248,7 +2261,35 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [46
 
-] [47]
+] (main.lof)
+\tf@lof=\write8
+\openout8 = `main.lof'.
+
+ [47]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[48
+
+] (main.lot)
+\tf@lot=\write9
+\openout9 = `main.lot'.
+
+ [49]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[50
+
+] [51]
 Overfull \hbox (0.56276pt too wide) in paragraph at lines 117--117
 \TU/TeXGyrePagellaX(0)/m/n/10.95 Collaborative Learning”. In: \TU/TeXGyrePagell
 aX(0)/m/it/10.95 2023 IEEE Frontiers in Education Conference (FIE)\TU/TeXGyrePa
@@ -2270,7 +2311,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[48]
+[52]
 \openout2 = `appendices/plan.aux'.
 
  (appendices/plan.tex
@@ -2288,19 +2329,25 @@ L3 programming layer <2020/03/25>
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A33162FE740E92456EC3FEC72346138F;7298.
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 23294FB8C1D96D294708A0A58F889EEA;7361
+(rerunfilecheck)             After:  6F1D2FA56CBEC7FE88225B1CC4FADB91;7361.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42389 strings out of 402987
- 887321 string characters out of 5448524
- 1857177 words of memory out of 5000000
- 70403 multiletter control sequences out of 15000+600000
- 643879 words of font info for 124 fonts, out of 8000000 for 9000
+ 42422 strings out of 402987
+ 888163 string characters out of 5448524
+ 1859490 words of memory out of 5000000
+ 70436 multiletter control sequences out of 15000+600000
+ 643883 words of font info for 124 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 103i,17n,108p,1349b,5350s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 103i,17n,108p,1349b,5351s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (65 pages).
+Output written on main.pdf (69 pages).
