@@ -1,0 +1,905 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{jacobson2021unified}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=3bfa04cfb22c75d1949463c08259a56c}{%
+           family={Jacobson},
+           familyi={J\bibinitperiod},
+           given={Lvar},
+           giveni={L\bibinitperiod}}}%
+        {{hash=d3c59b74daca22a421fbe2a63e6590c7}{%
+           family={Booch},
+           familyi={B\bibinitperiod},
+           given={James\bibnamedelimb Rumbaugh\bibnamedelima Grady},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{9f14bce1ab78ba1ed6340b6d06473aad}
+      \strng{fullhash}{9f14bce1ab78ba1ed6340b6d06473aad}
+      \strng{fullhashraw}{9f14bce1ab78ba1ed6340b6d06473aad}
+      \strng{bibnamehash}{9f14bce1ab78ba1ed6340b6d06473aad}
+      \strng{authorbibnamehash}{9f14bce1ab78ba1ed6340b6d06473aad}
+      \strng{authornamehash}{9f14bce1ab78ba1ed6340b6d06473aad}
+      \strng{authorfullhash}{9f14bce1ab78ba1ed6340b6d06473aad}
+      \strng{authorfullhashraw}{9f14bce1ab78ba1ed6340b6d06473aad}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The unified modeling language reference manual}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb http://debracollege.dspaces.org/bitstream/123456789/404/1/UML%20Reference%20Manual%20by%20James%20Rambaugh.pdf
+      \endverb
+      \verb{url}
+      \verb http://debracollege.dspaces.org/bitstream/123456789/404/1/UML%20Reference%20Manual%20by%20James%20Rambaugh.pdf
+      \endverb
+    \endentry
+    \entry{seidl2015uml}{book}{}{}
+      \name{author}{4}{}{%
+        {{hash=82f868a10506aa6a8af6dd6ef3f05e5b}{%
+           family={Seidl},
+           familyi={S\bibinitperiod},
+           given={Martina},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3dbd2dc10f35f55afb0defd86a38457d}{%
+           family={Scholz},
+           familyi={S\bibinitperiod},
+           given={Marion},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8549635a782543a9ff310e01e1745312}{%
+           family={Huemer},
+           familyi={H\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=73406f6e4265e57772c129f81597a6a1}{%
+           family={Kappel},
+           familyi={K\bibinitperiod},
+           given={Gerti},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{8faf57db2fc6f9dca22005f823624c41}
+      \strng{fullhash}{8cacdf8a341c338aa497fc3b00af9405}
+      \strng{fullhashraw}{8cacdf8a341c338aa497fc3b00af9405}
+      \strng{bibnamehash}{8faf57db2fc6f9dca22005f823624c41}
+      \strng{authorbibnamehash}{8faf57db2fc6f9dca22005f823624c41}
+      \strng{authornamehash}{8faf57db2fc6f9dca22005f823624c41}
+      \strng{authorfullhash}{8cacdf8a341c338aa497fc3b00af9405}
+      \strng{authorfullhashraw}{8cacdf8a341c338aa497fc3b00af9405}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{UML@ classroom}
+      \field{year}{2015}
+      \verb{doi}
+      \verb 10.1007/978-3-319-12742-2
+      \endverb
+    \endentry
+    \entry{rumpe2016modeling}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=c2b5a72fd30b6844022c3e1189390301}{%
+           family={Rumpe},
+           familyi={R\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{c2b5a72fd30b6844022c3e1189390301}
+      \strng{fullhash}{c2b5a72fd30b6844022c3e1189390301}
+      \strng{fullhashraw}{c2b5a72fd30b6844022c3e1189390301}
+      \strng{bibnamehash}{c2b5a72fd30b6844022c3e1189390301}
+      \strng{authorbibnamehash}{c2b5a72fd30b6844022c3e1189390301}
+      \strng{authornamehash}{c2b5a72fd30b6844022c3e1189390301}
+      \strng{authorfullhash}{c2b5a72fd30b6844022c3e1189390301}
+      \strng{authorfullhashraw}{c2b5a72fd30b6844022c3e1189390301}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Modeling with UML}
+      \field{volume}{98}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.1007/978-3-319-33933-7
+      \endverb
+    \endentry
+    \entry{ramle2021uml}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=d4ee1c8326574051e50a69eb180ab65f}{%
+           family={Ramle},
+           familyi={R\bibinitperiod},
+           given={Rosni},
+           giveni={R\bibinitperiod}}}%
+        {{hash=6777f5806b3bb58c05e9b7b3cf0eef0f}{%
+           family={Kamalruddin},
+           familyi={K\bibinitperiod},
+           given={Muhammad\bibnamedelimb Aqil\bibnamedelima Fahmiruddin},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=98b527ac7657dc7c4d5810021638e0b4}{%
+           family={Ismail},
+           familyi={I\bibinitperiod},
+           given={Muhammad\bibnamedelima Isa},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=24a0d6a5ca39083ed046dc0419edc2f3}{%
+           family={Zaina},
+           familyi={Z\bibinitperiod},
+           given={Muhammad\bibnamedelima Zakwan},
+           giveni={M\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{9eafab6590e195b423ba7184191c0a16}
+      \strng{fullhash}{703fbf15e25da7584b846a9a5f4594bd}
+      \strng{fullhashraw}{703fbf15e25da7584b846a9a5f4594bd}
+      \strng{bibnamehash}{9eafab6590e195b423ba7184191c0a16}
+      \strng{authorbibnamehash}{9eafab6590e195b423ba7184191c0a16}
+      \strng{authornamehash}{9eafab6590e195b423ba7184191c0a16}
+      \strng{authorfullhash}{703fbf15e25da7584b846a9a5f4594bd}
+      \strng{authorfullhashraw}{703fbf15e25da7584b846a9a5f4594bd}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Multidisciplinary Applied Research and Innovation}
+      \field{number}{1}
+      \field{title}{UML Diagram E-Learning Application: A Pilot Study}
+      \field{volume}{2}
+      \field{year}{2021}
+      \field{pages}{418\bibrangedash 425}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.30880/mari.2021.02.01.044
+      \endverb
+    \endentry
+    \entry{jurgelaitis2019implementing}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=19bb391fb6f135c21d28554374336493}{%
+           family={Jurgelaitis},
+           familyi={J\bibinitperiod},
+           given={Mantas},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b4ccc9d99798fdbde7f74322041b8559}{%
+           family={Čeponienė},
+           familyi={Č\bibinitperiod},
+           given={Lina},
+           giveni={L\bibinitperiod}}}%
+        {{hash=32b8de90388c5f70b3ba6ce0e4dac991}{%
+           family={Čeponis},
+           familyi={Č\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e8636586bbf2375f602412c7cefdc0a4}{%
+           family={Drungilas},
+           familyi={D\bibinitperiod},
+           given={Vaidotas},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{6eb186e95ba5a6c37ea2014bd51f7ffe}
+      \strng{fullhash}{b338865ed373b6c23d83e9db80f121dc}
+      \strng{fullhashraw}{b338865ed373b6c23d83e9db80f121dc}
+      \strng{bibnamehash}{6eb186e95ba5a6c37ea2014bd51f7ffe}
+      \strng{authorbibnamehash}{6eb186e95ba5a6c37ea2014bd51f7ffe}
+      \strng{authornamehash}{6eb186e95ba5a6c37ea2014bd51f7ffe}
+      \strng{authorfullhash}{b338865ed373b6c23d83e9db80f121dc}
+      \strng{authorfullhashraw}{b338865ed373b6c23d83e9db80f121dc}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computer Applications in Engineering Education}
+      \field{number}{2}
+      \field{title}{Implementing gamification in a university-level UML modeling course: A case study}
+      \field{volume}{27}
+      \field{year}{2019}
+      \field{pages}{332\bibrangedash 343}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1002/cae.22077
+      \endverb
+    \endentry
+    \entry{soler2010formative}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=d30664afa648c64a7d3c092958f94ef4}{%
+           family={Soler},
+           familyi={S\bibinitperiod},
+           given={Josep},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d1046b505174b8f051ec215707fb7380}{%
+           family={Boada},
+           familyi={B\bibinitperiod},
+           given={Imma},
+           giveni={I\bibinitperiod}}}%
+        {{hash=6b627ad098c5050bc8565eea7663aaac}{%
+           family={Prados},
+           familyi={P\bibinitperiod},
+           given={Ferran},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d8f98f850b0aac51dc240169b7a63bf2}{%
+           family={Poch},
+           familyi={P\bibinitperiod},
+           given={Jordi},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d52b22ecba0f21230fa85a03eae93bc4}{%
+           family={Fabregat},
+           familyi={F\bibinitperiod},
+           given={Ramon},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {International Journal of Emerging Technology in Learning}%
+      }
+      \strng{namehash}{d583e33c877929b02a2501675734955f}
+      \strng{fullhash}{1bdabdd78f2ccf171efe45018577174f}
+      \strng{fullhashraw}{1bdabdd78f2ccf171efe45018577174f}
+      \strng{bibnamehash}{d583e33c877929b02a2501675734955f}
+      \strng{authorbibnamehash}{d583e33c877929b02a2501675734955f}
+      \strng{authornamehash}{d583e33c877929b02a2501675734955f}
+      \strng{authorfullhash}{1bdabdd78f2ccf171efe45018577174f}
+      \strng{authorfullhashraw}{1bdabdd78f2ccf171efe45018577174f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Emerging Technologies in Learning (iJET)}
+      \field{number}{3}
+      \field{title}{A formative assessment tool for conceptual database design using UML class diagram}
+      \field{volume}{5}
+      \field{year}{2010}
+      \field{pages}{27\bibrangedash 33}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.3991/ijet.v5i3.1402
+      \endverb
+    \endentry
+    \entry{chou2019actionable}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=910f3b76aa4aa7a4e48e910838260fe6}{%
+           family={Chou},
+           familyi={C\bibinitperiod},
+           given={Yu-kai},
+           giveni={Y\bibinithyphendelim k\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Packt Publishing Ltd}%
+      }
+      \strng{namehash}{910f3b76aa4aa7a4e48e910838260fe6}
+      \strng{fullhash}{910f3b76aa4aa7a4e48e910838260fe6}
+      \strng{fullhashraw}{910f3b76aa4aa7a4e48e910838260fe6}
+      \strng{bibnamehash}{910f3b76aa4aa7a4e48e910838260fe6}
+      \strng{authorbibnamehash}{910f3b76aa4aa7a4e48e910838260fe6}
+      \strng{authornamehash}{910f3b76aa4aa7a4e48e910838260fe6}
+      \strng{authorfullhash}{910f3b76aa4aa7a4e48e910838260fe6}
+      \strng{authorfullhashraw}{910f3b76aa4aa7a4e48e910838260fe6}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Actionable gamification: Beyond points, badges, and leaderboards}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://books.google.sk/books?hl=sk&lr=&id=9ZfBDwAAQBAJ&oi=fnd&pg=PP5&dq=Actionable+Gamification&ots=xvjYK0ZPBI&sig=IEJ6v3IosuKephU8Z5C1JjHriXs&redir_esc=y#v=onepage&q=Actionable%20Gamification&f=false
+      \endverb
+      \verb{url}
+      \verb https://books.google.sk/books?hl=sk&lr=&id=9ZfBDwAAQBAJ&oi=fnd&pg=PP5&dq=Actionable+Gamification&ots=xvjYK0ZPBI&sig=IEJ6v3IosuKephU8Z5C1JjHriXs&redir_esc=y#v=onepage&q=Actionable%20Gamification&f=false
+      \endverb
+    \endentry
+    \entry{cagnazzo2023umlegend}{inproceedings}{}{}
+      \name{author}{5}{}{%
+        {{hash=254bcc121bb485adb92fd8c42d327645}{%
+           family={Cagnazzo},
+           familyi={C\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=48d6700d05e0c3ff2fb86d27320de481}{%
+           family={Garaccione},
+           familyi={G\bibinitperiod},
+           given={Giacomo},
+           giveni={G\bibinitperiod}}}%
+        {{hash=4388dbb9769bfc6e288c9fc0433bb489}{%
+           family={Coppola},
+           familyi={C\bibinitperiod},
+           given={Riccardo},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c8016835c1912d70b51e5310d1c420c5}{%
+           family={Ardito},
+           familyi={A\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod}}}%
+        {{hash=afc92f87aeecf2d2502bff50e00cafa2}{%
+           family={Torchiano},
+           familyi={T\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{22defc521770f21cc516d96ced8388d7}
+      \strng{fullhash}{86261532817f3436df3c8ba323cb664d}
+      \strng{fullhashraw}{86261532817f3436df3c8ba323cb664d}
+      \strng{bibnamehash}{22defc521770f21cc516d96ced8388d7}
+      \strng{authorbibnamehash}{22defc521770f21cc516d96ced8388d7}
+      \strng{authornamehash}{22defc521770f21cc516d96ced8388d7}
+      \strng{authorfullhash}{86261532817f3436df3c8ba323cb664d}
+      \strng{authorfullhashraw}{86261532817f3436df3c8ba323cb664d}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2nd International Workshop on Gamification in Software Development, Verification, and Validation}
+      \field{title}{Umlegend: A gamified learning tool for conceptual modeling with uml class diagrams}
+      \field{year}{2023}
+      \field{pages}{2\bibrangedash 5}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1145/3617553.3617883
+      \endverb
+    \endentry
+    \entry{BUCCHIARONE2023102974}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=021333597292c01c43892659dddf47de}{%
+           family={Bucchiarone},
+           familyi={B\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod}}}%
+        {{hash=51b6bd77791f80155123b232f0bc12f8}{%
+           family={Savary-Leblanc},
+           familyi={S\bibinithyphendelim L\bibinitperiod},
+           given={Maxime},
+           giveni={M\bibinitperiod}}}%
+        {{hash=88404fda895bb91836ad02ade623b6ae}{%
+           family={{Le Pallec}},
+           familyi={L\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod}}}%
+        {{hash=fa2c9f7cc42c6cbb931130313864d1e6}{%
+           family={Bruel},
+           familyi={B\bibinitperiod},
+           given={Jean-Michel},
+           giveni={J\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=714fb57ca0e3b3672f6f8c7130b05136}{%
+           family={Cicchetti},
+           familyi={C\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod}}}%
+        {{hash=62ac8b9f995fa937460d3e98b6b95465}{%
+           family={Cabot},
+           familyi={C\bibinitperiod},
+           given={Jordi},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6bc38e5200c8c6d9663658a56666945d}{%
+           family={Gérard},
+           familyi={G\bibinitperiod},
+           given={Sébastien},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{6ed3fc7d848ac1b85b1a295420e68d29}
+      \strng{fullhash}{956ff5683a3569cf6e9f5a58a0a119d6}
+      \strng{fullhashraw}{956ff5683a3569cf6e9f5a58a0a119d6}
+      \strng{bibnamehash}{6ed3fc7d848ac1b85b1a295420e68d29}
+      \strng{authorbibnamehash}{6ed3fc7d848ac1b85b1a295420e68d29}
+      \strng{authornamehash}{6ed3fc7d848ac1b85b1a295420e68d29}
+      \strng{authorfullhash}{956ff5683a3569cf6e9f5a58a0a119d6}
+      \strng{authorfullhashraw}{956ff5683a3569cf6e9f5a58a0a119d6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0167-6423}
+      \field{journaltitle}{Science of Computer Programming}
+      \field{title}{Gamifying model-based engineering: The PapyGame tool}
+      \field{volume}{230}
+      \field{year}{2023}
+      \field{pages}{102974}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.scico.2023.102974
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0167642323000564
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0167642323000564
+      \endverb
+      \keyw{Model-based engineering,Education,Training,Gamification,Papyrus}
+    \endentry
+    \entry{trapp2011collaborative}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=cc75703a5801377b3a07c06e540ecc89}{%
+           family={Trapp},
+           familyi={T\bibinitperiod},
+           given={Sonja},
+           giveni={S\bibinitperiod}}}%
+        {{hash=559e2d9c148bc8124fe3691b69a17bbc}{%
+           family={Ramollari},
+           familyi={R\bibinitperiod},
+           given={Ervin},
+           giveni={E\bibinitperiod}}}%
+        {{hash=a93a1e8cb150515e901779a770610467}{%
+           family={Heintz},
+           familyi={H\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9055123837f45aad779cada993974809}{%
+           family={Weber},
+           familyi={W\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0d513ebb980cde6890e342de07c3ad8e}{%
+           family={Dranidis},
+           familyi={D\bibinitperiod},
+           given={Dimitris},
+           giveni={D\bibinitperiod}}}%
+        {{hash=629d24332d7b683751137c9ee1bf8448}{%
+           family={Börstler},
+           familyi={B\bibinitperiod},
+           given={Jürgen},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {International Association of Online Engineering}%
+      }
+      \strng{namehash}{98dce6f83a38f23d070ba0727be8dc4d}
+      \strng{fullhash}{dd6e7767005a506f82203ddc6be1a179}
+      \strng{fullhashraw}{dd6e7767005a506f82203ddc6be1a179}
+      \strng{bibnamehash}{98dce6f83a38f23d070ba0727be8dc4d}
+      \strng{authorbibnamehash}{98dce6f83a38f23d070ba0727be8dc4d}
+      \strng{authornamehash}{98dce6f83a38f23d070ba0727be8dc4d}
+      \strng{authorfullhash}{dd6e7767005a506f82203ddc6be1a179}
+      \strng{authorfullhashraw}{dd6e7767005a506f82203ddc6be1a179}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Collaborative learning of UML and SysML}
+      \field{year}{2011}
+      \verb{doi}
+      \verb 10.3991/ijep.v1i2.1663
+      \endverb
+    \endentry
+    \entry{kaur2023improving}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=7edae597bdb8c1ac1cb65f13a9ae331b}{%
+           family={Kaur},
+           familyi={K\bibinitperiod},
+           given={Rupinder},
+           giveni={R\bibinitperiod}}}%
+        {{hash=7abc7903669f760504fa6da2ba146e5c}{%
+           family={Malik},
+           familyi={M\bibinitperiod},
+           given={Muhammad\bibnamedelima Zubair},
+           giveni={M\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+        {{hash=717317fd6469a79ea62e6c8a4f667477}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Maninder},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{6f39a3f6ab178888403f2191cb05f471}
+      \strng{fullhash}{6f39a3f6ab178888403f2191cb05f471}
+      \strng{fullhashraw}{6f39a3f6ab178888403f2191cb05f471}
+      \strng{bibnamehash}{6f39a3f6ab178888403f2191cb05f471}
+      \strng{authorbibnamehash}{6f39a3f6ab178888403f2191cb05f471}
+      \strng{authornamehash}{6f39a3f6ab178888403f2191cb05f471}
+      \strng{authorfullhash}{6f39a3f6ab178888403f2191cb05f471}
+      \strng{authorfullhashraw}{6f39a3f6ab178888403f2191cb05f471}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2023 IEEE Frontiers in Education Conference (FIE)}
+      \field{title}{Improving Delivery of UML Class Diagrams Concepts in Computer Science Education Through Collaborative Learning}
+      \field{year}{2023}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+    \endentry
+    \entry{reuter2020insights}{inproceedings}{}{}
+      \name{author}{6}{}{%
+        {{hash=d20306e3a697e4ba6f8d8e4a3847d9cd}{%
+           family={Reuter},
+           familyi={R\bibinitperiod},
+           given={Rebecca},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a8b6da0302c91802139130048e119f5f}{%
+           family={Stark},
+           familyi={S\bibinitperiod},
+           given={Theresa},
+           giveni={T\bibinitperiod}}}%
+        {{hash=df45d58fa0c63a34374903372545007a}{%
+           family={Sedelmaier},
+           familyi={S\bibinitperiod},
+           given={Yvonne},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=95bb0c04621ddc19a5409e2e7c6aa4b4}{%
+           family={Landes},
+           familyi={L\bibinitperiod},
+           given={Dieter},
+           giveni={D\bibinitperiod}}}%
+        {{hash=b006ed223087d190c249cfb9fea406bc}{%
+           family={Mottok},
+           familyi={M\bibinitperiod},
+           given={Jürgen},
+           giveni={J\bibinitperiod}}}%
+        {{hash=670de8700acf7793e09f9345af84901d}{%
+           family={Wolff},
+           familyi={W\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{bf65f8624454a701aa0e30981eb9f04d}
+      \strng{fullhash}{11a26a8effa4475aced655d1d678574a}
+      \strng{fullhashraw}{11a26a8effa4475aced655d1d678574a}
+      \strng{bibnamehash}{bf65f8624454a701aa0e30981eb9f04d}
+      \strng{authorbibnamehash}{bf65f8624454a701aa0e30981eb9f04d}
+      \strng{authornamehash}{bf65f8624454a701aa0e30981eb9f04d}
+      \strng{authorfullhash}{11a26a8effa4475aced655d1d678574a}
+      \strng{authorfullhashraw}{11a26a8effa4475aced655d1d678574a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2020 IEEE Global engineering education conference (EDUCON)}
+      \field{title}{Insights in students’ problems during UML modeling}
+      \field{year}{2020}
+      \field{pages}{592\bibrangedash 600}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/EDUCON45650.2020.9125110
+      \endverb
+    \endentry
+    \entry{shmallo2020constructive}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=f6992f187c303d539b4e01a739f3753c}{%
+           family={Shmallo},
+           familyi={S\bibinitperiod},
+           given={Ronit},
+           giveni={R\bibinitperiod}}}%
+        {{hash=980007a34094f760b49024892b01a4ea}{%
+           family={Shrot},
+           familyi={S\bibinitperiod},
+           given={Tammar},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{14566c2da93a54e3f6e55dfc5818bbfa}
+      \strng{fullhash}{14566c2da93a54e3f6e55dfc5818bbfa}
+      \strng{fullhashraw}{14566c2da93a54e3f6e55dfc5818bbfa}
+      \strng{bibnamehash}{14566c2da93a54e3f6e55dfc5818bbfa}
+      \strng{authorbibnamehash}{14566c2da93a54e3f6e55dfc5818bbfa}
+      \strng{authornamehash}{14566c2da93a54e3f6e55dfc5818bbfa}
+      \strng{authorfullhash}{14566c2da93a54e3f6e55dfc5818bbfa}
+      \strng{authorfullhashraw}{14566c2da93a54e3f6e55dfc5818bbfa}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Information Systems Education}
+      \field{number}{4}
+      \field{title}{Constructive use of errors in teaching the UML class diagram in an IS engineering course}
+      \field{volume}{31}
+      \field{year}{2020}
+      \field{pages}{282\bibrangedash 293}
+      \range{pages}{12}
+      \verb{urlraw}
+      \verb http://jise.org/Volume31/n4/JISEv31n4p282.html
+      \endverb
+      \verb{url}
+      \verb http://jise.org/Volume31/n4/JISEv31n4p282.html
+      \endverb
+    \endentry
+    \entry{chren2019mistakes}{misc}{}{}
+      \name{author}{5}{}{%
+        {{hash=aa2b15a1081ef1afcefad6ba757ec807}{%
+           family={Chren},
+           familyi={C\bibinitperiod},
+           given={Stanislav},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d93cb885e90555f831b531662f5fc209}{%
+           family={Buhnova},
+           familyi={B\bibinitperiod},
+           given={Barbora},
+           giveni={B\bibinitperiod}}}%
+        {{hash=095ad66634f28e80a7dad2202b95edc1}{%
+           family={Macak},
+           familyi={M\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2be074d1ba7ebc4b2441218381956a40}{%
+           family={Daubner},
+           familyi={D\bibinitperiod},
+           given={Lukas},
+           giveni={L\bibinitperiod}}}%
+        {{hash=7836311ed5bd798d5f95f4b43570ef1c}{%
+           family={Rossi},
+           familyi={R\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{69e79d34ba35315111d12974baf56fbd}
+      \strng{fullhash}{2aef4f8e128f9c1adadf5a77773f9057}
+      \strng{fullhashraw}{2aef4f8e128f9c1adadf5a77773f9057}
+      \strng{bibnamehash}{69e79d34ba35315111d12974baf56fbd}
+      \strng{authorbibnamehash}{69e79d34ba35315111d12974baf56fbd}
+      \strng{authornamehash}{69e79d34ba35315111d12974baf56fbd}
+      \strng{authorfullhash}{2aef4f8e128f9c1adadf5a77773f9057}
+      \strng{authorfullhashraw}{2aef4f8e128f9c1adadf5a77773f9057}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Mistakes in UML Diagrams: Analysis of Student Projects in a Software Engineering Course. In 2019 IEEE/ACM 41st International Conference on Software Engineering: Software Engineering Education and Training (ICSE-SEET). 100--109}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.1109/ICSE-SEET.2019.00019
+      \endverb
+    \endentry
+    \entry{schramm2012teaching}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=5bf8d16ecebef415dd84d29e61632725}{%
+           family={Schramm},
+           familyi={S\bibinitperiod},
+           given={Joachim},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c323c51ee65ffde83e5e12b88b25df56}{%
+           family={Strickroth},
+           familyi={S\bibinitperiod},
+           given={Sven},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7dd3e78aa3247356bb633e82ae4e38f4}{%
+           family={Le},
+           familyi={L\bibinitperiod},
+           given={Nguyen-Thinh},
+           giveni={N\bibinithyphendelim T\bibinitperiod}}}%
+        {{hash=fe1e2af6b2aab9f0b155d495ac60fccf}{%
+           family={Pinkwart},
+           familyi={P\bibinitperiod},
+           given={Niels},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{d6ccfab62b7d7018cdbfaee65fcce1d1}
+      \strng{fullhash}{ce3df9a9700f6313ab5449b0b39d565d}
+      \strng{fullhashraw}{ce3df9a9700f6313ab5449b0b39d565d}
+      \strng{bibnamehash}{d6ccfab62b7d7018cdbfaee65fcce1d1}
+      \strng{authorbibnamehash}{d6ccfab62b7d7018cdbfaee65fcce1d1}
+      \strng{authornamehash}{d6ccfab62b7d7018cdbfaee65fcce1d1}
+      \strng{authorfullhash}{ce3df9a9700f6313ab5449b0b39d565d}
+      \strng{authorfullhashraw}{ce3df9a9700f6313ab5449b0b39d565d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{FLAIRS}
+      \field{title}{Teaching UML Skills to Novice Programmers Using a Sample Solution Based Intelligent Tutoring System.}
+      \field{year}{2012}
+      \verb{urlraw}
+      \verb https://cdn.aaai.org/ocs/4388/4388-21578-1-PB.pdf
+      \endverb
+      \verb{url}
+      \verb https://cdn.aaai.org/ocs/4388/4388-21578-1-PB.pdf
+      \endverb
+    \endentry
+    \entry{BERGSTROM2022111413}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=1c4a723fe804551cf7afe9678c606e10}{%
+           family={Bergström},
+           familyi={B\bibinitperiod},
+           given={Gustav},
+           giveni={G\bibinitperiod}}}%
+        {{hash=5b4cd387f8831b06260e8cc6445bf099}{%
+           family={Hujainah},
+           familyi={H\bibinitperiod},
+           given={Fadhl},
+           giveni={F\bibinitperiod}}}%
+        {{hash=80dc7e8acd7e90db6d1827c0b37901b5}{%
+           family={Ho-Quang},
+           familyi={H\bibinithyphendelim Q\bibinitperiod},
+           given={Truong},
+           giveni={T\bibinitperiod}}}%
+        {{hash=d02f45bbcb9e47fd61b0517b4d9f81ea}{%
+           family={Jolak},
+           familyi={J\bibinitperiod},
+           given={Rodi},
+           giveni={R\bibinitperiod}}}%
+        {{hash=dcac8c9a88208f16c9e13035636fafe2}{%
+           family={Rukmono},
+           familyi={R\bibinitperiod},
+           given={Satrio\bibnamedelima Adi},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=1e063d4db66fcc4f2bb5706281b969d5}{%
+           family={Nurwidyantoro},
+           familyi={N\bibinitperiod},
+           given={Arif},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5a1e786d7036ed8ee493d4414187e103}{%
+           family={Chaudron},
+           familyi={C\bibinitperiod},
+           given={Michel\bibnamedelima R.V.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{fc7742545220e38b9e3cb096f22400da}
+      \strng{fullhash}{bf25c66533230654f2680a4bfa2f6bde}
+      \strng{fullhashraw}{bf25c66533230654f2680a4bfa2f6bde}
+      \strng{bibnamehash}{fc7742545220e38b9e3cb096f22400da}
+      \strng{authorbibnamehash}{fc7742545220e38b9e3cb096f22400da}
+      \strng{authornamehash}{fc7742545220e38b9e3cb096f22400da}
+      \strng{authorfullhash}{bf25c66533230654f2680a4bfa2f6bde}
+      \strng{authorfullhashraw}{bf25c66533230654f2680a4bfa2f6bde}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0164-1212}
+      \field{journaltitle}{Journal of Systems and Software}
+      \field{title}{Evaluating the layout quality of UML class diagrams using machine learning}
+      \field{volume}{192}
+      \field{year}{2022}
+      \field{pages}{111413}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.jss.2022.111413
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S016412122200125X
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S016412122200125X
+      \endverb
+      \keyw{Quality of layout,Machine learning,Quality of UML class diagrams}
+    \endentry
+    \entry{uml_eval_auto}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=c6c0529afefdff3c4ef34739d8a0cee5}{%
+           family={Modi},
+           familyi={M\bibinitperiod},
+           given={Salisu},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8289a9f2fc738fae71573a8c07d9966e}{%
+           family={Taher},
+           familyi={T\bibinitperiod},
+           given={Hanan},
+           giveni={H\bibinitperiod}}}%
+        {{hash=91e904eec27db39a4e6b74bf15e2a09d}{%
+           family={Mahmud},
+           familyi={M\bibinitperiod},
+           given={Hoger},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{4091af05791022590167fe9fef5a6165}
+      \strng{fullhash}{4091af05791022590167fe9fef5a6165}
+      \strng{fullhashraw}{4091af05791022590167fe9fef5a6165}
+      \strng{bibnamehash}{4091af05791022590167fe9fef5a6165}
+      \strng{authorbibnamehash}{4091af05791022590167fe9fef5a6165}
+      \strng{authornamehash}{4091af05791022590167fe9fef5a6165}
+      \strng{authorfullhash}{4091af05791022590167fe9fef5a6165}
+      \strng{authorfullhashraw}{4091af05791022590167fe9fef5a6165}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Academic Journal of Nawroz University}
+      \field{month}{09}
+      \field{title}{A Tool to Automate Student UML diagram Evaluation}
+      \field{volume}{10}
+      \field{year}{2021}
+      \field{pages}{189\bibrangedash 198}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.25007/ajnu.v10n2a1035
+      \endverb
+    \endentry
+    \entry{almadi2018cdrs}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=faec7ad3e7c771aceb48682d681e8be6}{%
+           family={Almadi},
+           familyi={A\bibinitperiod},
+           given={Sara\bibnamedelimb H.\bibnamedelimi S.},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=aafe474747f0473eae33b768c8a6ddcd}{%
+           family={Ali},
+           familyi={A\bibinitperiod},
+           given={Norhayati\bibnamedelima Mohd},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=d190dd207d8e46416fa4cf0c866d9252}{%
+           family={Admodisastro},
+           familyi={A\bibinitperiod},
+           given={Novia},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{6296cafbb693078040ce46402a13434a}
+      \strng{fullhash}{6296cafbb693078040ce46402a13434a}
+      \strng{fullhashraw}{6296cafbb693078040ce46402a13434a}
+      \strng{bibnamehash}{6296cafbb693078040ce46402a13434a}
+      \strng{authorbibnamehash}{6296cafbb693078040ce46402a13434a}
+      \strng{authornamehash}{6296cafbb693078040ce46402a13434a}
+      \strng{authorfullhash}{6296cafbb693078040ce46402a13434a}
+      \strng{authorfullhashraw}{6296cafbb693078040ce46402a13434a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the University Carnival on e-Learning (IUCEL)}
+      \field{note}{ID No. UPM 019}
+      \field{title}{Class Diagram Recommender System (CDRS): An Educational Tool for UML Class Diagram}
+      \field{year}{2018}
+      \field{pages}{434\bibrangedash 437}
+      \range{pages}{4}
+    \endentry
+    \entry{umple}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=46c7fc56e18bcf173de331bc7e7efceb}{%
+           family={Lethbridge},
+           familyi={L\bibinitperiod},
+           given={Timothy},
+           giveni={T\bibinitperiod}}}%
+        {{hash=6a0d380be2d28f069ddfa3c957daf40e}{%
+           family={Mussbacher},
+           familyi={M\bibinitperiod},
+           given={Gunter},
+           giveni={G\bibinitperiod}}}%
+        {{hash=26cf9156ea9497c87906016e5040cfbb}{%
+           family={Forward},
+           familyi={F\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=838cdf37204a37344e65f2d020e3de42}{%
+           family={Badreddin},
+           familyi={B\bibinitperiod},
+           given={Omar},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{a85550bc2a74f03344298bfed353eb27}
+      \strng{fullhash}{5d4d87f0bbf9dc606c7bbf3af9080563}
+      \strng{fullhashraw}{5d4d87f0bbf9dc606c7bbf3af9080563}
+      \strng{bibnamehash}{a85550bc2a74f03344298bfed353eb27}
+      \strng{authorbibnamehash}{a85550bc2a74f03344298bfed353eb27}
+      \strng{authornamehash}{a85550bc2a74f03344298bfed353eb27}
+      \strng{authorfullhash}{5d4d87f0bbf9dc606c7bbf3af9080563}
+      \strng{authorfullhashraw}{5d4d87f0bbf9dc606c7bbf3af9080563}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2011 24th IEEE-CS Conference on Software Engineering Education and Training, CSEE and T 2011 - Proceedings}
+      \field{month}{05}
+      \field{title}{Teaching UML using umple: Applying model-oriented programming in the classroom}
+      \field{year}{2011}
+      \field{pages}{421\bibrangedash 428}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/CSEET.2011.5876118
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,29 +1,171 @@
 \chapter{Implementation}
 
+We decided to implement our course in Moodle \ac{lms}. Moodle satisfies the vast majority of our requirements - both functional and nonfunctional. 
+
+It is open source, easy to use, and it is possible to deploy on local servers, allowing us to control the amount of computational resources dedicated to it for future scaling. We can restrict access to a set of users defined by us. It stores information about students' progress, generating statistical reports about quizes automatically. Content can be added easily, with loads of plugins developed and maintained by community available that introduce features not present in basic Moodle itself.
+
+Moodle supports most of the proposed exercise types out of the box - matching exercises, code snippets, drag and drop, multiple choice, matching exercises and more. The biggest hindrance is the absence of a \ac{uml} editor. However, we found no other \ac{lms} that would provide this functionality without the need for a workaround, so that is not a decisive issue. For the first version, we decided to leave out exercises with direct diagram manipulation. \todo{We might change our minds about this one yet} Exercises are corrected automatically, feedback can be provided for each answer in an exercise. Tests and feedback forms are also implemented and ready to use in Moodle.
 
 \section{Nonfunctional requirements - Moodle}
+\todo{ai was used in this section}
 
--platform moodle (it does everything, compare its capabilities with requirements)\\
--briefly mention all the other things that go into functional reqs, but do not describe them in more detail
+\textbf{Easy to learn and use}\\
+Moodle has extensive documentation and multiple tutorials for educators available. The interface for creating content is intuitive and easy to navigate. 
 
-\begin{itemize}
-    \item Easy to learn and use
-    \item Open source or free to use
-    \item Capable of storing and retrieving student data
-    \item Scalable and maintainable for future expansion
-    \item Easily extensible (adding new features/content)
-    \item Restricted access - allw access only to students and teachers at \ac{fiit}
-    %(moodle cloud or private servers? Both should work though, at the very worst we can generate accounts for all volunteer students of ours)
-\end{itemize}
+It allows generating login credentials for students, meaning the students will receive their credentials via email, log in to the platform and can start completing the course right away. That is desirable, as it allows them to focus solely on learning without the need to set anything up.
+
+\textbf{Open source or free to use}
+
+Moodle is open source, meaning it is free and fully customizable.
+
+
+\textbf{Capable of storing and retrieving student data}
+
+Moodle stores data about students' quiz and question attempts. The data structure is designed to support adaptive learning practices and detailed statistics. It automatically generates reports on each quiz.
+
+
+\textbf{Scalable and maintainable for future expansion}
+
+Moodle is designed to host multiple large courses, possibly even functioning as a website for whole educational institutions. We deployed \todo{havent done this yet, verify again later} our Moodle site on a private server that belongs to \ac{fiit}. The allocated resources were selected based on the expected number of users, but additional servers can be dedicated if more users are present. 
+
+
+\textbf{Easily extensible content}
+
+Adding new content or adjusting old one is easy with Moodle, as well as adding additional courses in case we want to create materials for other types of diagrams. Moreover, Moodle supports plugins developed by community that implement various features like new types of exercises or gamification practices.
+
+
+\textbf{Restricted access}
+
+It is possible to turn off the option to self-enroll into the site. Then we can generate accounts for a list of users from a .csv file, which allows full control over who can access our courses without the need to configure external authentication services such as LDAP or SSO. Should we decide to make our courses public for all internet users to access, self-enrollment can be turned back on. 
+
+
+\textbf{Content accessibility}
+
+As long as the Moodle server is running, students can access the materials.
+
+
+% \begin{itemize}
+%     \item Easy to learn and use
+%     \item Open source or free to use
+%     \item Capable of storing and retrieving student data
+%     \item Scalable and maintainable for future expansion
+%     \item Easily extensible (adding new features/content)
+%     \item Restricted access - allw access only to students and teachers at \ac{fiit}
+%     %(moodle cloud or private servers? Both should work though, at the very worst we can generate accounts for all volunteer students of ours)
+% \end{itemize}
 
 
 \section{Functional requirements}
 
 \subsection{E-learning techniques}
+
+\textbf{Microlearning} is easy to implement - we broke the theoretical section into small chapters, where each chapter contains only 1 concept. There are also exercises in between theory to make the content more engaging.
+
+
+\textbf{Blended learning} in our course is implicit. The course is to be used as a part of an actual university class.
+
+
+\textbf{Self-paced learning} - students will be allowed to take the course whenever it suits them, and will not have a time limit on finishing it after they start.
+
+
+\textbf{Gamification} \todo{maybe I will implement it yet}
+
+
+\textbf{Adaptive learning} - \todo{maybe I will implement later - just will leave personalized feedback though. Maybe every exercise will have a tag and then they will be told which topics are the hardest? Look into it}
+
+
+\textbf{Social learning} - to induce the students' sense of competitiveness, each exercise displays the average success rate of other participants. In some cases, the best and the average time the exercise took to complete can be displayed as well. \todo{I did not do this yet}
+
+
 \subsection{Theoretical content}
+We placed the chapter with explanations of concepts of the class diagram at the start of the course. It is implemented as a number of Moodle's book resource\footnote{Moodle, "Book resource", \url{https://docs.moodle.org/501/en/Book_resource}, accessed December 13, 2025.} instances.
+
+The \textbf{book resource} contains a number of pages with static content. It is structured like an actual book with a table of contents, chapters and subchapters. This way the student is aware and in control of the flow of their progress. It can be exported and printed to a .pdf file for future reference by the students as well.
+
+\todo{some pics of the book}
+
+There were other options, mainly Moodle's Lesson activity\footnote{Moodle, "Lesson activity", \url{https://docs.moodle.org/501/en/Lesson_activity}, accessed December 13, 2025.} which provides more space for adaptive learning. However, it cannot be referred to in later stages of the course, which is what made us choose the book instead. Appropriate theoretical sections are linked in feedback to exercises in case a student makes a mistake. 
+
+Short topical exercises are placed in between the explanations to promote engagement and memory retention in students.
+
+\todo{some pics of the theory section}
+
 \subsection{Exercises}
+Moodle allows us to implement the majority of the exercise types described in the design chapter \todo{ref to design}. \todo{talk about the missing drawing tool, rather mention its absence in a way that allows me to write a new section about it without rewriting this} The biggest issue is that Moodle does not support a diagram drawing tool by itself. This will be discussed in later sections of this work. Another problem is automatically grading the diagrams.
+
+Basic moodle questions still allow for a number of possible exercise types that do not present issues. Most notably, those would be generic theoretical questions, questions for comparing code and diagrams, and selecting options for improvements in diagrams. 
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=1\textwidth]{assets/images/implementation/exercises_code_vs_diagram.png}
+\caption{Exercise for matching code with corresponding diagrams}
+\label{fig:exercises_code_vs_diagram}
+\end{figure}
+
+\newpage
+
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=1\textwidth]{assets/images/implementation/exercises_general_question.png}
+\caption{A generic theoretical question about the class diagram.}
+\label{fig:exercises_general_question}
+\end{figure}
+
+\newpage
+
+
+\subsection{Testing students' knowledge, feedback}
+Moodle's quiz activity\footnote{Moodle, "Lesson activity", \url{https://docs.moodle.org/501/en/Quiz_activity}, accessed December 13, 2025.} is a selection of exercises from a defined set. It is possible to have static quizes that contain the same exercises every time, or select a number of exercises at random from a set.
+
+We used the quiz activity both for the practice section and the final assessment. In the quiz settings, the practice sections show instant feedback for each response in each exercise after the student clicks a check button found under each exercise. They are allowed to retry each exercise multiple times, getting hints in between attempts as well. 
+
+In the final assessment section, the immediate feedback is not present, and each question only allows one attempt. On top of that, students have to tell how certain they are of their responses. If they declare high confidence but select a wrong answer, they will get a penalty for it. If they express low confidence but select a correct response, they will be awarded with fewer points than maximal amount. 
+\todo{picture of feedback}
+
+\todo{do we get personalized feedback? I mean the you answereed incorrectly qestions about associations the most}
+
+\todo{Idk how this will end up in practice}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Statistical reports}
+Moodle provides statistics regarding individual quizes, exercises and the overall success of individual students. Reports can be downloaded in multiple formats including .csv. Statistics can be general, showing only the basics such as overall scores, or more nuanced and advanced statistics like effective weight or
+discrimination index mainly useful for adaptive learning practices.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=1\textwidth]{assets/images/implementation/statistics3.png}
+\caption{Basic statistical report for a quiz.}
+\label{fig:basic_stats_report_quiz}
+\end{figure}
+
+\newpage
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=1\textwidth]{assets/images/implementation/statistics1.png}
+\caption{Advanced statistical report for a quiz.}
+\label{fig:advanced_stats_report_quiz}
+\end{figure}
+
+\newpage
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=1\textwidth]{assets/images/implementation/statistics2.png}
+\caption{Advanced statistical report for a single exercise in a quiz.}
+\label{fig:advanced_stats_report_exercise}
+\end{figure}
+
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%
+
 \subsection{Feedback questionnaire}
-\subsection{Testing and storing students' results}
+Collecting feedback from participants is one of the most important parts of the whole project. Moodle's feedback activity\footnote{Moodle, "Feedback activity", \url{https://docs.moodle.org/501/en/Feedback_activity}, accessed December 13, 2025.} lets students answer questions about their perception of the course. The responses are anonymous.
+
+\todo{picures of the feedback impl}
 
 \section{Research questions}
 
@@ -41,7 +183,30 @@
 
 
 \section{Deviations from design}
-\section{How they can be implemented}
+-gamification-too short\\
+-adaptive learning-too short\\
+-omitted intro assessment\\
+-types of exercises conjured up but not made\\
+-exercises not described but made\\
+-social learning with view of how the other students did with the question (but tbh we should implement this, so just dont forget but dont write here)
+
+\section{How missing sections can be implemented}
+-...gpt and moodle doc\\
+
+\section{Integrating a diagram drawing tool in Moodle}
+
+A possible workaround for avoiding the need for a diagram drawing tool is Moodle's drag and drop question type. In our example, the students can add missing relationships to a picture of a diagram. 
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=1\textwidth]{assets/images/implementation/exercises_drag_drop_workaround.png}
+\caption{Replacing a diagram drawing tool with a drag and drop activity.}
+\label{fig:exercises_drag_drop_workaround}
+\end{figure}
+
+\newpage
+
+\todo{I need to do this I am afraid, i would not be able to justify not doing this and it seems quite likely that someone would wonder about it}
 
 \section{Deployment}
 

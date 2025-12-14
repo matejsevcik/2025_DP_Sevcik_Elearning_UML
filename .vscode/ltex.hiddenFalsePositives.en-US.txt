@@ -1,1 +1,2 @@
 {"rule":"QUESTION_MARK","sentence":"^\\QShould we decide to make our courses public for all internet users to access, self-enrollment can be turned back on.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QThere were other options, mainly Moodle's Lesson activityMoodle, \"Lesson activity\", \\E(?:Dummy|Ina|Jimmy-|Dummy-|Maniquí-|Maniquíes-|Dummy\\+|Dummy's\\+)[0-9]+\\Q which provides more space for adaptive learning.\\E$"}
