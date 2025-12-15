@@ -153,31 +153,38 @@ From the solution description, we can extract lists of functional and nonfunctio
 
 \section{Research questions}
 
-\textbf{What are the most popular and most successful e-learning practices?}\\
--We performed research\\
--found some practices that seem cool - name them\\
-\textbf{Which of these e-learning practices are applicable to a software modeling course?}\\
--based on what other researchers used and our own schemes\\
--we find the following the most plausible\\
--repeat the list of things from previous chapters\\
-\textbf{How can students' skills in software modeling be effectively evaluated?}\\
--our final assessment\\
--drawing diagrams in class (we will know which teams have members who took the course and then use their score from classes- we need to make sure we have teams made of only non-course-takers if we take this path. Alternatively we can use Mr. Smutny for this too.)\\
--we lack the auto assessment tool others were creating on Google Scholar, but the students will make diagrams anyway in class. The tool would be nice (but is not needed, emphasize that) so future work it is\\
+\textbf{What are the most popular and most successful e-learning practices?}
+
+We performed research and based on our findings, the most prominent e-learning practices are gamification, microlearning, self-directed learning, blended learning, adaptive learning, video-based learning, scenario-based learning and social learning.\todo{ref to the research section}
+
+
+\textbf{Which of these e-learning practices are applicable to a software modeling course?}
+
+Based on other researchers' endeavors and our own schemes, the most promising e-learning practices for our software modeling course are gamification, microlearning, adaptive learning and social learning, along with blended learning and self-directed learning.
+
+\textbf{How can students' skills in software modeling be effectively evaluated?}
+
+A test with exercises similar to those described in \todo{ref to intended exercises} will be our main source of evaluation. On top of that, the students will be asked to create class diagrams as part of the subject this course is complementary to, so we can study the relationship between points awarded for their submitted diagrams and the points they received in the test. The experiment also needs students who would not take the course but will take the test anyway so that we can tell if taking the course improved their grades on the modeling task. 
+
+This approach was chosen since we are lacking a tool for automated diagram correction assessment while not having enough capacity to check all the diagrams manually. Designing a fully functional tool of this sort is beyond the scope of this project.
+
+% mr smutny, dont forget
+
+% -our final assessment\\
+% -drawing diagrams in class (we will know which teams have members who took the course and then use their score from classes- we need to make sure we have teams made of only non-course-takers if we take this path. Alternatively we can use Mr. Smutny for this too.)\\
+% -we lack the auto assessment tool others were creating on Google Scholar, but the students will make diagrams anyway in class. The tool would be nice (but is not needed, emphasize that) so future work it is\\
 % \item What are the shortcomings of current software modeling education practices, and can they be reduced through the use of e-learning?
-\textbf{Is it worthwhile to increase the use of e-learning at \ac{fiit} in courses related to software modeling?}\\
--feedback questionnaire\\
--other researchers got positive responses\\
+\textbf{Is it worthwhile to increase the use of e-learning at \ac{fiit} in courses related to software modeling?}
+
+Outside the test and modeling exercise in which we will be able to assess the objective contribution of our course to the students' understanding of the class diagram, we will also conduct a feedback questionnaire to find the students' perception of the project; even if they achieve improvement in their software modeling skills by taking the course, future courses would not be successful unless they also take interest in taking them.
+
+\todo{add a question if a functioning auto assessment tool make them interested in similar courses}
 
 \section{Workflows}
 
 \textbf{Class diagram of the system}
 
--diagram describes the entities in the system...\\
--users\\
--course and content\\
--tracking of students' progress\\
--extra stuff (gamification modules and what else could be there, recommendation - adaptive learning)
+This diagram describes the entire system as we intend it to function. It shows all the major entities that should be found there - users, course and its content, tools for tracking progress and modules for additional features such as adaptive learning and gamification.
 
 \begin{figure}[ht]
 \centering
@@ -195,8 +202,9 @@ From the solution description, we can extract lists of functional and nonfunctio
 
 \textbf{Activity diagram - student}
 
--shows the workflow from student's perspective\\
--just say in words what happens\\
+The activity diagram describes a student's interaction with the system. The student will log in to the system and view the course. They will complete the theoretical section including the micro-exercises in between modules and receiving feedback on their responses. Then they will complete the practical section containing more exercises. Exercises will be recommended based on how successful their responses were across various topics. 
+
+Lastly, the student will enter the evaluation section, where they will complete a test (which will not give them instant feedback this time), and fill in a feedback questionnaire.
 
 \begin{figure}[ht]
 \centering
@@ -213,8 +221,8 @@ From the solution description, we can extract lists of functional and nonfunctio
 
 \textbf{Sequence diagram - whole system}
 
--desribes the entire workflow of every entity in the system\\
--creation of content -> completing the course -> reviewing the results\\
+The sequence diagram describes the interaction between all the major entities in the system - teacher, system, student. The teacher needs to authenticate themselves and create a course along with its contents. Then the student can enroll in the course and complete it in the flow already described in the activity diagram\todo{ref to activity diagram}. Lastly, the teacher can review the student's results and make their conclusions.
+
 
 \begin{figure}[ht]
 \centering

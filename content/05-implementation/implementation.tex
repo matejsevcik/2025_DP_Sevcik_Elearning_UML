@@ -44,17 +44,6 @@ It is possible to turn off the option to self-enroll into the site. Then we can 
 As long as the Moodle server is running, students can access the materials.
 
 
-% \begin{itemize}
-%     \item Easy to learn and use
-%     \item Open source or free to use
-%     \item Capable of storing and retrieving student data
-%     \item Scalable and maintainable for future expansion
-%     \item Easily extensible (adding new features/content)
-%     \item Restricted access - allw access only to students and teachers at \ac{fiit}
-%     %(moodle cloud or private servers? Both should work though, at the very worst we can generate accounts for all volunteer students of ours)
-% \end{itemize}
-
-
 \section{Functional requirements}
 
 \subsection{E-learning techniques}
@@ -91,7 +80,7 @@ Short topical exercises are placed in between the explanations to promote engage
 \todo{some pics of the theory section}
 
 \subsection{Exercises}
-Moodle allows us to implement the majority of the exercise types described in the design chapter \todo{ref to design}. \todo{talk about the missing drawing tool, rather mention its absence in a way that allows me to write a new section about it without rewriting this} The biggest issue is that Moodle does not support a diagram drawing tool by itself. This will be discussed in later sections of this work. Another problem is automatically grading the diagrams.
+Moodle allows us to implement the majority of the exercise types described in the design chapter \todo{ref to design}. \todo{talk about the missing drawing tool, rather mention its absence in a way that allows me to write a new section about it without rewriting this} The biggest issue is that Moodle does not support a diagram drawing tool by itself. This will be discussed in later sections of this work. Another, more prominent problem is automatically grading the diagrams.
 
 Basic moodle questions still allow for a number of possible exercise types that do not present issues. Most notably, those would be generic theoretical questions, questions for comparing code and diagrams, and selecting options for improvements in diagrams. 
 
@@ -165,50 +154,65 @@ discrimination index mainly useful for adaptive learning practices.
 \subsection{Feedback questionnaire}
 Collecting feedback from participants is one of the most important parts of the whole project. Moodle's feedback activity\footnote{Moodle, "Feedback activity", \url{https://docs.moodle.org/501/en/Feedback_activity}, accessed December 13, 2025.} lets students answer questions about their perception of the course. The responses are anonymous.
 
-\todo{picures of the feedback impl}
-
-\section{Research questions}
-
-\textbf{What are the most popular and most successful e-learning practices?}
-
-\textbf{Which of these e-learning practices are applicable to a software modeling course?}
-
-\textbf{How can students' skills in software modeling be effectively evaluated?}
-
-
-% \item What are the shortcomings of current software modeling education practices, and can they be reduced through the use of e-learning?
-
-\textbf{Is it worthwhile to increase the use of e-learning at \ac{fiit} in courses related to software modeling?}
-
-
-
-\section{Deviations from design}
--gamification-too short\\
--adaptive learning-too short\\
--omitted intro assessment\\
--types of exercises conjured up but not made\\
--exercises not described but made\\
--social learning with view of how the other students did with the question (but tbh we should implement this, so just dont forget but dont write here)
-
-\section{How missing sections can be implemented}
--...gpt and moodle doc\\
-
-\section{Integrating a diagram drawing tool in Moodle}
-
-A possible workaround for avoiding the need for a diagram drawing tool is Moodle's drag and drop question type. In our example, the students can add missing relationships to a picture of a diagram. 
-
 \begin{figure}[ht]
 \centering
-\includegraphics[width=1\textwidth]{assets/images/implementation/exercises_drag_drop_workaround.png}
-\caption{Replacing a diagram drawing tool with a drag and drop activity.}
-\label{fig:exercises_drag_drop_workaround}
+\includegraphics[width=1\textwidth]{assets/images/implementation/feedback_questionnaire2.png}
+\caption{Exercise for matching code with corresponding diagrams}
+\label{fig:exercises_code_vs_diagram}
 \end{figure}
 
 \newpage
 
-\todo{I need to do this I am afraid, i would not be able to justify not doing this and it seems quite likely that someone would wonder about it}
+\todo{feedback questionnaire report statistical}
 
-\section{Deployment}
+\section{Research questions}
 
-\todo{Deployment - only after winter submission}
+Some of our research questions were addressed in the design chapter. This chapter concerns with acquiring answers to these questions:
+
+\textbf{How can students' skills in software modeling be effectively evaluated?}
+
+The \todo{ref to stats and testing} sections describe how students can be tested and how their results will be processed. \todo{is it possible to compare their actual class diagrams from class?} The final assessment quiz consists of various exercises both theoretical and more practical, while also requiring the students to tell how sure they are of their answers. The test will be taken by a group of students who did not take the course as well as a group who did take our course. 
+
+
+% \item What are the shortcomings of current software modeling education practices, and can they be reduced through the use of e-learning?
+\textbf{Is it worthwhile to increase the use of e-learning at \ac{fiit} in courses related to software modeling?}
+
+This question is addressed by the feedback questionnaire \todo{ref to feedback}. Participants of the experiment will express their sentiments regarding this project. Results of the final assessment quiz will be taken into account as well - if students who took the course score significantly higher than those who did not take it, it would be an indication that making e-learning materials on the topic of software modeling is promising.
+
+\todo{deviations from design}
+% \section{Deviations from design}
+% -gamification-too short\\
+% -adaptive learning-too short\\
+% -omitted intro assessment\\
+% -types of exercises conjured up but not made\\
+% -exercises not described but made\\
+% -social learning with view of how the other students did with the question (but tbh we should implement this, so just dont forget but dont write here)
+
+\todo{how missing stuff can be implemented}
+% \section{How missing sections can be implemented}
+% -...gpt and moodle doc\\
+
+\todo{discussion of the missing drawing tool. But that I did not explicitly mention in the design...}
+% \section{Integrating a diagram drawing tool in Moodle}
+
+% A possible workaround for avoiding the need for a diagram drawing tool is Moodle's drag and drop question type. In our example, the students can add missing relationships to a picture of a diagram. 
+
+% \begin{figure}[ht]
+% \centering
+% \includegraphics[width=1\textwidth]{assets/images/implementation/exercises_drag_drop_workaround.png}
+% \caption{Replacing a diagram drawing tool with a drag and drop activity.}
+% \label{fig:exercises_drag_drop_workaround}
+% \end{figure}
+
+% \newpage
+
+% -it is possible to integrate draw.io in Moodle\\
+% -real problem - automatic grading of the diagrams
+
+% \todo{I need to do this I am afraid, i would not be able to justify not doing this and it seems quite likely that someone would wonder about it}
+
+\todo{deployment}
+% \section{Deployment}
+
+% \todo{Deployment - only after winter submission}
 
