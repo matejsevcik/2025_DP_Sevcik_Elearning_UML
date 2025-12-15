@@ -58,7 +58,7 @@ Examples of complete class diagrams with precise descriptions of concepts and mo
 
 The exercise section will be referred to after the completion of each theoretical chapter. The student will be given material recommendations based on the mistakes they made in the exercises. The available exercises will be of the following types:
 
-\begin{itemize}
+\begin{itemize} \label{exercises_design}
     \item assign the type of relationship based on the description
     \item find what is missing in a diagram with drag-and-drop fill-in option
     \item find mistakes in a diagram
@@ -108,22 +108,16 @@ From the solution description, we can extract lists of functional and nonfunctio
             \item Modify diagrams based on provided conditions
             \item Theoretical questions 
             \item \todo{idk rn, mas dalsie poznamky v dp2.txt ale tie su pomerne chaoticke, prikladam v komentaroch}
-            % \item Compare diagrams with code to spot mismatches
-            % what can be deduced from this diagram?
+            % Actually interesting ideas:
+            % -there is a description of a system, classes with ids but no relationships. Fill in relationships instead of IDs
             % diagram description -> do it yourself -> a sample solution with explaining each step (it would be nice to be interactive, like you can uncover little bits of the solution as hints)
-
+            % -04_micro_pieces_of_class_interaction_solution
+            % -[class diagram describing a chess site?]
+            % -strategies and recommended [postup] when starting to draw a diagram (how did I not think of this)
+           
 % EXERCISE TYPES
-% -there is a description of a system, classes with ids but no relationships. Fill in relationships instead of IDs
-% -04_micro_pieces_of_class_interaction_solution
-% -[class diagram describing a chess site?]
 % -https://www.uml-diagrams.org/class-diagrams-examples.html      ma ukazky + podrobny opis, uzitocne
 % -vseobecne otazky- abcd, T/F, multiple choice...       https://quizlet.com/799081077/uml-diagrams-quiz-flash-cards/          https://quizizz.com/signup/qdp?quizId=6726e52f56468cc23681227f&fromPage=/admin/quiz/6726e52f56468cc23681227f/uml-class-diagrams&action=preview&ctaSource=preview_cta    
-
-% LEARN STUFF
-% -nech je cela sekcia 1 system, kde sa postupne pridavaju jednotlive komponenty ako idu sekcie, spolu s vysvetleniami preco tam ktory ide
-% -pomedzi sekcie su otazky na poslednu sekciu + nejake opakovacie (tie mozu byt optional?)
-% -strategies and recommended [postup] when starting to draw a diagram (how did I not think of this)
-
         \end{itemize}
     \item Students need to provide anonymous feedback on the content
     \item Tests of students' skills
@@ -155,7 +149,7 @@ From the solution description, we can extract lists of functional and nonfunctio
 
 \textbf{What are the most popular and most successful e-learning practices?}
 
-We performed research and based on our findings, the most prominent e-learning practices are gamification, microlearning, self-directed learning, blended learning, adaptive learning, video-based learning, scenario-based learning and social learning.\todo{ref to the research section}
+We performed research and based on our findings, the most prominent e-learning practices are gamification, microlearning, self-directed learning, blended learning, adaptive learning, video-based learning, scenario-based learning and social learning (see Section~\ref{02_elearning_techniques}).
 
 
 \textbf{Which of these e-learning practices are applicable to a software modeling course?}
@@ -164,7 +158,7 @@ Based on other researchers' endeavors and our own schemes, the most promising e-
 
 \textbf{How can students' skills in software modeling be effectively evaluated?}
 
-A test with exercises similar to those described in \todo{ref to intended exercises} will be our main source of evaluation. On top of that, the students will be asked to create class diagrams as part of the subject this course is complementary to, so we can study the relationship between points awarded for their submitted diagrams and the points they received in the test. The experiment also needs students who would not take the course but will take the test anyway so that we can tell if taking the course improved their grades on the modeling task. 
+A test with exercises similar to those described in (see proposed exercises~\ref{exercises_design}) will be our main source of evaluation. On top of that, the students will be asked to create class diagrams as part of the subject this course is complementary to, so we can study the relationship between points awarded for their submitted diagrams and the points they received in the test. The experiment also needs students who would not take the course but will take the test anyway so that we can tell if taking the course improved their grades on the modeling task. 
 
 This approach was chosen since we are lacking a tool for automated diagram correction assessment while not having enough capacity to check all the diagrams manually. Designing a fully functional tool of this sort is beyond the scope of this project.
 
@@ -177,8 +171,6 @@ This approach was chosen since we are lacking a tool for automated diagram corre
 \textbf{Is it worthwhile to increase the use of e-learning at \ac{fiit} in courses related to software modeling?}
 
 Outside the test and modeling exercise in which we will be able to assess the objective contribution of our course to the students' understanding of the class diagram, we will also conduct a feedback questionnaire to find the students' perception of the project; even if they achieve improvement in their software modeling skills by taking the course, future courses would not be successful unless they also take interest in taking them.
-
-\todo{add a question if a functioning auto assessment tool make them interested in similar courses}
 
 \section{Workflows}
 
@@ -195,7 +187,6 @@ This diagram describes the entire system as we intend it to function. It shows a
 \end{figure}
 
 \todo{remove watermark, add ai assisted content}
-\todo{describe in words}
 
 \newpage
 
@@ -215,13 +206,12 @@ Lastly, the student will enter the evaluation section, where they will complete 
 \end{figure}
 
 \todo{remove watermark, add ai assisted content, edit to fit in one page}
-\todo{describe in words}
 
 \newpage
 
 \textbf{Sequence diagram - whole system}
 
-The sequence diagram describes the interaction between all the major entities in the system - teacher, system, student. The teacher needs to authenticate themselves and create a course along with its contents. Then the student can enroll in the course and complete it in the flow already described in the activity diagram\todo{ref to activity diagram}. Lastly, the teacher can review the student's results and make their conclusions.
+The sequence diagram describes the interaction between all the major entities in the system - teacher, system, student. The teacher needs to authenticate themselves and create a course along with its contents. Then the student can enroll in the course and complete it in the flow already described in the activity diagram (see figure~\ref{fig:student_activity_diagram}). Lastly, the teacher can review the student's results and make their conclusions.
 
 
 \begin{figure}[ht]
@@ -229,11 +219,10 @@ The sequence diagram describes the interaction between all the major entities in
 \includegraphics[width=1\textwidth]{assets/images/design/sequence diagram 2nd try_watermark.jpg}
 \caption{Sequence diagram of the whole system's workflow.}
 \caption*{Made with: Visual Paradigm, \textit{Visual Paradigm Online}, \url{https://online.visual-paradigm.com/}, accessed Dec 9, 2025.}
-\label{fig:student_activity_diagram}
+\label{fig:system_sequence_diagram}
 \end{figure}
 
 \todo{remove watermark, add ai assisted content, edit to fit in one page}
-\todo{describe in words}
 
 % Contact the other guy for eval
 

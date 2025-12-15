@@ -71,18 +71,32 @@ We placed the chapter with explanations of concepts of the class diagram at the 
 
 The \textbf{book resource} contains a number of pages with static content. It is structured like an actual book with a table of contents, chapters and subchapters. This way the student is aware and in control of the flow of their progress. It can be exported and printed to a .pdf file for future reference by the students as well.
 
-\todo{some pics of the book}
+\begin{figure}[ht]
+\centering
+\includegraphics[width=1\textwidth]{assets/images/implementation/theory_book_table_of_contents.png}
+\caption{Clear separation of topics for microlearning}
+\label{fig:theory_book_table_of_contents}
+\end{figure}
+
+\newpage
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=1\textwidth]{assets/images/implementation/theory_microlearning.png}
+\caption{Layout of individual section in the theoretical section}
+\label{fig:theory_microlearning}
+\end{figure}
+
+\newpage
 
 There were other options, mainly Moodle's Lesson activity\footnote{Moodle, "Lesson activity", \url{https://docs.moodle.org/501/en/Lesson_activity}, accessed December 13, 2025.} which provides more space for adaptive learning. However, it cannot be referred to in later stages of the course, which is what made us choose the book instead. Appropriate theoretical sections are linked in feedback to exercises in case a student makes a mistake. 
 
 Short topical exercises are placed in between the explanations to promote engagement and memory retention in students.
 
-\todo{some pics of the theory section}
-
 \subsection{Exercises}
-Moodle allows us to implement the majority of the exercise types described in the design chapter \todo{ref to design}. \todo{talk about the missing drawing tool, rather mention its absence in a way that allows me to write a new section about it without rewriting this} The biggest issue is that Moodle does not support a diagram drawing tool by itself. This will be discussed in later sections of this work. Another, more prominent problem is automatically grading the diagrams.
+Moodle allows us to implement the majority of the exercise types described in earlier chapters (see Section~\ref{exercises_design}). The biggest issue is that Moodle does not support a diagram drawing tool by itself. This will be discussed in later sections of this work. Another, more prominent, problem is automatically grading such diagrams, which is what led us to avoiding the implementation in this stage of the project.
 
-Basic moodle questions still allow for a number of possible exercise types that do not present issues. Most notably, those would be generic theoretical questions, questions for comparing code and diagrams, and selecting options for improvements in diagrams. 
+Basic moodle questions still allow for a number of possible exercise types that do not present issues. Most notably, those would be generic theoretical questions, questions for comparing code and diagrams, and selecting options for improvements in a given diagram from a list. 
 
 \begin{figure}[ht]
 \centering
@@ -110,11 +124,17 @@ Moodle's quiz activity\footnote{Moodle, "Lesson activity", \url{https://docs.moo
 We used the quiz activity both for the practice section and the final assessment. In the quiz settings, the practice sections show instant feedback for each response in each exercise after the student clicks a check button found under each exercise. They are allowed to retry each exercise multiple times, getting hints in between attempts as well. 
 
 In the final assessment section, the immediate feedback is not present, and each question only allows one attempt. On top of that, students have to tell how certain they are of their responses. If they declare high confidence but select a wrong answer, they will get a penalty for it. If they express low confidence but select a correct response, they will be awarded with fewer points than maximal amount. 
-\todo{picture of feedback}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=1\textwidth]{assets/images/implementation/exercises_feedback.png}
+\caption{An incorrect answer displays can display feedback or a hint to the student.}
+\label{fig:exercises_feedback}
+\end{figure}
+
+\newpage
 
 \todo{do we get personalized feedback? I mean the you answereed incorrectly qestions about associations the most}
-
-\todo{Idk how this will end up in practice}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -157,13 +177,20 @@ Collecting feedback from participants is one of the most important parts of the 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=1\textwidth]{assets/images/implementation/feedback_questionnaire2.png}
-\caption{Exercise for matching code with corresponding diagrams}
-\label{fig:exercises_code_vs_diagram}
+\caption{A sample from feedback questionnaire for students.}
+\label{fig:feedback_questionnaire}
 \end{figure}
 
 \newpage
 
-\todo{feedback questionnaire report statistical}
+\begin{figure}[ht]
+\centering
+\includegraphics[width=1\textwidth]{assets/images/implementation/feedback_results.png}
+\caption{Viewing the results of the feedback questionnaire.}
+\label{fig:feedback_results}
+\end{figure}
+
+\newpage
 
 \section{Research questions}
 

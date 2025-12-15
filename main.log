@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.12.8)  15 DEC 2025 12:11
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.12.8)  15 DEC 2025 21:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -424,6 +424,16 @@ Package biblatex Info: ... file 'blx-compat.def' found.
 
 (C:\Users\matej\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
 File: blx-compat.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+
+(C:\Users\matej\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-bibtex.def
+File: blx-bibtex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+
+Package biblatex Warning: Using fall-back bibtex backend:
+(biblatex)                functionality may be reduced/unavailable.
+
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
@@ -1407,14 +1417,7 @@ guage=dflt;+tnum;+lnum;mapping=tex-text;"
 guage=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
 
  (main.aux (preamble/title.aux) (preamble/annotation.aux)
-(preamble/acknowledgements.aux)
-
-LaTeX Warning: Label `fig:student_activity_diagram' multiply defined.
-
-
-LaTeX Warning: Label `fig:exercises_code_vs_diagram' multiply defined.
-
-(appendices/plan.aux))
+(preamble/acknowledgements.aux) (appendices/plan.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
@@ -1483,126 +1486,15 @@ Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `main.bcf'.
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
+\openout3 = `main-blx.bib'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' not found.
-
-No file main.bbl.
-
-Package biblatex Warning: citation 'jacobson2021unified'
-(biblatex)                was not found at all in the .bbl file,
-(biblatex)                bibliography labels cannot be generated,
-(biblatex)                please correct the citation.
-
-
-Package biblatex Warning: citation 'seidl2015uml'
-(biblatex)                was not found at all in the .bbl file,
-(biblatex)                bibliography labels cannot be generated,
-(biblatex)                please correct the citation.
-
-
-Package biblatex Warning: citation 'rumpe2016modeling'
-(biblatex)                was not found at all in the .bbl file,
-(biblatex)                bibliography labels cannot be generated,
-(biblatex)                please correct the citation.
-
-
-Package biblatex Warning: citation 'ramle2021uml'
-(biblatex)                was not found at all in the .bbl file,
-(biblatex)                bibliography labels cannot be generated,
-(biblatex)                please correct the citation.
-
-
-Package biblatex Warning: citation 'jurgelaitis2019implementing'
-(biblatex)                was not found at all in the .bbl file,
-(biblatex)                bibliography labels cannot be generated,
-(biblatex)                please correct the citation.
-
-
-Package biblatex Warning: citation 'soler2010formative'
-(biblatex)                was not found at all in the .bbl file,
-(biblatex)                bibliography labels cannot be generated,
-(biblatex)                please correct the citation.
-
-
-Package biblatex Warning: citation 'chou2019actionable'
-(biblatex)                was not found at all in the .bbl file,
-(biblatex)                bibliography labels cannot be generated,
-(biblatex)                please correct the citation.
-
-
-Package biblatex Warning: citation 'cagnazzo2023umlegend'
-(biblatex)                was not found at all in the .bbl file,
-(biblatex)                bibliography labels cannot be generated,
-(biblatex)                please correct the citation.
-
-
-Package biblatex Warning: citation 'BUCCHIARONE2023102974'
-(biblatex)                was not found at all in the .bbl file,
-(biblatex)                bibliography labels cannot be generated,
-(biblatex)                please correct the citation.
-
-
-Package biblatex Warning: citation 'trapp2011collaborative'
-(biblatex)                was not found at all in the .bbl file,
-(biblatex)                bibliography labels cannot be generated,
-(biblatex)                please correct the citation.
-
-
-Package biblatex Warning: citation 'kaur2023improving'
-(biblatex)                was not found at all in the .bbl file,
-(biblatex)                bibliography labels cannot be generated,
-(biblatex)                please correct the citation.
-
-
-Package biblatex Warning: citation 'reuter2020insights'
-(biblatex)                was not found at all in the .bbl file,
-(biblatex)                bibliography labels cannot be generated,
-(biblatex)                please correct the citation.
-
-
-Package biblatex Warning: citation 'shmallo2020constructive'
-(biblatex)                was not found at all in the .bbl file,
-(biblatex)                bibliography labels cannot be generated,
-(biblatex)                please correct the citation.
-
-
-Package biblatex Warning: citation 'chren2019mistakes'
-(biblatex)                was not found at all in the .bbl file,
-(biblatex)                bibliography labels cannot be generated,
-(biblatex)                please correct the citation.
-
-
-Package biblatex Warning: citation 'schramm2012teaching'
-(biblatex)                was not found at all in the .bbl file,
-(biblatex)                bibliography labels cannot be generated,
-(biblatex)                please correct the citation.
-
-
-Package biblatex Warning: citation 'BERGSTROM2022111413'
-(biblatex)                was not found at all in the .bbl file,
-(biblatex)                bibliography labels cannot be generated,
-(biblatex)                please correct the citation.
-
-
-Package biblatex Warning: citation 'uml_eval_auto'
-(biblatex)                was not found at all in the .bbl file,
-(biblatex)                bibliography labels cannot be generated,
-(biblatex)                please correct the citation.
-
-
-Package biblatex Warning: citation 'almadi2018cdrs'
-(biblatex)                was not found at all in the .bbl file,
-(biblatex)                bibliography labels cannot be generated,
-(biblatex)                please correct the citation.
-
-
-Package biblatex Warning: citation 'umple'
-(biblatex)                was not found at all in the .bbl file,
-(biblatex)                bibliography labels cannot be generated,
-(biblatex)                please correct the citation.
-
+Package biblatex Info: ... file 'main.bbl' found.
+ (main.bbl)
 Package biblatex Info: Reference section=0 on input line 41.
 Package biblatex Info: Reference segment=0 on input line 41.
 Package caption Info: Begin \AtBeginDocument code.
@@ -1827,16 +1719,9 @@ Overfull \hbox (27.2141pt too wide) in paragraph at lines 17--18
 ied-modeling-language/what-is-uml/,
  []
 
-
-LaTeX Warning: Citation 'jacobson2021unified' on page 3 undefined on input line
- 23.
-
 [3
 
 ]
-
-LaTeX Warning: Citation 'seidl2015uml' on page 4 undefined on input line 31.
-
 File: assets/images/overview/Uml_diagram.png Graphic file (type bmp)
 <assets/images/overview/Uml_diagram.png>
 
@@ -1870,13 +1755,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [6]) (content/02-overview/01_uml/02_class_diagram.tex
-
-LaTeX Warning: Citation 'rumpe2016modeling' on page 7 undefined on input line 1
-7.
-
-
-LaTeX Warning: Citation 'seidl2015uml' on page 7 undefined on input line 19.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1959,19 +1837,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 Chapter 3.
 (content/02-overview/02_elearning/01_introduction_to_elearning.tex)
 (content/02-overview/02_elearning/0X_comparison_of_elearning_and_analog.tex
-[13]
-
-LaTeX Warning: Citation 'ramle2021uml' on page 14 undefined on input line 11.
-
-
-LaTeX Warning: Citation 'jurgelaitis2019implementing' on page 14 undefined on i
-nput line 13.
-
-
-LaTeX Warning: Citation 'soler2010formative' on page 14 undefined on input line
- 15.
-
-) (content/02-overview/02_elearning/02_elearning_techniques.tex
+[13]) (content/02-overview/02_elearning/02_elearning_techniques.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1995,10 +1861,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [15])
 (content/02-overview/02_elearning/03_elearning_techniques_class_diagram.tex
 
-LaTeX Warning: Citation 'chou2019actionable' on page 16 undefined on input line
- 7.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.59999pt}.
@@ -2006,40 +1868,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [16]
-
-LaTeX Warning: Citation 'cagnazzo2023umlegend' on page 17 undefined on input li
-ne 10.
-
-
-Overfull \hbox (47.4486pt too wide) in paragraph at lines 10--11
-[]\TU/TeXGyrePagellaX(0)/m/n/10.95 The practice of gamification involves severa
-l techniques. Cagnazzo et al.[[]]
- []
-
-
-Overfull \hbox (1.43802pt too wide) in paragraph at lines 10--11
-\TU/TeXGyrePagellaX(0)/m/n/10.95 mark a student’s accomplishment by levels - th
-e student starts at level one and is awarded
- []
-
-
-LaTeX Warning: Citation 'jurgelaitis2019implementing' on page 17 undefined on i
-nput line 14.
-
-
-LaTeX Warning: Citation 'BUCCHIARONE2023102974' on page 17 undefined on input l
-ine 16.
-
-
-Overfull \hbox (104.49081pt too wide) in paragraph at lines 16--17
-\TU/TeXGyrePagellaX(0)/m/n/10.95 modeling. Besides some of the already describe
-d techniques, Bucchiarone et al.[[]]
- []
-
-
-LaTeX Warning: Citation 'ramle2021uml' on page 17 undefined on input line 27.
-
-
 Underfull \hbox (badness 5288) in paragraph at lines 29--29
 [][][]\TU/TeXGyrePagellaX(0)/m/n/9 Christopher Pappas. ”Microlearning in Online
  Training: 5 Advantages and 3 Disadvan-
@@ -2059,12 +1887,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[17]
-
-LaTeX Warning: Citation 'trapp2011collaborative' on page 18 undefined on input 
-line 33.
-
-) (content/02-overview/02_elearning/0Y_elearning_platforms_comparison.tex
+[17]) (content/02-overview/02_elearning/0Y_elearning_platforms_comparison.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2087,25 +1910,11 @@ t also by graduates and practitioners.
  []
 
 
-LaTeX Warning: Citation 'kaur2023improving' on page 20 undefined on input line 
-7.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 7--7
 [][][]\TU/TeXGyrePagellaX(0)/m/n/9 Donald Bell, ”An Introduction to the Unified
  Modeling Language,” \TU/TeXGyrePagellaX(0)/m/it/9 IBM Developer\TU/TeXGyrePage
 llaX(0)/m/n/9 ,
  []
-
-
-Overfull \hbox (30.48381pt too wide) in paragraph at lines 7--8
-\TU/TeXGyrePagellaX(0)/m/n/10.95 of the use of UML[] in software development, b
-ut that is not often the case [[]].
- []
-
-
-LaTeX Warning: Citation 'reuter2020insights' on page 20 undefined on input line
- 9.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2114,33 +1923,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[20]
-
-LaTeX Warning: Citation 'shmallo2020constructive' on page 21 undefined on input
- line 13.
-
-
-LaTeX Warning: Citation 'chren2019mistakes' on page 21 undefined on input line 
-13.
-
-
-LaTeX Warning: Citation 'reuter2020insights' on page 21 undefined on input line
- 13.
-
-
-LaTeX Warning: Citation 'chren2019mistakes' on page 21 undefined on input line 
-13.
-
-
-Overfull \hbox (54.69019pt too wide) in paragraph at lines 13--14
-\TU/TeXGyrePagellaX(0)/m/n/10.95 class diagrams. The studies [[]], [[]], [[]]
- []
-
-
-LaTeX Warning: Citation 'reuter2020insights' on page 21 undefined on input line
- 15.
-
-)
+[20])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2160,49 +1943,79 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 Chapter 4.
-(content/02-overview/04_related_work/related_work.tex
-
-LaTeX Warning: Citation 'soler2010formative' on page 23 undefined on input line
- 20.
-
-
-LaTeX Warning: Citation 'schramm2012teaching' on page 23 undefined on input lin
-e 20.
+(content/02-overview/04_related_work/related_work.tex [23]
+Underfull \hbox (badness 3439) in paragraph at lines 73--73
+[]|\TU/TeXGyrePagellaX(0)/m/n/10 A gamified online course used
+ []
 
 
-LaTeX Warning: Citation 'BERGSTROM2022111413' on page 23 undefined on input lin
-e 20.
-
-[23]
-
-LaTeX Warning: Citation 'uml_eval_auto' on page 24 undefined on input line 22.
+Underfull \hbox (badness 6078) in paragraph at lines 73--73
+[]|\TU/TeXGyrePagellaX(0)/m/n/10 An automated diagram assess-
+ []
 
 
-LaTeX Warning: Citation 'schramm2012teaching' on page 24 undefined on input lin
-e 24.
+Underfull \hbox (badness 4805) in paragraph at lines 73--73
+[]|\TU/TeXGyrePagellaX(0)/m/n/10 The group who used the tool
+ []
 
 
-LaTeX Warning: Citation 'ramle2021uml' on page 24 undefined on input line 43.
+Underfull \hbox (badness 2080) in paragraph at lines 73--73
+\TU/TeXGyrePagellaX(0)/m/n/10 scored higher in an exam than
+ []
 
 
-LaTeX Warning: Citation 'cagnazzo2023umlegend' on page 24 undefined on input li
-ne 45.
+Underfull \hbox (badness 6078) in paragraph at lines 73--73
+[]|\TU/TeXGyrePagellaX(0)/m/n/10 An automated diagram assess-
+ []
 
 
-LaTeX Warning: Citation 'almadi2018cdrs' on page 24 undefined on input line 48.
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[]|\TU/TeXGyrePagellaX(0)/m/n/10 Online learning tool applying
+ []
 
 
-
-LaTeX Warning: Citation 'umple' on page 24 undefined on input line 48.
-
-
-LaTeX Warning: Citation 'shmallo2020constructive' on page 24 undefined on input
- line 48.
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[]|\TU/TeXGyrePagellaX(0)/m/n/10 Collaborative learning envi-
+ []
 
 
-Overfull \hbox (32.51407pt too wide) in paragraph at lines 48--50
-[]\TU/TeXGyrePagellaX(0)/m/n/10.95 There are more proposed enhancement for the 
-teaching of UML[]. Almadi et al.[[]]
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+\TU/TeXGyrePagellaX(0)/m/n/10 ronment – students discussed,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[]|\TU/TeXGyrePagellaX(0)/m/n/10 The extensive collaboration
+ []
+
+
+Underfull \hbox (badness 1430) in paragraph at lines 73--73
+\TU/TeXGyrePagellaX(0)/m/n/10 be an effective learning method
+ []
+
+
+Underfull \hbox (badness 4242) in paragraph at lines 73--73
+[]|\TU/TeXGyrePagellaX(0)/m/n/10 Searching for mistakes in each
+ []
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 73--73
+\TU/TeXGyrePagellaX(0)/m/n/10 other’s diagrams and discussing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+\TU/TeXGyrePagellaX(0)/m/n/10 and improved their modeling
+ []
+
+
+Underfull \hbox (badness 6078) in paragraph at lines 73--73
+[]|\TU/TeXGyrePagellaX(0)/m/n/10 An automated diagram assess-
+ []
+
+
+Underfull \hbox (badness 4193) in paragraph at lines 73--73
+\TU/TeXGyrePagellaX(0)/m/n/10 assessment tool saved teachers’
  []
 
 
@@ -2214,397 +2027,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [24]
 
-LaTeX Warning: Citation 'ramle2021uml' on page 25 undefined on input line 73.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
-[]|\TU/TeXGyrePagellaX(0)/m/n/10 Well structured,
- []
-
-
-Underfull \hbox (badness 3118) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 and self-paced ap-
- []
-
-
-Underfull \hbox (badness 2229) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 were well received
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 by students and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 improved their
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 understanding of
- []
-
-
-LaTeX Warning: Citation 'jurgelaitis2019implementing' on page 25 undefined on i
-nput line 73.
-
-
-Underfull \hbox (badness 5490) in paragraph at lines 73--73
-[]|\TU/TeXGyrePagellaX(0)/m/n/10 A gamified online
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 course used in a
- []
-
-
-Underfull \hbox (badness 2591) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 university software
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
-[]|\TU/TeXGyrePagellaX(0)/m/n/10 Gamification in-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 creased both stu-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 dents’ motivation
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 and their average
- []
-
-
-LaTeX Warning: Citation 'soler2010formative' on page 25 undefined on input line
- 73.
-
-
-Underfull \hbox (badness 7397) in paragraph at lines 73--73
-[]|\TU/TeXGyrePagellaX(0)/m/n/10 An automated di-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 agram assessment
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
-[]|\TU/TeXGyrePagellaX(0)/m/n/10 The group who
- []
-
-
-Underfull \hbox (badness 1577) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 higher in an exam
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 than the group
- []
-
-
-LaTeX Warning: Citation 'cagnazzo2023umlegend' on page 25 undefined on input li
-ne 73.
-
-
-Underfull \hbox (badness 7397) in paragraph at lines 73--73
-[]|\TU/TeXGyrePagellaX(0)/m/n/10 An automated di-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 agram assessment
- []
-
-
-Underfull \hbox (badness 1661) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 tool, learning plat-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
-[]|\TU/TeXGyrePagellaX(0)/m/n/10 Instant feedback
- []
-
-
-Underfull \hbox (badness 4582) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 on modeling exer-
- []
-
-
-Underfull \hbox (badness 2635) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 cises and gamified
- []
-
-
-Underfull \hbox (badness 4072) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 elements improved
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 both student en-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 gagement and
- []
-
-
-LaTeX Warning: Citation 'BUCCHIARONE2023102974' on page 25 undefined on input l
-ine 73.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 applying gamified
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
-[]|\TU/TeXGyrePagellaX(0)/m/n/10 Using a gamified
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 learning tool im-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 proved motivation
- []
-
-
-Underfull \hbox (badness 3635) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 and results of the
- []
-
-
-LaTeX Warning: Citation 'trapp2011collaborative' on page 25 undefined on input 
-line 73.
-
-
-Underfull \hbox (badness 3333) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 ing environment –
- []
-
-
-Underfull \hbox (badness 1975) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 students discussed,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 evaluated and
- []
-
-
-Underfull \hbox (badness 6775) in paragraph at lines 73--73
-[]|\TU/TeXGyrePagellaX(0)/m/n/10 The extensive col-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 laboration helped
- []
-
-
-Underfull \hbox (badness 7203) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 the students com-
- []
-
-
-Underfull \hbox (badness 2237) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 materials, found it
- []
-
-
-Underfull \hbox (badness 7081) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 to be an effective
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 learning method
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 and the feedback
- []
-
-
-Underfull \hbox (badness 1057) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 on the system was
- []
-
-
-LaTeX Warning: Citation 'shmallo2020constructive' on page 25 undefined on input
- line 73.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
-[]|\TU/TeXGyrePagellaX(0)/m/n/10 Identification of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 mistakes in dia-
- []
-
-
-Underfull \hbox (badness 1789) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 rative exercise (not
- []
-
-
-Underfull \hbox (badness 4279) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 an e-learning tool,
- []
-
-
-Underfull \hbox (badness 4132) in paragraph at lines 73--73
-[]|\TU/TeXGyrePagellaX(0)/m/n/10 Searching for mis-
- []
-
-
-Underfull \hbox (badness 4608) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 diagrams and dis-
- []
-
-
-Underfull \hbox (badness 3189) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 cussing them both
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 engaged the stu-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 their modeling
- []
-
-
-LaTeX Warning: Citation 'schramm2012teaching' on page 25 undefined on input lin
-e 73.
-
-
-Underfull \hbox (badness 7397) in paragraph at lines 73--73
-[]|\TU/TeXGyrePagellaX(0)/m/n/10 An automated di-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 agram assessment
- []
-
-
-Underfull \hbox (badness 1502) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 mated diagram as-
- []
-
-
-Underfull \hbox (badness 3861) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 teachers’ time and
- []
-
-
-Underfull \hbox (badness 1688) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 energy without re-
- []
-
-
-Underfull \hbox (badness 3189) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 ducing the quality
- []
-
-
-LaTeX Warning: Citation 'almadi2018cdrs' on page 25 undefined on input line 73.
-
-
-
-Underfull \hbox (badness 6125) in paragraph at lines 73--73
-[]|\TU/TeXGyrePagellaX(0)/m/n/10 Recommender sys-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
-[]|\TU/TeXGyrePagellaX(0)/m/n/10 Personalized exer-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 cise recommenda-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 better understand
- []
-
-
-Underfull \hbox (badness 1527) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 UML and promote
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 self-directed learn-
- []
-
-
-LaTeX Warning: Citation 'umple' on page 25 undefined on input line 73.
-
-
-Underfull \hbox (badness 1831) in paragraph at lines 73--73
-[]|\TU/TeXGyrePagellaX(0)/m/n/10 Modeling tool that
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 converts diagrams
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 to code and vice
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
-[]|\TU/TeXGyrePagellaX(0)/m/n/10 Students under-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 stand UML better
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 corresponding to
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[25]) (content/02-overview/05_summary_and_objectives/summary_and_objectives.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2612,10 +2041,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[25]
-Overfull \vbox (333.86967pt too high) has occurred while \output is active []
-
-
+[26])) (content/03-objectives-methodology/objectives-methodology.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2623,7 +2049,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[26]) (content/02-overview/05_summary_and_objectives/summary_and_objectives.tex
+[27]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2631,19 +2057,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[27])) (content/03-objectives-methodology/objectives-methodology.tex
+[28
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[28]
+]
 Chapter 5.
-[29
-
-]) (content/04-design/design.tex
+[29]) (content/04-design/design.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2664,11 +2082,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [32]
-
-LaTeX Warning: Citation 'umple' on page 33 undefined on input line 55.
-
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
 ine 71.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2694,7 +2110,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [34]
-Overfull \hbox (7.69107pt too wide) in paragraph at lines 161--162
+Overfull \hbox (7.69107pt too wide) in paragraph at lines 155--156
 []\TU/TeXGyrePagellaX(0)/b/n/10.95 Which of these e-learning practices are appl
 icable to a software modeling course? 
  []
@@ -2711,14 +2127,11 @@ File: assets/images/design/course_diagram_conceptual_watermark.jpg Graphic file
  (type bmp)
 <assets/images/design/course_diagram_conceptual_watermark.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--193
+Underfull \hbox (badness 10000) in paragraph at lines 185--185
 []|\TU/TeXGyrePagellaX(0)/m/n/10.95 Made with: Visual Paradigm, \TU/TeXGyrePage
 llaX(0)/m/it/10.95 Visual Paradigm Online\TU/TeXGyrePagellaX(0)/m/n/10.95 , []$
 [][][][][] [] [] [] [][][][][][] []
  []
-
-
-LaTeX Warning: Marginpar on page 36 moved.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2732,17 +2145,14 @@ File: assets/images/design/student_activity_watermark.jpg Graphic file (type bm
 p)
 <assets/images/design/student_activity_watermark.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--213
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
 []|\TU/TeXGyrePagellaX(0)/m/n/10.95 Made with: Visual Paradigm, \TU/TeXGyrePage
 llaX(0)/m/it/10.95 Visual Paradigm Online\TU/TeXGyrePagellaX(0)/m/n/10.95 , []$
 [][][][][] [] [] [] [][][][][][] []
  []
 
 
-LaTeX Warning: Float too large for page by 516.23161pt on input line 215.
-
-
-LaTeX Warning: Marginpar on page 37 moved.
+LaTeX Warning: Float too large for page by 516.23161pt on input line 206.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2756,20 +2166,14 @@ File: assets/images/design/sequence diagram 2nd try_watermark.jpg Graphic file
 (type bmp)
 <assets/images/design/sequence diagram 2nd try_watermark.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--231
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
 []|\TU/TeXGyrePagellaX(0)/m/n/10.95 Made with: Visual Paradigm, \TU/TeXGyrePage
 llaX(0)/m/it/10.95 Visual Paradigm Online\TU/TeXGyrePagellaX(0)/m/n/10.95 , []$
 [][][][][] [] [] [] [][][][][][] []
  []
 
 
-LaTeX Warning: Float too large for page by 296.70822pt on input line 233.
-
-
-LaTeX Warning: Marginpar on page 38 moved.
-
-
-LaTeX Warning: Marginpar on page 38 moved.
+LaTeX Warning: Float too large for page by 296.70822pt on input line 223.
 
 ) (content/05-implementation/implementation.tex
 
@@ -2814,21 +2218,9 @@ LaTeX Warning: Marginpar on page 43 moved.
 
 LaTeX Warning: Marginpar on page 43 moved.
 
-
-LaTeX Warning: Marginpar on page 43 moved.
-
-
-LaTeX Warning: Marginpar on page 43 moved.
-
-
-Overfull \hbox (10.50522pt too wide) in paragraph at lines 85--86
-\TU/TeXGyrePagellaX(0)/m/n/10.95 comparing code and diagrams, and selecting opt
-ions for improvements in diagrams. 
- []
-
-File: assets/images/implementation/exercises_code_vs_diagram.png Graphic file (
-type bmp)
-<assets/images/implementation/exercises_code_vs_diagram.png>
+File: assets/images/implementation/theory_book_table_of_contents.png Graphic fi
+le (type bmp)
+<assets/images/implementation/theory_book_table_of_contents.png>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2837,6 +2229,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [43]
+File: assets/images/implementation/theory_microlearning.png Graphic file (type 
+bmp)
+<assets/images/implementation/theory_microlearning.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2845,9 +2244,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [44]
-File: assets/images/implementation/exercises_general_question.png Graphic file 
-(type bmp)
-<assets/images/implementation/exercises_general_question.png>
+File: assets/images/implementation/exercises_code_vs_diagram.png Graphic file (
+type bmp)
+<assets/images/implementation/exercises_code_vs_diagram.png>
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2857,11 +2256,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [45]
+File: assets/images/implementation/exercises_general_question.png Graphic file 
+(type bmp)
+<assets/images/implementation/exercises_general_question.png>
+File: assets/images/implementation/exercises_feedback.png Graphic file (type bm
+p)
+<assets/images/implementation/exercises_feedback.png>
 
-LaTeX Warning: Marginpar on page 46 moved.
 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-LaTeX Warning: Marginpar on page 46 moved.
+[46]
+
+LaTeX Warning: Marginpar on page 47 moved.
 
 File: assets/images/implementation/statistics3.png Graphic file (type bmp)
 <assets/images/implementation/statistics3.png>
@@ -2872,29 +2283,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[46]
+[47]
 File: assets/images/implementation/statistics1.png Graphic file (type bmp)
 <assets/images/implementation/statistics1.png>
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[47]
 File: assets/images/implementation/statistics2.png Graphic file (type bmp)
 <assets/images/implementation/statistics2.png>
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[48]
 File: assets/images/implementation/feedback_questionnaire2.png Graphic file (ty
 pe bmp)
 <assets/images/implementation/feedback_questionnaire2.png>
@@ -2906,21 +2299,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[49]
+[48]
+File: assets/images/implementation/feedback_results.png Graphic file (type bmp)
 
-LaTeX Warning: Marginpar on page 50 moved.
-
-
-LaTeX Warning: Marginpar on page 50 moved.
+<assets/images/implementation/feedback_results.png>
 
 
-LaTeX Warning: Marginpar on page 50 moved.
+LaTeX Warning: Marginpar on page 49 moved.
 
 
-LaTeX Warning: Marginpar on page 50 moved.
+LaTeX Warning: Marginpar on page 49 moved.
 
 
-LaTeX Warning: Marginpar on page 50 moved.
+LaTeX Warning: Marginpar on page 49 moved.
+
+
+LaTeX Warning: Marginpar on page 49 moved.
 
 )
 
@@ -2930,9 +2324,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[50] [51
-
-]
+[49]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2940,13 +2332,31 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[52
+[50]
 
-] (main.lof)
-\tf@lof=\write8
-\openout8 = `main.lof'.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
- [53]
+[51]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[52]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[53]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2956,24 +2366,75 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [54
 
+] [55]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[56
+
+] (main.lof)
+\tf@lof=\write8
+\openout8 = `main.lof'.
+
+ [57]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[58
+
 ] (main.lot)
 \tf@lot=\write9
 \openout9 = `main.lot'.
 
+ [59]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[60
+
+] [61]
+Overfull \hbox (0.56276pt too wide) in paragraph at lines 117--117
+\TU/TeXGyrePagellaX(0)/m/n/10.95 Collaborative Learning”. In: \TU/TeXGyrePagell
+aX(0)/m/it/10.95 2023 IEEE Frontiers in Education Conference (FIE)\TU/TeXGyrePa
+gellaX(0)/m/n/10.95 . IEEE.
+ []
 
 
-LaTeX Warning: Empty bibliography on input line 117.
+Overfull \hbox (3.16162pt too wide) in paragraph at lines 117--117
+\TU/TeXGyrePagellaX(0)/m/n/10.95 UML diagram Evaluation”. In: \TU/TeXGyrePagell
+aX(0)/m/it/10.95 Academic Journal of Nawroz University \TU/TeXGyrePagellaX(0)/m
+/n/10.95 10 (Sept. 2021),
+ []
 
 Package biblatex Info: Reference segment=0 on input line 119.
-[55]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[62]
 \openout2 = `appendices/plan.aux'.
 
- (appendices/plan.tex [56
+ (appendices/plan.tex
+Appendix A.
+[1
 
 
 ]
-Appendix A.
-[1]
 Overfull \hbox (1.00365pt too wide) in paragraph at lines 54--55
  []\TU/TeXGyrePagellaX(0)/b/n/10.95 Statement on the execution of the plan:[] \
 TU/TeXGyrePagellaX(0)/m/n/10.95 The goal for DP2 was to implement the course.
@@ -3005,12 +2466,12 @@ L3 programming layer <2020/03/25>
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F8C4398AFDE8447EC6DE2C3528EB60DA;7317.
+(rerunfilecheck)             Checksum: 5DB6758BA9347FBB85AD83DE7BD39387;7317.
 
-Package biblatex Warning: Please (re)run Biber on the file:
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                main
 (biblatex)                and rerun LaTeX afterwards.
 
@@ -3019,12 +2480,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42522 strings out of 402987
- 889572 string characters out of 5448524
- 1872120 words of memory out of 5000000
- 70533 multiletter control sequences out of 15000+600000
- 643881 words of font info for 123 fonts, out of 8000000 for 9000
+ 42686 strings out of 402987
+ 897097 string characters out of 5448524
+ 1824145 words of memory out of 5000000
+ 70685 multiletter control sequences out of 15000+600000
+ 643893 words of font info for 124 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 103i,17n,108p,1349b,4407s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 103i,17n,108p,1981b,5350s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (75 pages).
+Output written on main.pdf (81 pages).
