@@ -4,7 +4,8 @@ We decided to implement our course in Moodle \ac{lms}. Moodle satisfies the vast
 
 It is open source, easy to use, and it is possible to deploy on local servers, allowing us to control the amount of computational resources dedicated to it for future scaling. We can restrict access to a set of users defined by us. It stores information about students' progress, generating statistical reports about quizes automatically. Content can be added easily, with loads of plugins developed and maintained by community available that introduce features not present in basic Moodle itself.
 
-Moodle supports most of the proposed exercise types out of the box - matching exercises, code snippets, drag and drop, multiple choice, matching exercises and more. The biggest hindrance is the absence of a \ac{uml} editor. However, we found no other \ac{lms} that would provide this functionality without the need for a workaround, so that is not a decisive issue. For the first version, we decided to leave out exercises with direct diagram manipulation. Exercises are corrected automatically, feedback can be provided for each answer in an exercise. Tests and feedback forms are also implemented and ready to use in Moodle.
+Moodle supports most of the proposed exercise types out of the box - matching exercises, code snippets, drag and drop, multiple choice, matching exercises and more. The biggest hindrance is the absence of a \ac{uml} editor. However, we found no other \ac{lms} that would provide this functionality without the need for a workaround, so that is not a decisive issue. For the first version, we decided to leave out exercises with direct diagram manipulation. \todo{We might change
+our minds about this one yet} Exercises are corrected automatically, feedback can be provided for each answer in an exercise. Tests and feedback forms are also implemented and ready to use in Moodle.
 
 \section[Nonfunctional requirements - Moodle]{Nonfunctional requirements - Moodle\footnotemark}
 \footnotetext{This section was made with the use of \ac{genai}}
@@ -26,7 +27,7 @@ Moodle stores data about students' quiz and question attempts. The data structur
 
 \textbf{Scalable and maintainable for future expansion}
 
-Moodle is designed to host multiple large courses, possibly even functioning as a website for whole educational institutions. We deployed our Moodle site on a private server that belongs to \ac{fiit}. The allocated resources were selected based on the expected number of users, but additional servers can be dedicated if more users are present. 
+Moodle is designed to host multiple large courses, possibly even functioning as a website for whole educational institutions. We deployed our Moodle site on a private server that belongs to \ac{fiit}.\todo{havent done this yet, verify} The allocated resources were selected based on the expected number of users, but additional servers can be dedicated if more users are present. 
 
 
 \textbf{Easily extensible content}
@@ -57,13 +58,13 @@ As long as the Moodle server is running, students can access the materials.
 \textbf{Self-paced learning} - students will be allowed to take the course whenever it suits them, and will not have a time limit on finishing it after they start.
 
 
-% \textbf{Gamification} \todo{maybe I will implement it yet}
+\textbf{Gamification} \todo{maybe I will implement it yet}
 
 
-% \textbf{Adaptive learning} - \todo{maybe I will implement later - just will leave personalized feedback though. Maybe every exercise will have a tag and then they will be told which topics are the hardest? Look into it}
+\textbf{Adaptive learning} - \todo{maybe I will implement later - just will leave personalized feedback though. Maybe every exercise will have a tag and then they will be told which topics are the hardest? Look into it}
 
 
-% \textbf{Social learning} - to induce the students' sense of competitiveness, each exercise displays the average success rate of other participants. In some cases, the best and the average time the exercise took to complete can be displayed as well. \todo{I did not do this yet}
+\textbf{Social learning} - to induce the students' sense of competitiveness, each exercise displays the average success rate of other participants. In some cases, the best and the average time the exercise took to complete can be displayed as well. \todo{I did not do this yet}
 
 
 \subsection{Theoretical content}
@@ -132,7 +133,7 @@ In the final assessment section, the immediate feedback is not present, and each
 
 \newpage
 
-% \todo{do we get personalized feedback? I mean the you answereed incorrectly qestions about associations the most}
+\todo{do we get personalized feedback? I mean the you answereed incorrectly qestions about associations the most}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -195,7 +196,7 @@ Some of our research questions were addressed in the design chapter. This chapte
 
 \textbf{How can students' skills in software modeling be effectively evaluated?}
 
-Previous sections (see Sections~\ref{testing} and ~\ref{statistics}) describe how students can be tested and how their results will be processed. The final assessment quiz consists of various exercises both theoretical and more practical, while also requiring the students to tell how sure they are of their answers. The test will be taken by a group of students who did not take the course as well as a group who did take our course. 
+Previous sections (see Sections~\ref{testing} and ~\ref{statistics}) describe how students can be tested and how their results will be processed. The final assessment quiz consists of various exercises both theoretical and more practical, while also requiring the students to tell how sure they are of their answers. The test will be taken by a group of students who did not take the course as well as a group who did take our course. \todo{is it possible to compare their actual class diagrams from class?}
 
 
 % \item What are the shortcomings of current software modeling education practices, and can they be reduced through the use of e-learning?
@@ -203,8 +204,8 @@ Previous sections (see Sections~\ref{testing} and ~\ref{statistics}) describe ho
 
 This question is addressed by the feedback questionnaire (see Section~\ref{feedback}). Participants of the experiment will express their sentiments regarding this project. Results of the final assessment quiz will be taken into account as well - if students who took the course score significantly higher than those who did not take it, it would be an indication that making e-learning materials on the topic of software modeling is promising.
 
-% \todo{deviations from design}
-% \section{Deviations from design}
+\todo{deviations from design}
+\section{Deviations from design}
 % -gamification-too short\\
 % -adaptive learning-too short\\
 % -omitted intro assessment\\
@@ -212,12 +213,12 @@ This question is addressed by the feedback questionnaire (see Section~\ref{feedb
 % -exercises not described but made\\
 % -social learning with view of how the other students did with the question (but tbh we should implement this, so just dont forget but dont write here)
 
-% \todo{how missing stuff can be implemented}
-% \section{How missing sections can be implemented}
+\todo{how missing stuff can be implemented}
+\section{How missing sections can be implemented}
 % -...gpt and moodle doc\\
 
-% \todo{discussion of the missing drawing tool. But that I did not explicitly mention in the design...}
-% \section{Integrating a diagram drawing tool in Moodle}
+\todo{discussion of the missing drawing tool. But that I did not explicitly mention in the design... it might be very silly to point it out like this. Do it only if unavoidable}
+\section{Integrating a diagram drawing tool in Moodle}
 
 % A possible workaround for avoiding the need for a diagram drawing tool is Moodle's drag and drop question type. In our example, the students can add missing relationships to a picture of a diagram. 
 
@@ -235,8 +236,6 @@ This question is addressed by the feedback questionnaire (see Section~\ref{feedb
 
 % \todo{I need to do this I am afraid, i would not be able to justify not doing this and it seems quite likely that someone would wonder about it}
 
-% \todo{deployment}
-% \section{Deployment}
-
-% \todo{Deployment - only after winter submission}
+\todo{deployment}
+\section{Deployment}
 

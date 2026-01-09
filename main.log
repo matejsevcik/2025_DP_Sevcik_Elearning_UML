@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.12.8)  31 DEC 2025 11:21
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.12.8)  9 JAN 2026 09:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2084,6 +2084,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [32]
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 71.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2192,10 +2195,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [40]
+
+LaTeX Warning: Marginpar on page 41 moved.
+
+
+LaTeX Warning: Marginpar on page 41 moved.
+
 File: assets/images/implementation/theory_book_table_of_contents.png Graphic fi
 le (type bmp)
 <assets/images/implementation/theory_book_table_of_contents.png>
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2207,9 +2215,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: assets/images/implementation/theory_microlearning.png Graphic file (type 
 bmp)
 <assets/images/implementation/theory_microlearning.png>
-File: assets/images/implementation/exercises_code_vs_diagram.png Graphic file (
-type bmp)
-<assets/images/implementation/exercises_code_vs_diagram.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2219,6 +2227,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [42]
+File: assets/images/implementation/exercises_code_vs_diagram.png Graphic file (
+type bmp)
+<assets/images/implementation/exercises_code_vs_diagram.png>
 File: assets/images/implementation/exercises_general_question.png Graphic file 
 (type bmp)
 <assets/images/implementation/exercises_general_question.png>
@@ -2242,16 +2253,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[44
+[44]
 
-]
+LaTeX Warning: Marginpar on page 45 moved.
+
 File: assets/images/implementation/statistics3.png Graphic file (type bmp)
 <assets/images/implementation/statistics3.png>
 File: assets/images/implementation/statistics1.png Graphic file (type bmp)
 <assets/images/implementation/statistics1.png>
-File: assets/images/implementation/statistics2.png Graphic file (type bmp)
-<assets/images/implementation/statistics2.png>
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2260,6 +2269,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [45]
+File: assets/images/implementation/statistics2.png Graphic file (type bmp)
+<assets/images/implementation/statistics2.png>
 File: assets/images/implementation/feedback_questionnaire2.png Graphic file (ty
 pe bmp)
 <assets/images/implementation/feedback_questionnaire2.png>
@@ -2275,7 +2286,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: assets/images/implementation/feedback_results.png Graphic file (type bmp)
 
 <assets/images/implementation/feedback_results.png>
-)
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2285,15 +2296,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [47]
 
+LaTeX Warning: Marginpar on page 48 moved.
+
+
+LaTeX Warning: Marginpar on page 48 moved.
+
+)
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.59999pt}.
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[48
+[48] [49
 
-] [49]
+]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2392,8 +2410,17 @@ L3 programming layer <2020/03/25>
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 01A8CFEF5A3D7662271EA34C3D1DFC71;7317.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 0C106211E3BA29E4471B652E62CA0868;8151
+(rerunfilecheck)             After:  0188DAB322C481F2D151D72A79D00B00;8151.
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                main
@@ -2404,12 +2431,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42445 strings out of 402987
- 891719 string characters out of 5448524
- 1815597 words of memory out of 5000000
- 70441 multiletter control sequences out of 15000+600000
+ 42648 strings out of 402987
+ 896414 string characters out of 5448524
+ 1823032 words of memory out of 5000000
+ 70644 multiletter control sequences out of 15000+600000
  643889 words of font info for 124 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 103i,17n,108p,1981b,5344s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 103i,17n,108p,1981b,5350s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on main.pdf (75 pages).
