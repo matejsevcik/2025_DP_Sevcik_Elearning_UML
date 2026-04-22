@@ -2,10 +2,9 @@
 
 We decided to implement our course in Moodle \ac{lms}. Moodle satisfies the vast majority of our requirements - both functional and nonfunctional. 
 
-It is open source, easy to use, and it is possible to deploy on local servers, allowing us to control the amount of computational resources dedicated to it for future scaling. We can restrict access to a set of users defined by us. It stores information about students' progress, generating statistical reports about quizes automatically. Content can be added easily, with loads of plugins developed and maintained by community available that introduce features not present in basic Moodle itself.
+It is open source, easy to use, and it is possible to deploy on local servers, allowing us to control the amount of computational resources dedicated to it for future scaling. We can restrict access to a set of users defined by us. It stores information about students' progress, generating statistical reports about their behaviors and results automatically. Content can be added easily, with loads of plugins developed and maintained by community available that introduce features not present in basic Moodle itself.
 
-Moodle supports most of the proposed exercise types out of the box - matching exercises, code snippets, drag and drop, multiple choice, matching exercises and more. The biggest hindrance is the absence of a \ac{uml} editor. However, we found no other \ac{lms} that would provide this functionality without the need for a workaround, so that is not a decisive issue. For the first version, we decided to leave out exercises with direct diagram manipulation. \todo{We might change
-our minds about this one yet} Exercises are corrected automatically, feedback can be provided for each answer in an exercise. Tests and feedback forms are also implemented and ready to use in Moodle.
+Moodle supports most of the proposed exercise types out of the box - matching exercises, code snippets, drag and drop, multiple choice, and more. The biggest hindrance is the absence of a \ac{uml} editor. However, we found no other \ac{lms} that would provide this functionality without the need for a workaround, so that is not a decisive issue. For the first version, we decided to substitute the need for an editor with drag and drop exercises. Exercises are corrected automatically, feedback can be provided for each answer in an exercise. Tests and feedback forms are also implemented and ready to use in Moodle.
 
 \section[Nonfunctional requirements - Moodle]{Nonfunctional requirements - Moodle\footnotemark}
 \footnotetext{This section was made with the use of \ac{genai}}
@@ -27,7 +26,7 @@ Moodle stores data about students' quiz and question attempts. The data structur
 
 \textbf{Scalable and maintainable for future expansion}
 
-Moodle is designed to host multiple large courses, possibly even functioning as a website for whole educational institutions. We deployed our Moodle site on a private server that belongs to \ac{fiit}.\todo{havent done this yet, verify} The allocated resources were selected based on the expected number of users, but additional servers can be dedicated if more users are present. 
+Moodle is designed to host multiple large courses, possibly even functioning as a website for whole educational institutions. We deployed our Moodle site on a private server that belongs to \ac{fiit}. The allocated resources were selected based on the expected number of users, but additional servers can be dedicated if more users are present. 
 
 
 \textbf{Easily extensible content}
@@ -68,7 +67,7 @@ As long as the Moodle server is running, students can access the materials.
 
 
 \subsection{Theoretical content}
-We placed the chapter with explanations of concepts of the class diagram at the start of the course. It is implemented as a number of Moodle's book resource\footnote{Moodle, "Book resource", \url{https://docs.moodle.org/501/en/Book_resource}, accessed December 13, 2025.} instances.
+We placed the chapter with explanations of concepts of the class diagram at the start of the courses. It is implemented as a number of Moodle's book resource\footnote{Moodle, "Book resource", \url{https://docs.moodle.org/501/en/Book_resource}, accessed December 13, 2025.} instances.
 
 The \textbf{book resource} contains a number of pages with static content. It is structured like an actual book with a table of contents, chapters and subchapters. This way the student is aware and in control of the flow of their progress. It can be exported and printed to a .pdf file for future reference by the students as well.
 
@@ -118,11 +117,11 @@ Basic moodle questions still allow for a number of possible exercise types that 
 
 
 \subsection{Testing students' knowledge, feedback} \label{testing}
-Moodle's quiz activity\footnote{Moodle, "Lesson activity", \url{https://docs.moodle.org/501/en/Quiz_activity}, accessed December 13, 2025.} is a selection of exercises from a defined set. It is possible to have static quizes that contain the same exercises every time, or select a number of exercises at random from a set.
+Moodle's quiz activity\footnote{Moodle, "Quiz activity", \url{https://docs.moodle.org/501/en/Quiz_activity}, accessed December 13, 2025.} is a selection of exercises from a defined set. It is possible to have static quizes that contain the same exercises every time, or select a number of exercises at random from a set.
 
-We used the quiz activity both for the practice section and the final assessment. In the quiz settings, the practice sections show instant feedback for each response in each exercise after the student clicks a check button found under each exercise. They are allowed to retry each exercise multiple times, getting hints in between attempts as well. 
+We used the quiz activity for all the exercise sections. In the quiz settings, the practice sections show instant feedback for each response in each exercise after the student clicks a check button found under each exercise. They are allowed to retry each exercise multiple times, getting hints in between attempts as well. However, retrying a question multiple times reduces the amount of points received for the question.
 
-In the final assessment section, the immediate feedback is not present, and each question only allows one attempt. On top of that, students have to tell how certain they are of their responses. If they declare high confidence but select a wrong answer, they will get a penalty for it. If they express low confidence but select a correct response, they will be awarded with fewer points than maximal amount. 
+In the final assessment and introductory assessment sections, the immediate feedback is not present.  
 
 \begin{figure}[ht]
 \centering
@@ -138,7 +137,7 @@ In the final assessment section, the immediate feedback is not present, and each
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsection{Statistical reports} \label{statistics}
-Moodle provides statistics regarding individual quizes, exercises and the overall success of individual students. Reports can be downloaded in multiple formats including .csv. Statistics can be general, showing only the basics such as overall scores, or more nuanced and advanced statistics like effective weight or
+Moodle provides statistics regarding individual quizes, exercises and the overall success of individual students\footnote{Moodle, "Statistics", \url{https://docs.moodle.org/501/en/Statistics}, accessed December 13, 2025.}. Reports can be downloaded in multiple formats including .csv. Statistics can be general, showing only the basics such as overall scores, or more nuanced and advanced statistics like effective weight or
 discrimination index mainly useful for adaptive learning practices.
 
 \begin{figure}[ht]
