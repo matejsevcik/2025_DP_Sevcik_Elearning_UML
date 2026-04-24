@@ -235,6 +235,47 @@ This question is addressed by the feedback questionnaire (see Section~\ref{feedb
 
 % \todo{I need to do this I am afraid, i would not be able to justify not doing this and it seems quite likely that someone would wonder about it}
 
-\todo{deployment}
 \section{Deployment}
 
+We were given access to a server owned by \ac{fiit} for the duration of the experiment (15.3.2026-4.5.2026). The specifics of the server were as follows:
+
+\begin{itemize}
+    \item Operating system: Ubuntu 22.04 LTS \footnote{Canonical Ltd., "Ubuntu Server 22.04 LTS (Jammy Jellyfish) Cloud Image", \url{https://cloud-images.ubuntu.com/jammy/current/jammy-server-cloudimg-amd64.img}, accessed March 15, 2026.}
+    \item Number of virtual CPU cores: 2
+    \item Memory size (GB): 4
+    \item Data disk size (GB): 50
+\end{itemize}
+
+The amount of computational resources was requested based on the assumption that no more than 80 users would use the site, and it should handle up to 20 users at a single time. The disk size may seem large for the use case, but Moodle stores a lot of user data.
+
+
+% \textbf{Web server}
+
+% \textbf{Security}
+
+% -access via ssh for me
+Moodle is a web application. As the web server we chose Nginx.
+
+
+% Domain is needed to enable a secure https connection to the web server. 
+For the duration of the experiment, domain \texttt{fiiture.sk} was kindly provided by Ing. Juraj Vincúr, PhD. which allowed us to set up a secure connection using Let’s Encrypt\footnote{Let’s Encrypt, \url{https://letsencrypt.org/}, accessed March 15, 2026.}.
+
+Instead of restricting access to the website to only allow users with a \ac{fiit} \ac{vpn}, we disallowed the creation of new accounts. That means we generated accounts to our target students who were then sent credentials via email. We did not implement any additional access restrictions.
+
+% We set up a backup database 
+
+
+% -technology stack (verify. What is the FE doing?)
+% Web server	Nginx (main focus)
+% Backend	PHP 8.3 (FPM)
+% Database	MariaDB 10.11
+% Application	Moodle 5.1
+% Security - https - SSL via Let’s Encrypt using Certbot
+
+
+% -web server configuration (wth am i to write here? Non essential, leave out)
+% -database setup (what to tell here???)
+
+% -security - describe the database backups 
+
+% Limitations - no scaling, temporary deployment, no control over dns 
