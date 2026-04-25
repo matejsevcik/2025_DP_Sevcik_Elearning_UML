@@ -2,11 +2,16 @@
 
 \section{Solution description}
 
-When designing our intended class diagram course, we will take into account a number of requirements. Firstly, we have the platform or \ac{lms} on which to implement the course, then there are e-learning techniques to use, specific types of exercises and other educational content we want to apply, and lastly we need to propose an effective and objective evaluation method to determine the potential of the project for further research.
+When designing our intended class diagram courses, we will take into account a number of requirements. Firstly, we have the platform or \ac{lms} on which to implement the course, then there are e-learning techniques to use, specific types of exercises and other educational content we want to apply, and lastly we need to propose an effective and objective evaluation method to determine the potential of the project for further research. 
+
+Additional constraint that we need to account for is the scope of the course. Even though an ideal \ac{uml} course might guide the user through building an entire system, this course is complementary and the software modeling class's curriculum does not make space for it. Participation in this course is voluntary. For these reasons, we decided to restrict the course's scope to only one diagram type to test out the concept, and to fit all the content into one hour. 
+% A longer course would likely discourage participation from the students.
+
+The \ac{uml} class diagram was preferred over other diagram types, because it is one of the most prominent \ac{uml} diagram types - likely the most widely used one - and it is intuitive to understand. It directly links to coding which students tend to comprehend better than abstract diagrams \cite{umple}.
 
 \textbf{E-learning platform}
 
-We want to create the course on a preexisting \ac{lms}. Doing so will significantly reduce the development time, allowing us to focus on the educational content. 
+We want to create the courses on a preexisting \ac{lms}. Doing so will significantly reduce development time, allowing us to focus on the educational content. 
 
 The platform should satisfy the following conditions:
 
@@ -16,69 +21,91 @@ The platform should satisfy the following conditions:
     \item option to propose changes and improvements, report mistakes and bugs
     \item easy to include new features and content 
     \item free to use or open source
-    \item support for e-learning techniques described in the next section % gamification, microlearning, social learning, adaptive learning
+    \item support for e-learning techniques described in the next sections % gamification, microlearning, social learning, adaptive learning
     \item support for interactive exercises
-\end{itemize}
-
-\textbf{E-learning techniques}
-
-Based on our analysis, we concluded that the most suitable e-learning techniques are microlearning, gamification, adaptive learning and social learning. Our course will also apply self-directed learning, since a course can be taken at any time and at any place, and blended learning, as it is meant to be a complementary tool to normal classes rather than a stand-alone learning material.
-
-Under microlearning we understand breaking down content in the sections dedicated to explaining the concepts into small pieces. 
-
-Gamification offers the largest amount of possible features in an online course out of all the e-learning techniques. We plan to implement a system for awarding experience points for completing tasks, where reaching certain milestones will trigger some changes in the aesthetics of the course. They will be used for tracking and visualizing progress in the course and exercises will be ranked by difficulty - the more difficult exercises will award more points. Another gamification element we want to include is visually enhanced feedback.
-
-Adaptive learning should allow the course to propose content to the student based on their mistakes in exercises.
-
-When it comes to social learning, extensive collaborations on modeling tasks are not allowed by the time available to test out the proposed course. For this reason, we will restrict the practice to merely displaying a number of metrics to the users, such as the average score on a given exercise, average completion time or the overall progress of other students in the course. Doing so will apply some social pressure on the students to perform better and potentially trigger their competitive tendencies. This practice is sometimes mentioned as a part of gamification. 
-
-E-learning techniques that are to be implemented:
-
-\begin{itemize}
-    \item microlearning
-    \item gamification
-    \item adaptive learning
-    \item social learning 
-    \item self-paced learning
-    \item blended learning
 \end{itemize}
 
 \textbf{Content} 
 % POZN - V ODRAZKACH JE VIAC NAVRHOV NA OBSAH
 
-This section is aimed at describing what specific types of content the course should contain. We will divide it into three sections - one theoretical section dedicated to explaining concepts, one for practical exercises, and one for tests for skill assessment. There will also be a final test available for the purposes of documenting the student knowledge after taking the course. 
+This section is aimed at describing what specific types of content the course should contain. We will divide it into four sections - an introductory test to assess the starting point of the students, a theoretical section dedicated to explaining concepts, one for practical exercises, and one for final skill assessment after taking the course. The final test will be accompanied by a questionnaire.
 
-A desirable addition to the final test is an introductory test, which can be a part of adaptive learining; students will be recommended exercises and activities based on their answers in the introductory assessment.
+The theoretical section will contain a set of chapters each dedicated to a single concept or component of the class diagram. The concepts will be added gradually, simulating the process of building a diagram from scratch, while describing modeling decisions at each step.
+% interactive - hovering over an element will highlight the corresponding text, and the models should also be modifiable so that the students can explore the concepts in a more personal way. \todo{not cool, we should not call my incompetence to attention like this} 
+Since students understand \ac{uml} better when they see corresponding code \cite{umple}, there should also be a snippet of code available for diagram demonstrations. 
+% Examples of complete class diagrams with descriptions of concepts and discussions of modeling decisions will be included as well.
 
-The theoretical section will contain a set of chapters each dedicated to a single concept or component of the class diagram. The illustrative examples should be interactive - hovering over an element will highlight the corresponding text, and the models should also be modifiable so that the students can explore the concepts in a more personal way. 
-
-Since students understand \ac{uml} better when they see corresponding code \cite{umple}, there should also be a snippet of code available for each diagram demonstration.
-
-Examples of complete class diagrams with precise descriptions of concepts and modeling decisions will be included as well.
-
-The exercise section will be referred to after the completion of each theoretical chapter. The student will be given material recommendations based on the mistakes they made in the exercises. The available exercises will be of the following types:
+The exercise section will be referred to after the completion of each theoretical chapter. The student will be given material recommendations based on the mistakes they made in the exercises. A notable limitation of the exercise design is the absence of a \ac{uml} diagram editor. We do not have the capacity to employ teachers to manually correct modeling exercises and designing a comprehensive automated diagram assessment tool is a non-trivial problem that is out of scope of this project. We will substitute direct modeling tasks with a mix of exercises implemented using more general exercise designs. The available exercises will be of the following types:
 
 \begin{itemize} \label{exercises_design}
-    \item assign the type of relationship based on the description
-    \item find what is missing in a diagram with drag-and-drop fill-in option
-    \item find mistakes in a diagram
-    \item compare a diagram with its corresponding code. Find places where they do not align
-    \item match class diagram components with their descriptions and pictures
-    \item alter a diagram according to provided conditions
-    \item theoretical questions
+    \item Assign the type of relationship to a description
+    \item Fill in missing parts of a diagram
+    \item Find mistakes or improvements in a diagram
+    \item Compare a diagram with its corresponding code. Find places where they do not align
+    \item Match class diagram components with their descriptions and pictures
+    % \item Alter a diagram according to provided conditions
+    \item Theoretical questions
 \end{itemize}
 
-\todo{describe individual exercise types in more detail if needed more sauce}
+The sections with tests will consist of a number of exercises selected from across all the course's topics. The results will be recorded and analyzed later.
 
-The section with tests will consist of a number of exercises selected from across all of the course's topics. The results will be recorded and, again, the student will receive material and study topic recommendations based on the mistakes they made.
+The \textbf{course structure} is intended as follows:
+
+\begin{enumerate}
+    \item introductory assessment test
+    \item theoretical section
+    \item a collection of exercises
+    \item final assessment test + questionnaire
+\end{enumerate}
+
+\textbf{E-learning techniques}
+
+Based on our analysis, we concluded that the most suitable e-learning techniques are microlearning, gamification, adaptive learning and social learning. Our courses will also apply self-directed learning, since a course can be taken at any time and at any place, and blended learning, as it is meant to be a complementary tool to normal classes rather than a stand-alone learning material. 
+
+Under microlearning we understand breaking down content in the sections dedicated to explaining the concepts into small pieces. \todo{more justification, should not be hard to find, likely already in analysis}
+
+Gamification offers the largest amount of possible features in an online course out of all the e-learning techniques. 
+
+It is important to note that there is a limited number of gamified elements that can be implemented. One of the main constraints on them is that they must not overwhelm or confuse the students. The one-hour format of the courses does not provide the space to use more complicated mechanics associated with gamification, as they might take time to get used to. It was observed that some gamified courses slowed the learners down first before increasing their performance due to the need to adapt to the different format of the study method \cite{kim2015dynamical}.
+
+Examples of such techniques ae levels, experience points, purchasable items within the course or meaningful quests, which are common instances of gamification. Instead, we want to use storytelling and role-play, which might be even more efficient than artificial awards such as points \cite{gamification_personalization}. We will use the role-play as the main distinction between the 2 versions of the courses, giving the narrator of the instructions and theoretical sections a different personality - one will be fun and warm, the other brief, demanding and professional. We want to further enhance the mood of the courses by selecting appropriate - but applicable - e-learning techniques.
+
+The competitive version of the course will contain a leaderboard and display metrics of other students (more on that later in the same section). We decided not to use a timer for tasks even though it would fit the mood of the course, since it presents hindrance for students with lower base knowledge and encourages rushing through materials.
+\todo{we should really provide more justification for this. We have some, but competition is tricky, time pressure should be somewhere explicitly mentioned in analysis}
+
+The playful version of the course will strive to increase the students' emotional engagement by providing rewards for correct answers, while providing "fun failure" for incorrect responses in the form of memes and pictures. \todo{this needs rephrasing so it sounds academical, as well as better justification in analysis. BUT - points are rewards. We substitute reward with haha funny picture. So no real problem, just improve phrasing} Another element to compliment the design are badges awarded for reaching milestones within the course, which are a popular addition to gamified environments - despite not being sufficient to engage students on their own. Lastly, students will be given funny nicknames to attract their attention at the start of the course.
+
+On top of that, we plan to implement visual changes triggered by progress in the courses, mistakes or difficulty level of exercises. 
+% We plan to implement a system for awarding experience points for completing tasks, where reaching certain milestones will trigger some changes in the aesthetics of the course. They will be used for tracking and visualizing progress in the course and exercises will be ranked by difficulty - the more difficult exercises will award more points. Another gamification element we want to include is visually enhanced feedback.
+
+Adaptive learning should allow the course to propose content to the student based on their mistakes in exercises. Feedback should be specific and explain why an answer is incorrect.
+
+When it comes to social learning, collaborations on modeling tasks are not allowed by the experiment format - students will take the courses on their own outside of classes. For this reason, we will restrict the practice to displaying a number of metrics to the users, such as the average score on a given exercise, average completion time or the overall progress of other students in the course. Doing so will apply some social pressure on the students to perform better and potentially trigger their competitive tendencies. This practice is sometimes mentioned as a part of gamification. 
+
+Since such practices are sometimes questioned in literature, we will restrict this functionality to the competitive version of the course.
+
+E-learning techniques that are to be implemented:
+
+\begin{itemize}
+    \item microlearning
+    \item gamification (narration, badges...)
+    \item adaptive learning (feedback, content recommendations)
+    \item social learning (performance comparisons, leaderboards - restricted to competitive course)
+    \item self-paced learning
+    \item blended learning
+\end{itemize}
 
 % POZN - V ODRAZKACH JE VIAC NAVRHOV NA OBSAH
 
 \textbf{Evaluation}
 
-The first part of evaluation will consist of a questionnaire with questions about subjective opinions and impressions of the students. The most important questions will concern whether the students thought the course was helpful, whether it improved their understanding of the class diagram and, most importantly, if they thought the course was an improvement over merely using materials from lectures or reading articles.
+Tested students will be divided into 2 groups - each student will only take one of the course versions. That will allow for separate analysis of effects of the different course designs on the students.
 
-The second, objective part of evaluation will be a test containing theoretical questions and practical exercises about the class diagram. The test will be taken by both students who completed the course and those who did not, but still received an introduction to the class diagram in a university class.
+The first part of evaluation will consist of a questionnaire with questions about subjective opinions and impressions of the students. The most important questions will concern whether the students thought the course was helpful, whether it improved their understanding of the class diagram and, most importantly, how the e-learning elements impacted their perceptions and behaviors during and after taking the course.
+
+The second, objective part of the evaluation will consist of 2 tests containing theoretical questions and practical exercises about the class diagram. One of the tests will be taken before completing the course, the other one after. They will be used to evaluate the progress of the students. The same tests will be taken by both groups.
+
+The last part of the evaluation will measure the students' behavior - such as time taken to complete activities and the amount of interactions with the system's elements under each course design.
 
 \section{Requirements}
 
@@ -88,24 +115,24 @@ From the solution description, we can extract lists of functional and nonfunctio
 \textbf{Functional requirements}
 
 \begin{itemize}
-    \item Users can propose changes, improvements and report bugs easily
+    % \item Users can propose changes, improvements and report bugs easily
     \item Automated exercise/test correction with and instant personalized feedback
     \item Support for:
         \begin{itemize}
-            \item Gamification- points, milestones, visual feedback, difficulty indicators, badges...
+            \item Gamification- visual feedback, difficulty indicators, badges...
             \item Microlearning
-            \item Adaptive learning - content recommendations based on a student's results
-            \item Social learning - progress tracking, displaying other students' performance (anonymized)
+            \item Adaptive learning - content recommendations based on a student's results, feedback
+            \item Social learning - displaying other students' performance (anonymized)
         \end{itemize}
     \item Support for various interactive exercises and learning materials
         \begin{itemize}
-            \item Interactive diagrams (hover to highlight, modifiable diagrams)
+            % \item Interactive diagrams (hover to highlight, modifiable diagrams)
             \item UML code snippets linked to diagrams
-            \item Full examples with explanation of modeling decisions
+            \item Full diagram examples with explanation of modeling decisions
             \item Drag and drop exercises % fill in what is missing
-            \item Matching exercises
-            \item Find and correct mistakes in a diagram
-            \item Modify diagrams based on provided conditions
+            \item Matching exercises, multiple choice exercises
+            % \item Find and correct mistakes in a diagram
+            % \item Modify diagrams based on provided conditions
             \item Theoretical questions 
             % \item \todo{idk rn, mas dalsie poznamky v dp2.txt ale tie su pomerne chaoticke, prikladam v komentaroch}
             % Actually interesting ideas:
@@ -121,17 +148,18 @@ From the solution description, we can extract lists of functional and nonfunctio
         \end{itemize}
     \item Students need to provide anonymous feedback on the content
     \item Tests of students' skills
-        \begin{itemize}
-            \item Introductory assessment
-            \item Short tests within the course
-            \item Final assessment
-        \end{itemize}
+    \item Monitoring of students' behavior
+        % \begin{itemize}
+        %     \item Introductory assessment
+        %     \item Short tests within the course
+        %     \item Final assessment
+        % \end{itemize}
 \end{itemize}
 
 
 
 
-\textbf{Nonfunctional requirements (e-learning platform)}
+\textbf{Nonfunctional requirements}
 
 \begin{itemize}
     \item Easy to learn and use
@@ -145,32 +173,32 @@ From the solution description, we can extract lists of functional and nonfunctio
 \end{itemize}
 
 
-\section{Research questions}
+% \section{Research questions}
 
-\textbf{What are the most popular and most successful e-learning practices?}
+% \textbf{What are the most popular and most successful e-learning practices?}
 
-We performed research and based on our findings, the most prominent e-learning practices are gamification, microlearning, self-directed learning, blended learning, adaptive learning, video-based learning, scenario-based learning and social learning (see Section~\ref{02_elearning_techniques}).
+% We performed research and based on our findings, the most prominent e-learning practices are gamification, microlearning, self-directed learning, blended learning, adaptive learning, video-based learning, scenario-based learning and social learning (see Section~\ref{02_elearning_techniques}).
 
 
-\textbf{Which of these e-learning practices are applicable to a software modeling course?}
+% \textbf{Which of these e-learning practices are applicable to a software modeling course?}
 
-Based on other researchers' endeavors and our own schemes, the most promising e-learning practices for our software modeling course are gamification, microlearning, adaptive learning and social learning, along with blended learning and self-directed learning.
+% Based on other researchers' endeavors and our own schemes, the most promising e-learning practices for our software modeling course are gamification, microlearning, adaptive learning and social learning, along with blended learning and self-directed learning.
 
-\textbf{How can students' skills in software modeling be effectively evaluated?}
+% \textbf{How can students' skills in software modeling be effectively evaluated?}
 
-A test with exercises similar to those described in (see proposed exercises~\ref{exercises_design}) will be our main source of evaluation. On top of that, the students will be asked to create class diagrams as part of the subject this course is complementary to, so we can study the relationship between points awarded for their submitted diagrams and the points they received in the test. The experiment also needs students who would not take the course but will take the test anyway so that we can tell if taking the course improved their grades on the modeling task. 
+% A test with exercises similar to those described in (see proposed exercises~\ref{exercises_design}) will be our main source of evaluation. On top of that, the students will be asked to create class diagrams as part of the subject this course is complementary to, so we can study the relationship between points awarded for their submitted diagrams and the points they received in the test. The experiment also needs students who would not take the course but will take the test anyway so that we can tell if taking the course improved their grades on the modeling task. 
 
-This approach was chosen since we are lacking a tool for automated diagram correction assessment while not having enough capacity to check all the diagrams manually. Designing a fully functional tool of this sort is beyond the scope of this project.
+% This approach was chosen since we are lacking a tool for automated diagram correction assessment while not having enough capacity to check all the diagrams manually. Designing a fully functional tool of this sort is beyond the scope of this project.
 
-% mr smutny, dont forget
+% % mr smutny, dont forget
 
-% -our final assessment\\
-% -drawing diagrams in class (we will know which teams have members who took the course and then use their score from classes- we need to make sure we have teams made of only non-course-takers if we take this path. Alternatively we can use Mr. Smutny for this too.)\\
-% -we lack the auto assessment tool others were creating on Google Scholar, but the students will make diagrams anyway in class. The tool would be nice (but is not needed, emphasize that) so future work it is\\
-% \item What are the shortcomings of current software modeling education practices, and can they be reduced through the use of e-learning?
-\textbf{Is it worthwhile to increase the use of e-learning at \ac{fiit} in courses related to software modeling?}
+% % -our final assessment\\
+% % -drawing diagrams in class (we will know which teams have members who took the course and then use their score from classes- we need to make sure we have teams made of only non-course-takers if we take this path. Alternatively we can use Mr. Smutny for this too.)\\
+% % -we lack the auto assessment tool others were creating on Google Scholar, but the students will make diagrams anyway in class. The tool would be nice (but is not needed, emphasize that) so future work it is\\
+% % \item What are the shortcomings of current software modeling education practices, and can they be reduced through the use of e-learning?
+% \textbf{Is it worthwhile to increase the use of e-learning at \ac{fiit} in courses related to software modeling?}
 
-Outside the test and modeling exercise in which we will be able to assess the objective contribution of our course to the students' understanding of the class diagram, we will also conduct a feedback questionnaire to find the students' perception of the project; even if they achieve improvement in their software modeling skills by taking the course, future courses would not be successful unless they also take interest in taking them.
+% Outside the test and modeling exercise in which we will be able to assess the objective contribution of our course to the students' understanding of the class diagram, we will also conduct a feedback questionnaire to find the students' perception of the project; even if they achieve improvement in their software modeling skills by taking the course, future courses would not be successful unless they also take interest in taking them.
 
 \section[Workflows]{Workflows\footnotemark}
 \footnotetext{This section was made with the use of \ac{genai}}

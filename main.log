@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.12.8)  22 APR 2026 11:46
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.12.8)  25 APR 2026 22:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -743,6 +743,7 @@ Loading module `upgrade' ...
 \c@g@acro@genai@int=\count457
 \c@g@acro@fiit@int=\count458
 \c@g@acro@lms@int=\count459
+\c@g@acro@vpn@int=\count460
 ) (C:\Users\matej\AppData\Local\Programs\MiKTeX\tex/latex/newpx\newpxtext.sty
 Package: newpxtext 2025/06/07 v1.542 LaTeX and unicode LaTeX support for TeXGyr
 ePagellaX (Michael Sharpe)
@@ -776,13 +777,13 @@ Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
 )
 (C:\Users\matej\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring.sty
 (C:\Users\matej\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstring.tex
-\xs_counta=\count460
-\xs_countb=\count461
+\xs_counta=\count461
+\xs_countb=\count462
 )
 Package: xstring 2023/08/22 v1.86 String manipulations (CT)
 ) (C:\Users\matej\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.sty
 )
-\zpl@cnt=\count462
+\zpl@cnt=\count463
 (C:\Users\matej\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.sty
 Package: fontspec 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
 
@@ -790,17 +791,17 @@ Package: fontspec 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
 .sty
 Package: fontspec-xetex 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count463
-\l__fontspec_language_int=\count464
-\l__fontspec_strnum_int=\count465
-\l__fontspec_tmp_int=\count466
-\l__fontspec_tmpa_int=\count467
-\l__fontspec_tmpb_int=\count468
-\l__fontspec_tmpc_int=\count469
-\l__fontspec_em_int=\count470
-\l__fontspec_emdef_int=\count471
-\l__fontspec_strong_int=\count472
-\l__fontspec_strongdef_int=\count473
+\l__fontspec_script_int=\count464
+\l__fontspec_language_int=\count465
+\l__fontspec_strnum_int=\count466
+\l__fontspec_tmp_int=\count467
+\l__fontspec_tmpa_int=\count468
+\l__fontspec_tmpb_int=\count469
+\l__fontspec_tmpc_int=\count470
+\l__fontspec_em_int=\count471
+\l__fontspec_emdef_int=\count472
+\l__fontspec_strong_int=\count473
+\l__fontspec_strongdef_int=\count474
 \l__fontspec_tmpa_dim=\dimen262
 \l__fontspec_tmpb_dim=\dimen263
 \l__fontspec_tmpc_dim=\dimen264
@@ -858,14 +859,14 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (C:\Users\matej\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count474
+\inf@bad=\count475
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count475
-\leftroot@=\count476
+\uproot@=\count476
+\leftroot@=\count477
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count477
-\DOTSCASE@=\count478
+\classnum@=\count478
+\DOTSCASE@=\count479
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
@@ -878,20 +879,20 @@ LaTeX Info: Redefining \Bigg on input line 724.
 \big@size=\dimen281
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count479
+\macc@depth=\count480
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count480
+\c@MaxMatrixCols=\count481
 \dotsspace@=\muskip22
-\c@parentequation=\count481
-\dspbrk@lvl=\count482
+\c@parentequation=\count482
+\dspbrk@lvl=\count483
 \tag@help=\toks35
-\row@=\count483
-\column@=\count484
-\maxfields@=\count485
+\row@=\count484
+\column@=\count485
+\maxfields@=\count486
 \andhelp@=\toks36
 \eqnshift@=\dimen282
 \alignsep@=\dimen283
@@ -928,7 +929,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count486
+\c@section@level=\count487
 )
 (C:\Users\matej\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
 ty
@@ -936,14 +937,14 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
 \@linkdim=\dimen288
-\Hy@linkcounter=\count487
-\Hy@pagecounter=\count488
+\Hy@linkcounter=\count488
+\Hy@pagecounter=\count489
  (C:\Users\matej\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
 ) (C:\Users\matej\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count489
+\Hy@SavedSpaceFactor=\count490
  (C:\Users\matej\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
 )
@@ -955,7 +956,7 @@ Package hyperref Info: Plain pages OFF on input line 4210.
 Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4462.
-\c@Hy@tempcnt=\count490
+\c@Hy@tempcnt=\count491
 LaTeX Info: Redefining \url on input line 4801.
 \XeTeXLinkMargin=\dimen289
 
@@ -967,7 +968,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count491
+\Fld@menulength=\count492
 \Field@Width=\dimen290
 \Fld@charsize=\dimen291
 Package hyperref Info: Hyper figures OFF on input line 6078.
@@ -977,19 +978,19 @@ Package hyperref Info: backreferencing OFF on input line 6093.
 Package hyperref Info: Link coloring OFF on input line 6098.
 Package hyperref Info: Link coloring with OCG OFF on input line 6103.
 Package hyperref Info: PDF/A mode OFF on input line 6108.
-\Hy@abspage=\count492
-\c@Item=\count493
-\c@Hfootnote=\count494
+\Hy@abspage=\count493
+\c@Item=\count494
+\c@Hfootnote=\count495
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 
 (C:\Users\matej\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hxetex.def
 File: hxetex.def 2025-07-12 v7.01o Hyperref driver for XeTeX
 \pdfm@box=\box70
-\c@Hy@AnnotLevel=\count495
-\HyField@AnnotCount=\count496
-\Fld@listcount=\count497
-\c@bookmark@seq@number=\count498
+\c@Hy@AnnotLevel=\count496
+\HyField@AnnotCount=\count497
+\Fld@listcount=\count498
+\c@bookmark@seq@number=\count499
 
 (C:\Users\matej\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
 echeck.sty
@@ -1009,15 +1010,15 @@ Package: pdfpages 2025/07/23 v0.6g Insert pages of external PDF documents (AM)
 
 (C:\Users\matej\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
-\calc@Acount=\count499
-\calc@Bcount=\count500
+\calc@Acount=\count500
+\calc@Bcount=\count501
 \calc@Adimen=\dimen292
 \calc@Bdimen=\dimen293
 \calc@Askip=\skip114
 \calc@Bskip=\skip115
 LaTeX Info: Redefining \setlength on input line 86.
 LaTeX Info: Redefining \addtolength on input line 87.
-\calc@Ccount=\count501
+\calc@Ccount=\count502
 \calc@Cskip=\skip116
 )
 (C:\Users\matej\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
@@ -1032,13 +1033,13 @@ Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
 (C:\Users\matej\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\ppxetex.def
 File: ppxetex.def 2025/07/23 v0.6g Pdfpages driver for XeTeX (AM)
 )
-\pdfpages@includegraphics@status=\count502
+\pdfpages@includegraphics@status=\count503
 \AM@pagebox=\box71
 \AM@global@opts=\toks39
-\AM@pagecnt=\count503
+\AM@pagecnt=\count504
 \AM@toc@title=\toks40
 \AM@lof@heading=\toks41
-\c@AM@survey=\count504
+\c@AM@survey=\count505
 \AM@templatesizebox=\box72
 )
 (C:\Users\matej\AppData\Local\Programs\MiKTeX\tex/latex/todonotes\todonotes.sty
@@ -1096,14 +1097,14 @@ libraryfiltered.code.tex
 \pgf@yd=\dimen310
 \w@pgf@writea=\write5
 \r@pgf@reada=\read4
-\c@pgf@counta=\count505
-\c@pgf@countb=\count506
-\c@pgf@countc=\count507
-\c@pgf@countd=\count508
+\c@pgf@counta=\count506
+\c@pgf@countb=\count507
+\c@pgf@countc=\count508
+\c@pgf@countd=\count509
 \t@pgf@toka=\toks46
 \t@pgf@tokb=\toks47
 \t@pgf@tokc=\toks48
-\pgf@sys@id@count=\count509
+\pgf@sys@id@count=\count510
 
 (C:\Users\matej\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
 fg
@@ -1123,13 +1124,13 @@ File: pgfsys-dvipdfmx.def 2025-08-29 v3.1.11a (3.1.11a)
 s-common-pdf.def
 File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
 )
-\pgfsys@objnum=\count510
+\pgfsys@objnum=\count511
 )))
 (C:\Users\matej\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 ssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfsyssoftpath@smallbuffer@items=\count511
-\pgfsyssoftpath@bigbuffer@items=\count512
+\pgfsyssoftpath@smallbuffer@items=\count512
+\pgfsyssoftpath@bigbuffer@items=\count513
 )
 (C:\Users\matej\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 sprotocol.code.tex
@@ -1146,7 +1147,7 @@ code.tex)
 (C:\Users\matej\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
 r.code.tex
 \pgfmath@dimen=\dimen311
-\pgfmath@count=\count513
+\pgfmath@count=\count514
 \pgfmath@box=\box74
 \pgfmath@toks=\toks49
 \pgfmath@stack@operand=\toks50
@@ -1174,7 +1175,7 @@ ions.integerarithmetics.code.tex)
 code.tex)
 (C:\Users\matej\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
 .code.tex
-\c@pgfmathroundto@lastzeros=\count514
+\c@pgfmathroundto@lastzeros=\count515
 ))
 (C:\Users\matej\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
 tex)
@@ -1214,7 +1215,7 @@ File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfpic=\box75
 \pgf@hbox=\box76
 \pgf@layerbox@main=\box77
-\pgf@picture@serial@count=\count515
+\pgf@picture@serial@count=\count516
 )
 (C:\Users\matej\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 egraphicstate.code.tex
@@ -1249,8 +1250,8 @@ File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 eshade.code.tex
 File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@max=\dimen335
-\pgf@sys@shading@range@num=\count516
-\pgf@shadingcount=\count517
+\pgf@sys@shading@range@num=\count517
+\pgf@shadingcount=\count518
 )
 (C:\Users\matej\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 eimage.code.tex
@@ -1320,7 +1321,7 @@ Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
 (C:\Users\matej\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
 aryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@plot@mark@count=\count518
+\pgf@plot@mark@count=\count519
 \pgfplotmarksize=\dimen340
 )
 \tikz@lastx=\dimen341
@@ -1335,19 +1336,19 @@ File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \tikz@figbox@bg=\box81
 \tikz@tempbox=\box82
 \tikz@tempbox@bg=\box83
-\tikztreelevel=\count519
-\tikznumberofchildren=\count520
-\tikznumberofcurrentchild=\count521
-\tikz@fig@count=\count522
+\tikztreelevel=\count520
+\tikznumberofchildren=\count521
+\tikznumberofcurrentchild=\count522
+\tikz@fig@count=\count523
 
 (C:\Users\matej\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 matrix.code.tex
 File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfmatrixcurrentrow=\count523
-\pgfmatrixcurrentcolumn=\count524
-\pgf@matrix@numberofcolumns=\count525
+\pgfmatrixcurrentrow=\count524
+\pgfmatrixcurrentcolumn=\count525
+\pgf@matrix@numberofcolumns=\count526
 )
-\tikz@expandcount=\count526
+\tikz@expandcount=\count527
 
 (C:\Users\matej\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibrarytopaths.code.tex
@@ -1357,7 +1358,7 @@ File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 z/libraries\tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
-\c@@todonotes@numberoftodonotes=\count527
+\c@@todonotes@numberoftodonotes=\count528
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -1624,6 +1625,12 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 61--76
 [] 
  []
 
+
+Overfull \hbox (0.3199pt too wide) in paragraph at lines 81--82
+\TU/TeXGyrePagellaX(0)/m/n/10.95 výsledky a subjektívne pocity. Prínos projektu
+ spočíva najmä v tom, že náš kurz, analýza
+ []
+
 [9] [10]
 File: assets/zadanie_sk.pdf Graphic file (type pdf)
 <use assets/zadanie_sk.pdf>
@@ -1661,13 +1668,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 
-])
-\tf@toc=\write7
-\openout7 = `main.toc'.
-
-Package biblatex Info: Reference segment=1 on input line 60.
-Package biblatex Info: Setting label 'refsegment:01' on input line 60.
- (content/01-introduction/intro.tex
+]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1675,7 +1676,31 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[16]
+[16])
+\tf@toc=\write7
+\openout7 = `main.toc'.
+
+Package biblatex Info: Reference segment=1 on input line 60.
+Package biblatex Info: Setting label 'refsegment:01' on input line 60.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[17] (content/01-introduction/intro.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[18
+
+]
 Chapter 1.
 
 Underfull \hbox (badness 10000) in paragraph at lines 18--18
@@ -1692,7 +1717,7 @@ Overfull \hbox (24.33145pt too wide) in paragraph at lines 24--25
 
 [1
 
-]) (content/02-overview/overview.tex
+])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1700,7 +1725,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[2]
+[2] (content/02-overview/overview.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[3
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[4
+
+]
 Chapter 2.
 (content/02-overview/01_uml/01_uml_general.tex
 Underfull \hbox (badness 10000) in paragraph at lines 17--17
@@ -1722,9 +1767,7 @@ Overfull \hbox (27.2141pt too wide) in paragraph at lines 17--18
 ied-modeling-language/what-is-uml/,
  []
 
-[3
-
-]
+[5]
 File: assets/images/overview/Uml_diagram.png Graphic file (type bmp)
 <assets/images/overview/Uml_diagram.png>
 
@@ -1741,23 +1784,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[4]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[5]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[6]) (content/02-overview/01_uml/02_class_diagram.tex
+[6]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1766,6 +1793,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [7]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[8]) (content/02-overview/01_uml/02_class_diagram.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[9]
 Overfull \hbox (21.17783pt too wide) in paragraph at lines 52--53
 \TU/TeXGyrePagellaX(0)/m/n/10.95 classes, their attributes and operations, and 
 the relationships between different classes. 
@@ -1778,7 +1821,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[8]
+[10]
 File: assets/images/overview/class_example_arrows.png Graphic file (type bmp)
 <assets/images/overview/class_example_arrows.png>
 
@@ -1795,7 +1838,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[9]
+[11]
 Overfull \hbox (11.12573pt too wide) in paragraph at lines 126--127
 \TU/TeXGyrePagellaX(0)/m/n/10.95 tributes and behaviors of the superclass, allo
 wing for code reuse and polymorphism. 
@@ -1808,7 +1851,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[10]
+[12]
 File: assets/images/overview/class_diagram_demonstration.jpg Graphic file (type
  bmp)
 <assets/images/overview/class_diagram_demonstration.jpg>
@@ -1826,7 +1869,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[11])
+[13])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1834,13 +1877,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[12
+[14
 
 ]
 Chapter 3.
 (content/02-overview/02_elearning/01_introduction_to_elearning.tex)
 (content/02-overview/02_elearning/0X_comparison_of_elearning_and_analog.tex
-[13]) (content/02-overview/02_elearning/02_elearning_techniques.tex
+[15]) (content/02-overview/02_elearning/02_elearning_techniques.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1848,8 +1891,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[14]
-Overfull \hbox (6.04788pt too wide) in paragraph at lines 17--18
+[16]
+Overfull \hbox (6.04788pt too wide) in paragraph at lines 19--20
 []\TU/TeXGyrePagellaX(0)/m/n/10.95 Blended learning combines traditional face-t
 o-face instruction with digital learning meth-
  []
@@ -1861,7 +1904,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[15])
+[17]
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 40.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[18])
 (content/02-overview/02_elearning/03_elearning_techniques_class_diagram.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1870,7 +1924,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[16]
+[19]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[20]
 Underfull \hbox (badness 5288) in paragraph at lines 29--29
 [][][]\TU/TeXGyrePagellaX(0)/m/n/9 Christopher Pappas. ”Microlearning in Online
  Training: 5 Advantages and 3 Disadvan-
@@ -1883,6 +1945,7 @@ dustry\TU/TeXGyrePagellaX(0)/m/n/9 , March 15, 2016. Available at: []$[][][][][
 ] [] [] [] [][][][][][][][][][][][][][][][][] [] [][][] []
  []
 
+) (content/02-overview/02_elearning/0Y_elearning_platforms_comparison.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1890,7 +1953,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[17]) (content/02-overview/02_elearning/0Y_elearning_platforms_comparison.tex
+[21]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1898,7 +1961,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[18]
+[22]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1906,7 +1969,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[19]) (content/02-overview/02.1_other/students_issues_when_uml.tex
+[23]) (content/02-overview/02.1_other/students_issues_when_uml.tex
 Overfull \hbox (7.08884pt too wide) in paragraph at lines 3--4
 \TU/TeXGyrePagellaX(0)/m/n/10.95 are not encountered by students exclusively bu
 t also by graduates and practitioners. 
@@ -1926,7 +1989,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[20])
+[24])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1934,7 +1997,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[21]
+[25]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1942,163 +2005,86 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[22
+[26
 
 ]
 Chapter 4.
-(content/02-overview/04_related_work/related_work.tex [23]
-Underfull \hbox (badness 3439) in paragraph at lines 73--73
+(content/02-overview/04_related_work/related_work.tex [27]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[28]
+Underfull \hbox (badness 2080) in paragraph at lines 74--74
 []|\TU/TeXGyrePagellaX(0)/m/n/10 A gamified online course used
  []
 
 
-Underfull \hbox (badness 6078) in paragraph at lines 73--73
+Underfull \hbox (badness 3482) in paragraph at lines 74--74
 []|\TU/TeXGyrePagellaX(0)/m/n/10 An automated diagram assess-
  []
 
 
-Underfull \hbox (badness 4805) in paragraph at lines 73--73
+Underfull \hbox (badness 3386) in paragraph at lines 74--74
 []|\TU/TeXGyrePagellaX(0)/m/n/10 The group who used the tool
  []
 
 
-Underfull \hbox (badness 2080) in paragraph at lines 73--73
+Underfull \hbox (badness 1303) in paragraph at lines 74--74
 \TU/TeXGyrePagellaX(0)/m/n/10 scored higher in an exam than
  []
 
 
-Underfull \hbox (badness 6078) in paragraph at lines 73--73
+Underfull \hbox (badness 3482) in paragraph at lines 74--74
 []|\TU/TeXGyrePagellaX(0)/m/n/10 An automated diagram assess-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
 []|\TU/TeXGyrePagellaX(0)/m/n/10 Online learning tool applying
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
-[]|\TU/TeXGyrePagellaX(0)/m/n/10 Collaborative learning envi-
+Underfull \hbox (badness 5954) in paragraph at lines 74--74
+[]|\TU/TeXGyrePagellaX(0)/m/n/10 Collaborative learning environ-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 ronment – students discussed,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
 []|\TU/TeXGyrePagellaX(0)/m/n/10 The extensive collaboration
  []
 
 
-Underfull \hbox (badness 1430) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 be an effective learning method
- []
-
-
-Underfull \hbox (badness 4242) in paragraph at lines 73--73
+Underfull \hbox (badness 2662) in paragraph at lines 74--74
 []|\TU/TeXGyrePagellaX(0)/m/n/10 Searching for mistakes in each
  []
 
 
-Underfull \hbox (badness 1102) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 other’s diagrams and discussing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
 \TU/TeXGyrePagellaX(0)/m/n/10 and improved their modeling
  []
 
 
-Underfull \hbox (badness 6078) in paragraph at lines 73--73
+Underfull \hbox (badness 3482) in paragraph at lines 74--74
 []|\TU/TeXGyrePagellaX(0)/m/n/10 An automated diagram assess-
  []
 
 
-Underfull \hbox (badness 4193) in paragraph at lines 73--73
-\TU/TeXGyrePagellaX(0)/m/n/10 assessment tool saved teachers’
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+[]|\TU/TeXGyrePagellaX(0)/m/n/10 The proposed automated di-
  []
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[24]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[25]) (content/02-overview/05_summary_and_objectives/summary_and_objectives.tex
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[26])) (content/03-objectives-methodology/objectives-methodology.tex
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[27]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[28
-
-]
-Chapter 5.
-[29]) (content/04-design/design.tex
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[30]
-Chapter 6.
-[31
-
-]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[32]
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 71.
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+\TU/TeXGyrePagellaX(0)/m/n/10 agram assessment tool saved
+ []
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[33]
-Overfull \hbox (12.44629pt too wide) in paragraph at lines 95--96
-[]\TU/TeXGyrePagellaX(0)/m/n/10.95 Gamification- points, milestones, visual fee
-dback, difficulty indicators, badges... 
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+\TU/TeXGyrePagellaX(0)/m/n/10 out reducing the quality of
  []
 
 
@@ -2112,10 +2098,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[34]
-Overfull \hbox (7.69107pt too wide) in paragraph at lines 155--156
-[]\TU/TeXGyrePagellaX(0)/b/n/10.95 Which of these e-learning practices are appl
-icable to a software modeling course? 
+[29]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[30]) (content/02-overview/05_summary_and_objectives/summary_and_objectives.tex
+
+Overfull \hbox (6.89833pt too wide) in paragraph at lines 17--18
+[]\TU/TeXGyrePagellaX(0)/m/n/10.95 Storytelling, role-play and competition are 
+commonly mentioned as prominent e-learning
  []
 
 
@@ -2125,12 +2120,117 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[35]
+[31]))
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[32] (content/03-objectives-methodology/objectives-methodology.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[33
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[34
+
+]
+Chapter 5.
+
+Underfull \vbox (badness 5832) has occurred while \output is active []
+
+ [35])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[36] (content/04-design/design.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[37
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[38
+
+]
+Chapter 6.
+[39]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[40]
+
+LaTeX Warning: Citation 'kim2015dynamical' on page 41 undefined on input line 6
+9.
+
+
+LaTeX Warning: Marginpar on page 41 moved.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[41]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[42]
+Underfull \vbox (badness 1596) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[43]
 File: assets/images/design/course_diagram_conceptual_NO_watermark.jpg Graphic f
 ile (type bmp)
 <assets/images/design/course_diagram_conceptual_NO_watermark.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--186
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
 []|\TU/TeXGyrePagellaX(0)/m/n/10.95 Made with: Visual Paradigm, \TU/TeXGyrePage
 llaX(0)/m/it/10.95 Visual Paradigm Online\TU/TeXGyrePagellaX(0)/m/n/10.95 , []$
 [][][][][] [] [] [] [][][][][][] []
@@ -2143,12 +2243,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[36]
+[44]
 File: assets/images/design/student_activity_big_attempt_NO_watermark.jpg Graphi
 c file (type bmp)
 <assets/images/design/student_activity_big_attempt_NO_watermark.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--203
+Underfull \hbox (badness 10000) in paragraph at lines 231--231
 []|\TU/TeXGyrePagellaX(0)/m/n/10.95 Made with: Visual Paradigm, \TU/TeXGyrePage
 llaX(0)/m/it/10.95 Visual Paradigm Online\TU/TeXGyrePagellaX(0)/m/n/10.95 , []$
 [][][][][] [] [] [] [][][][][][] []
@@ -2161,18 +2261,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[37]
+[45]
 File: assets/images/design/sequence diagram 2nd try big attempt NO watermark.jp
 g Graphic file (type bmp)
 <assets/images/design/sequence diagram 2nd try big attempt NO watermark.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--218
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
 []|\TU/TeXGyrePagellaX(0)/m/n/10.95 Made with: Visual Paradigm, \TU/TeXGyrePage
 llaX(0)/m/it/10.95 Visual Paradigm Online\TU/TeXGyrePagellaX(0)/m/n/10.95 , []$
 [][][][][] [] [] [] [][][][][][] []
  []
 
-) (content/05-implementation/implementation.tex
+)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2180,11 +2280,29 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[38]
-Chapter 7.
-[39
+[46] (content/05-implementation/implementation.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[47
 
 ]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[48
+
+]
+Chapter 7.
+[49]
 Underfull \vbox (badness 6188) has occurred while \output is active []
 
 
@@ -2195,12 +2313,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[40]
+[50]
 
-LaTeX Warning: Marginpar on page 41 moved.
+LaTeX Warning: Marginpar on page 51 moved.
 
 
-LaTeX Warning: Marginpar on page 41 moved.
+LaTeX Warning: Marginpar on page 51 moved.
 
 File: assets/images/implementation/theory_book_table_of_contents.png Graphic fi
 le (type bmp)
@@ -2212,7 +2330,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[41]
+[51]
 File: assets/images/implementation/theory_microlearning.png Graphic file (type 
 bmp)
 <assets/images/implementation/theory_microlearning.png>
@@ -2227,7 +2345,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[42]
+[52]
 File: assets/images/implementation/exercises_code_vs_diagram.png Graphic file (
 type bmp)
 <assets/images/implementation/exercises_code_vs_diagram.png>
@@ -2242,7 +2360,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[43]
+[53]
 File: assets/images/implementation/exercises_feedback.png Graphic file (type bm
 p)
 <assets/images/implementation/exercises_feedback.png>
@@ -2254,9 +2372,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[44]
+[54]
 
-LaTeX Warning: Marginpar on page 45 moved.
+LaTeX Warning: Marginpar on page 55 moved.
 
 File: assets/images/implementation/statistics3.png Graphic file (type bmp)
 <assets/images/implementation/statistics3.png>
@@ -2269,7 +2387,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[45]
+[55]
 File: assets/images/implementation/statistics2.png Graphic file (type bmp)
 <assets/images/implementation/statistics2.png>
 File: assets/images/implementation/feedback_questionnaire2.png Graphic file (ty
@@ -2283,7 +2401,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[46]
+[56]
 File: assets/images/implementation/feedback_results.png Graphic file (type bmp)
 
 <assets/images/implementation/feedback_results.png>
@@ -2295,14 +2413,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[47]
+[57]
 
-LaTeX Warning: Marginpar on page 48 moved.
+LaTeX Warning: Marginpar on page 58 moved.
 
 
-LaTeX Warning: Marginpar on page 48 moved.
+Overfull \hbox (8.7273pt too wide) in paragraph at lines 261--262
+\TU/TeXGyrePagellaX(0)/m/n/10.95 raj Vincúr, PhD. which allowed us to set up a 
+secure connection using Let’s Encrypt[][][]. 
+ []
 
-)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2310,7 +2430,53 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[48] [49
+[58])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[59] (content/06-evaluation/eva.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[60
+
+]
+Chapter 8.
+) [61
+
+] (content/07-conclusion/conclusion.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[62
+
+]
+Chapter 9.
+) [63
+
+] (content/08-resume/resume.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[64
+
+]) [65
 
 ]
 
@@ -2320,13 +2486,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[50
+[66
+
+] [67]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[68
 
 ] (main.lof)
 \tf@lof=\write8
 \openout8 = `main.lof'.
 
- [51]
+ [69]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2334,13 +2510,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[52
+[70
 
 ] (main.lot)
 \tf@lot=\write9
 \openout9 = `main.lot'.
 
- [53]
+ [71]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2348,9 +2524,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[54
+[72
 
-] [55]
+]
+Overfull \hbox (0.23888pt too wide) in paragraph at lines 117--117
+[]\TU/TeXGyrePagellaX(0)/m/n/10.95 Yung-Ming Cheng. “  What makes learners enha
+nce learning outcomes in MOOCs?
+ []
+
+[73]
 Overfull \hbox (0.56276pt too wide) in paragraph at lines 117--117
 \TU/TeXGyrePagellaX(0)/m/n/10.95 Collaborative Learning”. In: \TU/TeXGyrePagell
 aX(0)/m/it/10.95 2023 IEEE Frontiers in Education Conference (FIE)\TU/TeXGyrePa
@@ -2358,6 +2540,13 @@ gellaX(0)/m/n/10.95 . IEEE.
  []
 
 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[74]
 Overfull \hbox (3.16162pt too wide) in paragraph at lines 117--117
 \TU/TeXGyrePagellaX(0)/m/n/10.95 UML diagram Evaluation”. In: \TU/TeXGyrePagell
 aX(0)/m/it/10.95 Academic Journal of Nawroz University \TU/TeXGyrePagellaX(0)/m
@@ -2372,7 +2561,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[56]
+[75]
 \openout2 = `appendices/digital_medium.aux'.
 
  (appendices/digital_medium.tex
@@ -2532,7 +2721,7 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 1FE728D753DCD6F5E7E704FCF174EB90;9274.
+(rerunfilecheck)             Checksum: B86BD9CEA8D3C43608E19030E44178BC;10570.
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                main
@@ -2543,12 +2732,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42755 strings out of 402987
- 901260 string characters out of 5448524
- 1825947 words of memory out of 5000000
- 70736 multiletter control sequences out of 15000+600000
- 643897 words of font info for 124 fonts, out of 8000000 for 9000
+ 42949 strings out of 402987
+ 908126 string characters out of 5448524
+ 1834746 words of memory out of 5000000
+ 70918 multiletter control sequences out of 15000+600000
+ 644219 words of font info for 125 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 103i,17n,108p,1981b,5350s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 103i,17n,108p,1981b,5928s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (83 pages).
+Output written on main.pdf (104 pages).
