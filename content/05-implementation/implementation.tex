@@ -1,4 +1,4 @@
-\chapter{Implementation}
+\chapter{Implementation \label{cha:impl}}
 
 We decided to implement our course in Moodle \ac{lms}. Moodle satisfies the vast majority of our requirements - both functional and nonfunctional. 
 
@@ -46,25 +46,9 @@ As long as the Moodle server is running, students can access the materials.
 
 \section{Functional requirements}
 
-\subsection{E-learning techniques}
+-briefly how moodle satisfies or not satisfies the functional reqs
 
-\textbf{Microlearning} is easy to implement - we broke the theoretical section into small chapters, where each chapter contains only 1 concept. There are also exercises in between theory to make the content more engaging.
-
-
-\textbf{Blended learning} in our course is implicit. The course is to be used as a part of an actual university class.
-
-
-\textbf{Self-paced learning} - students will be allowed to take the course whenever it suits them, and will not have a time limit on finishing it after they start.
-
-
-\textbf{Gamification} \todo{maybe I will implement it yet}
-
-
-\textbf{Adaptive learning} - \todo{maybe I will implement later - just will leave personalized feedback though. Maybe every exercise will have a tag and then they will be told which topics are the hardest? Look into it}
-
-
-\textbf{Social learning} - to induce the students' sense of competitiveness, each exercise displays the average success rate of other participants. In some cases, the best and the average time the exercise took to complete can be displayed as well. \todo{I did not do this yet}
-
+\section{Course content}
 
 \subsection{Theoretical content}
 We placed the chapter with explanations of concepts of the class diagram at the start of the courses. It is implemented as a number of Moodle's book resource\footnote{Moodle, "Book resource", \url{https://docs.moodle.org/501/en/Book_resource}, accessed December 13, 2025.} instances.
@@ -189,21 +173,40 @@ Collecting feedback from participants is one of the most important parts of the 
 
 \FloatBarrier
 
-\section{Research questions}
+% \section{Research questions}
 
-Some of our research questions were addressed in the design chapter. This chapter concerns with acquiring answers to these questions:
+% Some of our research questions were addressed in the design chapter. This chapter concerns with acquiring answers to these questions:
 
-\textbf{How can students' skills in software modeling be effectively evaluated?}
+% \textbf{How can students' skills in software modeling be effectively evaluated?}
 
-Previous sections (see Sections~\ref{testing} and ~\ref{statistics}) describe how students can be tested and how their results will be processed. The final assessment quiz consists of various exercises both theoretical and more practical, while also requiring the students to tell how sure they are of their answers. The test will be taken by a group of students who did not take the course as well as a group who did take our course. \todo{is it possible to compare their actual class diagrams from class?}
+% Previous sections (see Sections~\ref{testing} and ~\ref{statistics}) describe how students can be tested and how their results will be processed. The final assessment quiz consists of various exercises both theoretical and more practical, while also requiring the students to tell how sure they are of their answers. The test will be taken by a group of students who did not take the course as well as a group who did take our course. \todo{is it possible to compare their actual class diagrams from class?}
 
 
-% \item What are the shortcomings of current software modeling education practices, and can they be reduced through the use of e-learning?
-\textbf{Is it worthwhile to increase the use of e-learning at \ac{fiit} in courses related to software modeling?}
+% % \item What are the shortcomings of current software modeling education practices, and can they be reduced through the use of e-learning?
+% \textbf{Is it worthwhile to increase the use of e-learning at \ac{fiit} in courses related to software modeling?}
 
-This question is addressed by the feedback questionnaire (see Section~\ref{feedback}). Participants of the experiment will express their sentiments regarding this project. Results of the final assessment quiz will be taken into account as well - if students who took the course score significantly higher than those who did not take it, it would be an indication that making e-learning materials on the topic of software modeling is promising.
+% This question is addressed by the feedback questionnaire (see Section~\ref{feedback}). Participants of the experiment will express their sentiments regarding this project. Results of the final assessment quiz will be taken into account as well - if students who took the course score significantly higher than those who did not take it, it would be an indication that making e-learning materials on the topic of software modeling is promising.
 
-\todo{deviations from design}
+\Section{E-learning techniques}
+
+\textbf{Microlearning} is easy to implement - we broke the theoretical section into small chapters, where each chapter contains only 1 concept. There are also exercises in between theory to make the content more engaging.
+
+
+\textbf{Blended learning} in our course is implicit. The course is to be used as a part of an actual university class.
+
+
+\textbf{Self-paced learning} - students will be allowed to take the course whenever it suits them, and will not have a time limit on finishing it after they start.
+
+
+\textbf{Gamification} \todo{maybe I will implement it yet}
+
+
+\textbf{Adaptive learning} - \todo{maybe I will implement later - just will leave personalized feedback though. Maybe every exercise will have a tag and then they will be told which topics are the hardest? Look into it}
+
+
+\textbf{Social learning} - to induce the students' sense of competitiveness, each exercise displays the average success rate of other participants. In some cases, the best and the average time the exercise took to complete can be displayed as well. \todo{I did not do this yet}
+
+
 \section{Deviations from design}
 % -gamification-too short\\
 % -adaptive learning-too short\\
@@ -212,12 +215,12 @@ This question is addressed by the feedback questionnaire (see Section~\ref{feedb
 % -exercises not described but made\\
 % -social learning with view of how the other students did with the question (but tbh we should implement this, so just dont forget but dont write here)
 
-\todo{how missing stuff can be implemented}
-\section{How missing sections can be implemented}
+% \todo{how missing stuff can be implemented}
+% \section{How missing sections can be implemented}
 % -...gpt and moodle doc\\
 
-\todo{discussion of the missing drawing tool. But that I did not explicitly mention in the design... it might be very silly to point it out like this. Do it only if unavoidable}
-\section{Integrating a diagram drawing tool in Moodle}
+% \todo{discussion of the missing drawing tool. But that I did not explicitly mention in the design... it might be very silly to point it out like this. Do it only if unavoidable}
+% \section{Integrating a diagram drawing tool in Moodle}
 
 % A possible workaround for avoiding the need for a diagram drawing tool is Moodle's drag and drop question type. In our example, the students can add missing relationships to a picture of a diagram. 
 
@@ -262,6 +265,8 @@ For the duration of the experiment, domain \texttt{fiiture.sk} was kindly provid
 
 Instead of restricting access to the website to only allow users with a \ac{fiit} \ac{vpn}, we disallowed the creation of new accounts. That means we generated accounts to our target students who were then sent credentials via email. We did not implement any additional access restrictions.
 
+\todo{moodle technology stack, briefly: nginx, php, mariadb...}
+
 % We set up a backup database 
 
 
@@ -279,3 +284,7 @@ Instead of restricting access to the website to only allow users with a \ac{fiit
 % -security - describe the database backups 
 
 % Limitations - no scaling, temporary deployment, no control over dns 
+
+% \section{Technologies used in the project}
+
+% -bullet points with what i used - dra
