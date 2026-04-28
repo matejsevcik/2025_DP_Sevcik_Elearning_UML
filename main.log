@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.12.8)  28 APR 2026 00:54
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.12.8)  28 APR 2026 22:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2470,7 +2470,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 Chapter 8.
-) [61] (content/07-conclusion/conclusion.tex
+
+Overfull \hbox (33.56471pt too wide) in paragraph at lines 9--10
+\TU/TeXGyrePagellaX(0)/m/n/10.95 jective perception. The courses were available
+ to students between 7.4.2026 and 24.4.2026. 
+ []
+
+[61]
+
+LaTeX Warning: Reference `appendix:questionnaire' on page 62 undefined on input
+ line 29.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2478,13 +2488,108 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[62
+[62]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.77             \item first_
+                             group_score -
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-]
-Chapter 9.
-) [63
 
-] (content/08-resume/resume.tex
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.78             \item
+                       second_group_score -
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.78             \item s
+                        econd_group_score -
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.78             \item second_
+                              group_score -
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79             \item
+                       improvement -
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.79             \item i
+                        mprovement -
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+LaTeX Warning: Reference `appendix:reports' on page 63 undefined on input line 
+89.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.104             \item activity_
+                                 name - name of the activity (Introductory a...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.105             \item
+                        interactions - number of interactions with an activity
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.105             \item i
+                         nteractions - number of interactions with an activity
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (103.71329pt too wide) in paragraph at lines 104--105
+[]\TU/TeXGyrePagellaX(0)/m/n/10.95 activity$[]\OML/cmm/m/it/10.95 ame \OMS/cmsy
+/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 nameoftheactivity\OT1/cmr/m/n/10.95 (\OML/cm
+m/m/it/10.95 Introductoryassessmentquiz; Classesandobjectstheorypage:::\OT1/cmr
+/m/n/10.95 )
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
+
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2492,11 +2597,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[64
+[63]
 
-]) [65
+LaTeX Warning: Reference `appendix:moodle_logs' on page 64 undefined on input l
+ine 114.
 
-]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[64])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[65] (content/07-conclusion/conclusion.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2506,7 +2627,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [66
 
-] [67]
+]
+Chapter 9.
+) [67
+
+] (content/08-resume/resume.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2516,12 +2641,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [68
 
-]
-No file main.lof.
-\tf@lof=\write8
-\openout8 = `main.lof'.
+]) [69
 
-[69]
+]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2531,12 +2653,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [70
 
-]
-No file main.lot.
-\tf@lot=\write9
-\openout9 = `main.lot'.
-
-[71]
+] [71]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2546,7 +2663,37 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [72
 
-] [73]
+]
+No file main.lof.
+\tf@lof=\write8
+\openout8 = `main.lof'.
+
+[73]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[74
+
+]
+No file main.lot.
+\tf@lot=\write9
+\openout9 = `main.lot'.
+
+[75]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[76
+
+] [77]
 Overfull \hbox (3.5658pt too wide) in paragraph at lines 117--117
 \TU/TeXGyrePagellaX(0)/m/it/10.95 tion \TU/TeXGyrePagellaX(0)/m/n/10.95 31.4 (2
 020), pp. 282–293. \TU/TeXGyrePagellaX(0)/m/sc/10.95 url\TU/TeXGyrePagellaX(0)/
@@ -2561,7 +2708,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[74]
+[78]
 Package biblatex Info: Reference segment=0 on input line 119.
 
 
@@ -2571,7 +2718,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[75]
+[79]
 \openout2 = `appendices/digital_medium.aux'.
 
  (appendices/digital_medium.tex
@@ -2756,7 +2903,7 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  877FA38856B07DEC4EE4C49CF7882D36;9921.
+(rerunfilecheck)             After:  D672705949B975EB222C1837BB68FEA2;10164.
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                main
@@ -2767,12 +2914,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42852 strings out of 402987
- 905695 string characters out of 5448524
- 1809746 words of memory out of 5000000
- 70843 multiletter control sequences out of 15000+600000
+ 42921 strings out of 402987
+ 907316 string characters out of 5448524
+ 1812747 words of memory out of 5000000
+ 70912 multiletter control sequences out of 15000+600000
  644123 words of font info for 125 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 103i,17n,108p,1981b,5386s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 103i,17n,108p,1981b,5403s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (102 pages).
+Output written on main.pdf (106 pages).

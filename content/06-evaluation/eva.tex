@@ -1,11 +1,182 @@
-\chapter{Experiments and Evaluation \label{cha:eva}}
+\chapter{Experiment and Evaluation \label{cha:eva}}
 
 \section{Experiment}
 
-dsadasd
+We tested the created courses on a sample of computer science students at \ac{fiit}. The students were all in their second year and attending a software modeling class. Each student was given an account on our Moodle site and was enrolled in one of the courses. We decided to assign the course randomly. It is likely that if we let students choose the course variant on their own, only those who enjoy competitive activities would choose the competitive variant. That might give us biased results with overly positive reception of the competitive approach to educational content - which has been demonstrated to be a potentially polarizing factor, as not some people find it more unpleasant than motivating\todo{ref if possible}.
+
+Participation in the experiment was voluntary. Students who filled in their assigned course were given bonus points (2) to their software modeling class, and those who scored in top 30\% across both courses were given double the credits (4). In total, 35 students completed their course - 14 for the competitive variant, 21 for the playful variant. Some of the participants dropped out, resulting in varying amounts of activity completions throughout the courses. 
+
+We collected data describing the participants' behavior, objective performance and subjective perception. The courses were available to students between 7.4.2026 and 24.4.2026.
 
 \section{Data collection}
 
+\textbf{Questionnaires}
+
+We collected data from 2 questionnaires - 1 taken before and 1 after filling out the courses. The answers were anonymized, and it is not possible to trace an answer to a specific user. We only knew which course variant the answer belongs to.
+
+Unless stated otherwise, the questions had fixed answer selection on a scale from 0-10, where 0 means strongly disagree and 10 means strongly agree.
+
+The first questionnaire contained questions trying to assess the students' baseline attitudes and self-reported skill level:	
+
+\begin{itemize}
+    \item How would you rate your UML skills? (Likert 0-10)
+    \item What is your prior experience with UML? (Multiple choice)
+    \item How interested are you in software modeling? (Likert 0-10)
+    \item What is your attitude towards playful study materials? (Likert 0-10)
+    \item What is your attitude towards competitive activities? (Likert 0-10)
+\end{itemize}
+
+The second questionnaire had significantly more questions, but they were still aimed at the students' attitudes towards e-learning, their satisfaction with the experience and self-reported skill level, including a number of open-ended questions. Full questionnaire is provided in Appendix~\ref{appendix:questionnaire}.\todo{ensure this is correct}
+
+\begin{itemize}
+    \item How would you rate your UML skills? (Likert 0-10)
+    \item I would like to encounter more e-learning materials during my studies at \ac{fiit}. (Likert 0-10)
+    \item This course helped me develop a better understanding of the UML class diagram. (Likert 0-10)
+    \item I would voluntarily take a similar course. (Likert 0-10)
+    \item The course kept me engaged. (Likert 0-10)
+\end{itemize}
+
+\textbf{Reports}
+
+We collected data regarding the students' objective performance. Names and email addresses were omitted from the reports, but we did keep the user identifiers. 
+
+Each question is categorized using tags, allowing us to examine the scores across various topics. We have average scores for each exercise and the overall number of attempts at them. This data was aggregated across all users divided by course variant.
+
+The introductory and final assessment quizzes contain very similar exercises. That makes the difference between their relative scores a reasonable measure of progress of individual students. This data was collected per individual.
+
+In similar fashion, we examined the performance in the first half of the courses' quizzes compared to the second half, and the students' final grades.
+
+\begin{itemize}
+    \item Most difficult question
+        \begin{itemize}
+            \item question\_name - n
+            \item quiz\_name - 
+            \item tags - 
+            \item attempts - 
+            \item avg\_score\_percent - 
+            \item variability - 
+            \item difficulty\_label - 
+        \end{itemize}
+    \item Tag\_difficulty\_cleaner - 
+        \begin{itemize}
+            \item tag - 
+            \item average\_score - 
+        \end{itemize}
+    \item Average\_score\_per\_quiz\_per\_course
+        \begin{itemize}
+            \item course\_id - 
+            \item quiz\_name - 
+            \item avg\_score\_percent - 
+        \end{itemize}
+    \item Final grade across all users
+        \begin{itemize}
+            \item finalgrade - 
+        \end{itemize}
+    \item First half VS second half
+        \begin{itemize}
+            \item first_group_score - 
+            \item second_group_score - 
+            \item improvement - 
+        \end{itemize}
+    \item Intro vs final quiz improvement
+        \begin{itemize}
+            \item intro\_score - 
+            \item final\_score - 
+            \item improvement - 
+        \end{itemize}
+\end{itemize}
+
+Full reports are provided in Appendix~\ref{appendix:reports}.\todo{ensure this is correct and anonymized correctly}
+
+% The data was collected per-student in most cases, though in some cases we only used per-quiz aggregations.
+
+\textbf{Moodle logs}
+
+Moodle stores data about user behavior, such as a user's activity start and end times, interactions with the system, or number of attempts for activities. We gain insights into how many times they viewed theory sections and how many times they interacted with quizes (most of those interactions are reattempts at exercises). We collected this data for each user separately.
+
+Measuring time taken to go through the course is unreliable, since the material is self-paced and students could take breaks in between course activities. For this reason, we approximated the time spent by only including quiz attempts. The data are still noisy, because the students could still take breaks in the middle of a quiz. But that is less likely and left us with only a handful of outliers.
+
+The most important features of the resulting datasets were:
+\begin{itemize}
+    \item Interactions 		
+        \begin{itemize}
+            \item interaction\_type - name of the interaction type (theory/quiz/feedback)
+            \item activity_name - name of the activity (Introductory assessment quiz, Classes and objects theory page...)
+            \item interactions - number of interactions with an activity
+        \end{itemize}
+    \item activity\_time\_sums
+        \begin{itemize}
+            \item total\_time\_seconds - total time spent on quizzes in seconds
+            \item total\_attempts - number of attempts at quizzes in total (5 at minimum)
+        \end{itemize}
+\end{itemize}
+
+Full reports are provided in Appendix~\ref{appendix:moodle_logs}.\todo{ensure this is correct}
+
+\section{Data preparation}
+
+\textbf{Questionnaire}
+
+\textbf{Reports and logs}
+
+We combined the logs and reports from the previous section into a single table for better clarity and processing. This was only applied to reports that contained data for individual students - data about exercises, categories and questionnaire answers were not included. 
+\todo{link to appendix}
+
+-Derived features:
+    -theory/quiz interactions ratio
+    -restructure interactions so that they are in buckets
+    -theory clicks
+
+-Data bucketing
+    -duration cat
+    -(interactions)
+
+-cleaning
+    -time was capped at 2:15 hrs per user
+    -removed feedback interactions
+    
+%     # we have theory pages in C: 3+10+10+3=26
+% # theory pages in P: 3+9+12+3=27
+
+The resulting dataset contained features describing each student's performance, behavior and derived metrics. The resulting features were:\todo{add derived features when made up, add explanations to the features}
+
+\begin{itemize}
+    \item id - user id for the participants' identification
+    \item finalgrade - 
+    \item improvement - 
+    \item intro\_score - 
+    \item final\_score - 
+    \item duration\_mins - 
+    \item total\_attempts - 
+    \item quiz - 
+    \item theory - number of interactions with the theory pages
+    \item !!!!!!!!!!
+\end{itemize}
+
+\textbf{Exercises}
+
+The data needed very little cleaning
+
+There was one exercise with very low scores that made the categories it belonged to appear more difficult than they were. The exercise was removed from the categories, but kept for overall aggregate measurements. 
+
+
+
 \section{Result analysis}
+
+\section{Limitations}
+
+\todo{pekne rozpisat}
+
+\begin{itemize}
+    \item Anonymized questionnaires
+    \item some data gathered is tricky to interpret - time, interactions \todo{any other issues with data?}
+    \item size and time of the course - not allow for some of the more advanced activities in e-learning, cannot overload the students
+    \item baseline knowledge - students were already familiar with the class diagram
+    \item setting - impossibility of direct group activities
+    \item exercises - would be better to have an automated assessment tool and use draw.io and some diagram-code conversion tool instead of adapting general purpose exercise types, but outside the scope of 1 DP project
+    \item moodle - what is difficult to do there?
+    \item activities restricted to "no intervention from teachers" - no larger or more complex exercises, only automated correction
+    % \item nepytal som sa v dotazniku na to, ake aktivity sa im pacili, to som ale kar ja a nemal by som poukazovat na neobhajitelne zle dizajn rozhodnutie
+\end{itemize}
 
 \section{Summary}
