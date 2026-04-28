@@ -38,51 +38,51 @@ The second questionnaire had significantly more questions, but they were still a
 
 \textbf{Reports}
 
-We collected data regarding the students' objective performance. Names and email addresses were omitted from the reports, but we did keep the user identifiers. 
+We collected data regarding the students' objective performance. Names and email addresses were omitted from the reports, but we did keep the user identifiers. There are 2 variants of each mentioned report - one for the competitive course version and one for the playful course. That means though no feature describes which course a data point belongs to, the data are separated by course implicitly. The only exception is Average\_score\_per\_quiz\_per\_course, which contain courseid as a feature.
 
 Each question is categorized using tags, allowing us to examine the scores across various topics. We have average scores for each exercise and the overall number of attempts at them. This data was aggregated across all users divided by course variant.
 
-The introductory and final assessment quizzes contain very similar exercises. That makes the difference between their relative scores a reasonable measure of progress of individual students. This data was collected per individual.
+The introductory and final assessment quizzes contain very similar exercises. That makes the difference between their relative scores a reasonable measure of progress of individual students. This data were collected per individual.
 
-In similar fashion, we examined the performance in the first half of the courses' quizzes compared to the second half, and the students' final grades.
+Similarly, we examined the performance in the first half of the courses' quizzes compared to the second half, and the students' final grades.
 
 \begin{itemize}
-    \item Most difficult question
+    \item Most difficult question (describes individual exercises)
         \begin{itemize}
-            \item question\_name - n
-            \item quiz\_name - 
-            \item tags - 
-            \item attempts - 
-            \item avg\_score\_percent - 
-            \item variability - 
-            \item difficulty\_label - 
+            \item question\_name - name of the exercise
+            \item quiz\_name - name of the quiz in which the exercise is located
+            \item tags - categories of the exercise
+            \item attempts - total number of attempts at the exercise across all users in the course variant
+            \item avg\_score\_percent - average score in the exercise normalized to a scale of 0-1
+            \item variability - standard deviation of the score in the exercise
+            \item difficulty\_label - derived feature, describes an exercise's difficulty based on avg\_score\_percent
         \end{itemize}
-    \item Tag\_difficulty\_cleaner - 
+    \item Tag\_difficulty\_cleaner
         \begin{itemize}
-            \item tag - 
-            \item average\_score - 
+            \item tag - name of a category for exercises
+            \item average\_score - average score in questions labeled with the associated tag across all users in the course variant
         \end{itemize}
     \item Average\_score\_per\_quiz\_per\_course
         \begin{itemize}
-            \item course\_id - 
-            \item quiz\_name - 
-            \item avg\_score\_percent - 
+            \item course\_id - identifier of the course variant
+            \item quiz\_name - name of the quiz
+            \item avg\_score\_percent - average score in the quiz across all users in the course variant
         \end{itemize}
     \item Final grade across all users
         \begin{itemize}
-            \item finalgrade - 
+            \item finalgrade - the final grade, calculated as a sum of points gained across quizzes in the course. Quizzes had different weights - the final assessment quiz contributed the most significantly
         \end{itemize}
     \item First half VS second half
         \begin{itemize}
-            \item first_group_score - 
-            \item second_group_score - 
-            \item improvement - 
+            \item first\_group\_score - score in the first 3 quizzes (expressed in percents)
+            \item second\_group\_score - score in the last 2 quizzes (expressed in percents)
+            \item improvement - calculated as second\_group\_score - first\_group\_score
         \end{itemize}
     \item Intro vs final quiz improvement
         \begin{itemize}
-            \item intro\_score - 
-            \item final\_score - 
-            \item improvement - 
+            \item intro\_score - normalized score in the Introductory assessment quiz on scale 0-1
+            \item final\_score - normalized score in the Final assessment quiz on scale 0-1
+            \item improvement - calculated as final\_score - intro\_score
         \end{itemize}
 \end{itemize}
 
@@ -101,7 +101,7 @@ The most important features of the resulting datasets were:
     \item Interactions 		
         \begin{itemize}
             \item interaction\_type - name of the interaction type (theory/quiz/feedback)
-            \item activity_name - name of the activity (Introductory assessment quiz, Classes and objects theory page...)
+            \item activity\_name - name of the activity (Introductory assessment quiz, Classes and objects theory page...)
             \item interactions - number of interactions with an activity
         \end{itemize}
     \item activity\_time\_sums
@@ -163,6 +163,9 @@ There was one exercise with very low scores that made the categories it belonged
 
 \section{Result analysis}
 
+-disregarded reports
+-research questions (maybe in summary, or a separate section)
+
 \section{Limitations}
 
 \todo{pekne rozpisat}
@@ -176,6 +179,7 @@ There was one exercise with very low scores that made the categories it belonged
     \item exercises - would be better to have an automated assessment tool and use draw.io and some diagram-code conversion tool instead of adapting general purpose exercise types, but outside the scope of 1 DP project
     \item moodle - what is difficult to do there?
     \item activities restricted to "no intervention from teachers" - no larger or more complex exercises, only automated correction
+    \item visual animations - we do not have that now, maybe leaderboard like in kahoot and such, transitions, changes based on performance...
     % \item nepytal som sa v dotazniku na to, ake aktivity sa im pacili, to som ale kar ja a nemal by som poukazovat na neobhajitelne zle dizajn rozhodnutie
 \end{itemize}
 
