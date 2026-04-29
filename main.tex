@@ -93,10 +93,6 @@
 \addcontentsline{toc}{chapter}{Resumé}
 \input{content/08-resume/resume}
 
-\newpage
-\addcontentsline{toc}{chapter}{Declaration about the use of \ac{genai}}
-\printacronyms[name=Declaration about the use of \ac{genai}, heading=chapter*]
-
 % List of Abbreviations
 \newpage
 \addcontentsline{toc}{chapter}{List of Abbreviations}
@@ -119,6 +115,16 @@
 % Bibliography
 % \clearpage\null
 \printbibliography[heading=references,segment=\therefsegment,resetnumbers=true]
+
+\newpage
+\chapter*{Declaration about the use of Generative Artificial Intelligence}
+\addcontentsline{toc}{chapter}{Declaration about the use of Generative Artificial Intelligence}
+% \printacronyms[name=Declaration about the use of \ac{genai}, heading=chapter*]
+OpenAI (2026), ChatGPT, Section 6.3, consulting the design of diagrams\\
+OpenAI (2026), ChatGPT, Chapter 7, Moodle and server debugging\\
+OpenAI (2026), ChatGPT, Sections 7.3, creation of content displayed in courses (generation of text, consulting exercise design)\\
+OpenAI (2026), ChatGPT, Section 8.3, generating code for data analysis, language Python\\
+\todo{this should refer to labels - navigation}
 
 \end{refsegment}
 
