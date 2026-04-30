@@ -2,9 +2,11 @@
 
 We decided to implement our course in Moodle \ac{lms}. Moodle satisfies the vast majority of our requirements - both functional and nonfunctional. 
 
-It is open source, easy to use, and it is possible to deploy on local servers, allowing us to control the amount of computational resources dedicated to it for future scaling. We can restrict access to a set of users defined by us. It stores information about students' progress, generating statistical reports about their behaviors and results automatically. Content can be added easily, with loads of plugins developed and maintained by community available that introduce features not present in basic Moodle itself.
+It is open source, easy to use, and it is possible to deploy on local servers, allowing us to control the amount of computational resources dedicated to it for future scaling. We can restrict access to a set of users defined by us. It stores information about students' progress, generating statistical reports about their behaviors and results automatically. Content can be added easily, with a lot of plugins developed and maintained by community that introduce features not present in basic Moodle itself.
 
-Moodle supports most of the proposed exercise types out of the box - matching exercises, code snippets, drag and drop, multiple choice, and more. The biggest hindrance is the absence of a \ac{uml} editor. However, we found no other \ac{lms} that would provide this functionality without the need for a workaround, so that is not a decisive issue. For the first version, we decided to substitute the need for an editor with drag and drop exercises. Exercises are corrected automatically, feedback can be provided for each answer in an exercise. Tests and feedback forms are also implemented and ready to use in Moodle.
+Moodle supports most of the proposed exercise types out of the box - matching exercises, code snippets, drag and drop, multiple choice, and other. Exercises are corrected automatically, feedback can be provided for each answer in an exercise. Tests and feedback forms are also implemented and ready to use in Moodle.
+
+The biggest hindrance is the absence of content types designed for \ac{uml} education. However, we found no other \ac{lms} that would provide this functionality without the need for a workaround, so that is not a decisive issue. For the first version, we decided to substitute the need for an editor with drag and drop exercises.
 
 \section[Nonfunctional requirements - Moodle]{Nonfunctional requirements - Moodle\footnotemark}
 \footnotetext{This section was made with the use of \ac{genai}}
@@ -44,41 +46,82 @@ It is possible to turn off the option to self-enroll into the site. Then we can 
 As long as the Moodle server is running, students can access the materials.
 
 
-\section{Functional requirements}
+% \section{Functional requirements}
 
--briefly how moodle satisfies or not satisfies the functional reqs
+% -briefly how moodle satisfies or not satisfies the functional reqs
 
 \section{Course content}
 
 \subsection{Theoretical content}
-We placed the chapter with explanations of concepts of the class diagram at the start of the courses. It is implemented as a number of Moodle's book resource\footnote{Moodle, "Book resource", \url{https://docs.moodle.org/501/en/Book_resource}, accessed December 13, 2025.} instances.
+We placed the chapter with explanations of concepts of the class diagram right after the introductory assessment quiz and questionnaire. It is implemented as a number of Moodle's book resource\footnote{Moodle, "Book resource", \url{https://docs.moodle.org/501/en/Book_resource}, accessed December 13, 2025.} instances.
 
-The \textbf{book resource} contains a number of pages with static content. It is structured like an actual book with a table of contents, chapters and subchapters. This way the student is aware and in control of the flow of their progress. It can be exported and printed to a .pdf file for future reference by the students as well.
+The \texttt{book resource} contains a number of pages with static content. It is structured like an actual book with a table of contents, chapters and subchapters. This way the student is aware and in control of the flow of their progress. It can be exported and printed to a .pdf file for future reference by the students as well.
 
-\begin{figure}[ht]
-\centering
-\includegraphics[height=0.3\textheight]{assets/images/implementation/theory_book_table_of_contents.png}
-\caption{Clear separation of topics for microlearning}
-\label{fig:theory_book_table_of_contents}
-\end{figure}
-
-\newpage
+\FloatBarrier
 
 \begin{figure}[ht]
 \centering
-\includegraphics[width=1\textwidth]{assets/images/implementation/theory_microlearning.png}
-\caption{Layout of individual section in the theoretical section}
-\label{fig:theory_microlearning}
+\includegraphics[height=0.7\textwidth]{assets/images/implementation/new_pics/theory_navigation.png}
+\caption{Navigation of the theory section}
+\label{fig:theory_nav}
 \end{figure}
 
-There were other options, mainly Moodle's Lesson activity\footnote{Moodle, "Lesson activity", \url{https://docs.moodle.org/501/en/Lesson_activity}, accessed December 13, 2025.} which provides more space for adaptive learning. However, it cannot be referred to in later stages of the course, which is what made us choose the book instead. Appropriate theoretical sections are linked in feedback to exercises in case a student makes a mistake. 
+\FloatBarrier
 
-Short topical exercises are placed in between the explanations to promote engagement and memory retention in students.
+It begins with an introduction that explains the importance of software modeling and what \ac{uml} is. 
+
+The following sections guide the students through the process of building a class diagram -a simple model of an e-shop- one component at a time, explaining each newly added concept and discussing design choices. 
+
+The first book contains chapters about these concepts: entities, classes, objects, types, methods, attributes, access modifiers. It is followed by a short quiz with exercises related to the topics.
+
+\FloatBarrier
+
+\begin{figure}[ht]
+\centering
+\includegraphics[height=0.6\textwidth]{assets/images/implementation/new_pics/theory_example.png}
+\caption{Gradually building a diagram while discussing modeling challenges as they arise}
+\label{fig:theory_example}
+\end{figure}
+
+\FloatBarrier
+
+The second book talks about relationships - various types of relationships, differences between them, how they can be added to the example diagram, multiplicity and role names. This book has an associated quiz with a few related exercises as well.
+\todo{add a comment about examples of the theory and exercises are in the attached files. When they are attached}
+
+The section continues with a picture of the example diagram and a list of modeling decisions the students might question while reading the theory. Those questions include: \enquote{Should Admin be a separate class?} or \enquote{Why are there no ids, no Product in OrderItem, no getters or setters?}
+
+\FloatBarrier
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.8\textwidth]{assets/images/implementation/new_pics/discussion_of_design_choices_sample.png}
+\caption{Discussion of design details in the example diagram}
+\label{fig:theory_discussion}
+\end{figure}
+
+\FloatBarrier
+
+The last part of the theoretical section is a short collection of links to more resources about software modeling - a full course, video, article, a link to more examples. There is also a prompt for \ac{genai} in case students want to easily create exercises of their own.
+
+There were other options to implement this section than the book resource, mainly Moodle's Lesson activity\footnote{Moodle, "Lesson activity", \url{https://docs.moodle.org/501/en/Lesson_activity}, accessed October 7, 2025.}, which provides more space for adaptive learning. However, it cannot be referred to in later stages of the course, which is what made us choose the book instead. Appropriate theoretical sections are linked in feedback to exercises in case a student makes a mistake. 
 
 \subsection{Exercises}
-Moodle allows us to implement the majority of the exercise types described in earlier chapters (see Section~\ref{exercises_design}). The biggest issue is that Moodle does not support a diagram drawing tool by itself. This will be discussed in later sections of this work. Another, more prominent, problem is automatically grading such diagrams, which is what led us to avoiding the implementation in this stage of the project.
+Moodle allows us to implement the majority of the exercise types described in earlier chapters (see Section~\ref{exercises_design}). We made 29 exercises in total, most of them focused on simulating modeling diagrams by using Moodle's drag and drop question type\footnote{Moodle, "Drag and drop onto image question type", \url{https://docs.moodle.org/502/en/Drag_and_drop_onto_image_question_type}, accessed December 19, 2025.} and exercises in which the students need to connect diagrams with code. Exercises display hints, reasoning behind correct answers, or links to corresponding theoretical sections after incorrect answers.
 
-Basic moodle questions still allow for a number of possible exercise types that do not present issues. Most notably, those would be generic theoretical questions, questions for comparing code and diagrams, and selecting options for improvements in a given diagram from a list. 
+All exercise types are: 
+
+\begin{itemize}
+    \item Differentiating between relationship types based on description or context
+    \item Find mistakes or room for improvement in a diagram
+    \item Choosing the right relationship arrow directions
+    \item Selecting entities that should be found in a diagram based on a description
+    \item Simulating modeling by dragging components onto empty slots in an image of a diagram
+    \item Theoretical questions - matching access modifiers to their symbols, differentiating between classes and objects...
+\end{itemize}
+
+\todo{more examples in attached files}
+
+% Basic Moodle questions allow for a number of possible exercise types that do not present issues. Most notably, those would be generic theoretical questions, questions for comparing code and diagrams, and selecting options for improvements in a given diagram from a list. 
 
 \begin{figure}[ht]
 \centering
@@ -91,69 +134,72 @@ Basic moodle questions still allow for a number of possible exercise types that 
 
 \begin{figure}[ht]
 \centering
-\includegraphics[height=0.5\textheight]{assets/images/implementation/exercises_general_question.png}
-\caption{A generic theoretical question about the class diagram.}
-\label{fig:exercises_general_question}
+\includegraphics[width=1\textwidth]{assets/images/implementation/new_pics/exercises/diagram_modeling_simulation_relationships.png}
+\caption{Simulating modeling with the drag and drop onto picture activity}
+\label{fig:exercises_drag_and_drop}
+\end{figure}
+
+\FloatBarrier
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=1\textwidth]{assets/images/implementation/new_pics/exercises/find_improvements.png}
+\caption{Picking correct improvement suggestions for a flawed diagram}
+\label{fig:exercises_find_improvements}
 \end{figure}
 
 \FloatBarrier
 
 
 
-\subsection{Testing students' knowledge, feedback} \label{testing}
-Moodle's quiz activity\footnote{Moodle, "Quiz activity", \url{https://docs.moodle.org/501/en/Quiz_activity}, accessed December 13, 2025.} is a selection of exercises from a defined set. It is possible to have static quizes that contain the same exercises every time, or select a number of exercises at random from a set.
+% \begin{figure}[ht]
+% \centering
+% \includegraphics[height=0.5\textheight]{assets/images/implementation/exercises_general_question.png}
+% \caption{Differentiating between relationship types based on description.}
+% \label{fig:exercises_general_question}
+% \end{figure}
+
+% \FloatBarrier
+
+
+\subsection{Testing students' knowledge} \label{testing}
+Moodle's quiz activity\footnote{Moodle, "Quiz activity", \url{https://docs.moodle.org/501/en/Quiz_activity}, accessed October 7, 2025.} is a selection of exercises from a defined set. It is possible to have static quizes that contain the same exercises every time, or select a number of exercises at random from a set.
 
 We used the quiz activity for all the exercise sections. In the quiz settings, the practice sections show instant feedback for each response in each exercise after the student clicks a check button found under each exercise. They are allowed to retry each exercise multiple times, getting hints in between attempts as well. However, retrying a question multiple times reduces the amount of points received for the question.
 
-In the final assessment and introductory assessment sections, the immediate feedback is not present.  
-
-\begin{figure}[ht]
-\centering
-\includegraphics[width=1\textwidth]{assets/images/implementation/exercises_feedback.png}
-\caption{An incorrect answer displays can display feedback or a hint to the student.}
-\label{fig:exercises_feedback}
-\end{figure}
-
-\newpage
-
-\todo{do we get personalized feedback? I mean the you answereed incorrectly qestions about associations the most}
+In the final assessment and introductory assessment sections, the immediate feedback is not present and number of attempts is lower.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsection{Statistical reports} \label{statistics}
-Moodle provides statistics regarding individual quizes, exercises and the overall success of individual students\footnote{Moodle, "Statistics", \url{https://docs.moodle.org/501/en/Statistics}, accessed December 13, 2025.}. Reports can be downloaded in multiple formats including .csv. Statistics can be general, showing only the basics such as overall scores, or more nuanced and advanced statistics like effective weight or
-discrimination index mainly useful for adaptive learning practices.
+Moodle provides statistics regarding individual quizes, exercises and the overall success of individual students\footnote{Moodle, "Statistics", \url{https://docs.moodle.org/501/en/Statistics}, accessed December 13, 2025.}. Reports contain statistics like effective weight or
+discrimination index mainly useful for adaptive learning practices. We created our own reports aimed at comparing our 2 courses. 
+
+We used the Configurable reports plugin\footnote{Juan Leyva and Sara Arjona Téllez, "Configurable reports", \url{https://moodle.org/plugins/block_configurable_reports}, accessed February 13, 2026.} to perform queries on the Moodle database. The plugin allowed for convenient .csv exports of the reports. 
+
+Some of the reports were used as dynamically updated statistics for the students - they could view their performance across various categories or compare their performance with other students in the Competitive version of the course \todo{refs}. \todo{this actually belongs to e-learning practices}However, most of them were used in the evaluation of the experiments. 
 
 \begin{figure}[ht]
 \centering
-\includegraphics[width=1\textwidth]{assets/images/implementation/statistics3.png}
-\caption{Basic statistical report for a quiz.}
-\label{fig:basic_stats_report_quiz}
+\includegraphics[width=1\textwidth]{assets/images/implementation/new_pics/reports/cutom_report_sql.png}
+\caption{Creating a custom report.}
+\label{fig:cutom_report_sql}
 \end{figure}
 
 \FloatBarrier
 
 \begin{figure}[ht]
 \centering
-\includegraphics[width=1\textwidth]{assets/images/implementation/statistics1.png}
-\caption{Advanced statistical report for a quiz.}
-\label{fig:advanced_stats_report_quiz}
+\includegraphics[width=1\textwidth]{assets/images/implementation/new_pics/reports/report_result.png}
+\caption{Example of a custom report.}
+\label{fig:report_result}
 \end{figure}
 
 \FloatBarrier
 
-\begin{figure}[ht]
-\centering
-\includegraphics[width=1\textwidth]{assets/images/implementation/statistics2.png}
-\caption{Advanced statistical report for a single exercise in a quiz.}
-\label{fig:advanced_stats_report_exercise}
-\end{figure}
-
-\FloatBarrier
-%%%%%%%%%%%%%%%%%%%%
 
 \subsection{Feedback questionnaire} \label{feedback}
-Collecting feedback from participants is one of the most important parts of the whole project. Moodle's feedback activity\footnote{Moodle, "Feedback activity", \url{https://docs.moodle.org/501/en/Feedback_activity}, accessed December 13, 2025.} lets students answer questions about their perception of the course. The responses are anonymous.
+Collecting feedback from participants is one of the most important parts of the whole project. Moodle's feedback activity\footnote{Moodle, "Feedback activity", \url{https://docs.moodle.org/501/en/Feedback_activity}, accessed December 13, 2025.} lets students answer questions about their perception of the course. The responses are anonymous. Both questionnaires were made with the activity. They will be further discussed in the Evaluation sections.\todo{ref}
 
 \begin{figure}[ht]
 \centering
@@ -189,22 +235,70 @@ Collecting feedback from participants is one of the most important parts of the 
 
 \section{E-learning techniques}
 
-\textbf{Microlearning} is easy to implement - we broke the theoretical section into small chapters, where each chapter contains only 1 concept. There are also exercises in between theory to make the content more engaging.
+\textbf{Microlearning} - we broke the theoretical section into small chapters, where each chapter contains only 1 concept. There are also exercises placed in between theoretical sections to make the content more engaging.
 
+\begin{figure}[ht]
+\centering
+\includegraphics[height=0.3\textheight]{assets/images/implementation/theory_book_table_of_contents.png}
+\caption{Clear separation of topics for microlearning}
+\label{fig:theory_book_table_of_contents}
+\end{figure}
 
-\textbf{Blended learning} in our course is implicit. The course is to be used as a part of an actual university class.
+\newpage
 
+\textbf{Blended learning} in our courses is implicit. The courses were used as a part of an actual university class, so the participants experienced both e-learning and traditional learning.
 
-\textbf{Self-paced learning} - students will be allowed to take the course whenever it suits them, and will not have a time limit on finishing it after they start.
+\textbf{Self-paced learning} - students were allowed to take the course whenever it suited them, and did not have a time limit on finishing it after they started. 
 
+\textbf{Adaptive learning and instant feedback} - students have access to a report that displays their performance across various categories.
 
-\textbf{Gamification} \todo{maybe I will implement it yet}
+\FloatBarrier
+\begin{figure}[ht]
+\centering
+\includegraphics[width=1\textwidth]{assets/images/implementation/new_pics/e-learning-practices/student_performance_across_categories.png}
+\caption{A student's performance across various categories.}
+\label{fig:report_feedback}
+\end{figure}
 
+After answering exercises, students were shown whether the answer was correct, partially correct, or incorrect. In case of incorrect answers, they might be shown hints, links to related theory sections or rationalizations behind the answers.
 
-\textbf{Adaptive learning} - \todo{maybe I will implement later - just will leave personalized feedback though. Maybe every exercise will have a tag and then they will be told which topics are the hardest? Look into it}
+\FloatBarrier
+\begin{figure}[ht]
+\centering
+\includegraphics[width=1\textwidth]{assets/images/implementation/exercises_feedback.png}
+\caption{An incorrect answer displays a hint to the student.}
+\label{fig:exercises_feedback}
+\end{figure}
+\FloatBarrier
 
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.5\textwidth]{assets/images/implementation/new_pics/e-learning-practices/content_recommendation.png}
+\caption{Related theory section is suggested after an incorrect answer.}
+\label{fig:content_recommendation}
+\end{figure}
+\FloatBarrier
 
-\textbf{Social learning} - to induce the students' sense of competitiveness, each exercise displays the average success rate of other participants. In some cases, the best and the average time the exercise took to complete can be displayed as well. \todo{I did not do this yet}
+\subsection{Playful course version}
+
+For the playful course version, we implemented several gamification practices: 
+\begin{itemize}
+    \item Granting rewards for correct answers
+    \item Awarding badges for reaching milestones in the course
+    \item An informal, playful narration of theoretical and informational sections of the course
+\end{itemize}
+
+\subsection{Competitive course version}
+
+In the competitive version of the course, the following elements were introduced:
+\begin{itemize}
+    \item Leaderboard
+    \item Report that displays the student's performance across categories compared to the course's average \todo{why tf did i opt for this, i need to ground this in reasearch that does not state competitive is bad lol}
+    \item Each question displays the average score of all the attempts at it across the entire course \todo{why tf did i opt for this, i need to ground this in reasearch that does not state competitive is bad lol}
+    \item Assertive, strict narration of theoretical and informational sections of the course
+\end{itemize}
+
+% \textbf{Social learning} - to induce the students' sense of competitiveness, each exercise displays the average success rate of other participants. In some cases, the best and the average time the exercise took to complete can be displayed as well. \todo{I did not do this yet}
 
 
 \section{Deviations from design}
@@ -214,6 +308,16 @@ Collecting feedback from participants is one of the most important parts of the 
 % -types of exercises conjured up but not made\\
 % -exercises not described but made\\
 % -social learning with view of how the other students did with the question (but tbh we should implement this, so just dont forget but dont write here)
+
+Several changes were made when compared to the intended design \todo{ref to design}. Some of the proposed content proved either impractical, hard to implement, or there was not enough room in the courses for the ideas to be included. The changes were:
+
+\begin{itemize}
+    \item Course structure change - an additional questionnaire was added at the start of the courses. Originally, it was proposed to only include a questionnaire at the end of the courses
+    \item Providing code snippets along with diagram examples in the theory section proved impractical - the diagram example corresponded to a rather large codebase, and including even parts of it would have been either insufficient or overwhelming. We only applied comparison of code and diagrams in exercises
+    \item Visual indicators based on the student's current grade. We decided to only include exercise difficulty indicators
+    \item Exercises type \texttt{Alter a diagram based on instructions} was excluded, as there was no way to implement without creating custom activity types in Moodle
+    \item ?? \todo{maybe some elearning techniques? Exercise recommendations - but how to explain that i am dumb and slow. Anything else?} 
+\end{itemize}
 
 % \todo{how missing stuff can be implemented}
 % \section{How missing sections can be implemented}
@@ -257,7 +361,7 @@ The amount of computational resources was requested based on the assumption that
 % \textbf{Security}
 
 % -access via ssh for me
-Moodle is a web application. As the web server we chose Nginx.
+% Moodle\footnote{For more technical details refer to Moodle for developers - \url{https://moodledev.io/}} is a web application. We chose Nginx\todo{refs to all} as the web server. 
 
 
 % Domain is needed to enable a secure https connection to the web server. 
@@ -265,7 +369,7 @@ For the duration of the experiment, domain \texttt{fiiture.sk} was kindly provid
 
 Instead of restricting access to the website to only allow users with a \ac{fiit} \ac{vpn}, we disallowed the creation of new accounts. That means we generated accounts to our target students who were then sent credentials via email. We did not implement any additional access restrictions.
 
-\todo{moodle technology stack, briefly: nginx, php, mariadb...}
+% \todo{moodle technology stack, briefly: nginx, php, mariadb...}
 
 % We set up a backup database 
 

@@ -9,29 +9,33 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Class diagram of the designed system.}}{44}{figure.caption.19}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Activity diagram from a student's perspective.}}{45}{figure.caption.20}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Sequence diagram of the whole system's workflow.}}{46}{figure.caption.21}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Activity diagram from a student's perspective.}}{41}{figure.caption.16}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Class diagram of the designed system.}}{46}{figure.caption.20}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Sequence diagram of the whole system's workflow.}}{47}{figure.caption.21}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Clear separation of topics for microlearning}}{51}{figure.caption.22}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Layout of individual section in the theoretical section}}{52}{figure.caption.23}%
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Exercise for matching code with corresponding diagrams}}{53}{figure.caption.24}%
-\contentsline {figure}{\numberline {7.4}{\ignorespaces A generic theoretical question about the class diagram.}}{53}{figure.caption.25}%
-\contentsline {figure}{\numberline {7.5}{\ignorespaces An incorrect answer displays can display feedback or a hint to the student.}}{54}{figure.caption.26}%
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Basic statistical report for a quiz.}}{55}{figure.caption.28}%
-\contentsline {figure}{\numberline {7.7}{\ignorespaces Advanced statistical report for a quiz.}}{55}{figure.caption.29}%
-\contentsline {figure}{\numberline {7.8}{\ignorespaces Advanced statistical report for a single exercise in a quiz.}}{56}{figure.caption.30}%
-\contentsline {figure}{\numberline {7.9}{\ignorespaces A sample from feedback questionnaire for students.}}{56}{figure.caption.31}%
-\contentsline {figure}{\numberline {7.10}{\ignorespaces Viewing the results of the feedback questionnaire.}}{57}{figure.caption.32}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Navigation of the theory section}}{51}{figure.caption.22}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Gradually building a diagram while discussing modeling challenges as they arise}}{52}{figure.caption.23}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Discussion of design details in the example diagram}}{53}{figure.caption.25}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Exercise for matching code with corresponding diagrams}}{54}{figure.caption.27}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Simulating modeling with the drag and drop onto picture activity}}{54}{figure.caption.28}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Picking correct improvement suggestions for a flawed diagram}}{55}{figure.caption.29}%
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Creating a custom report.}}{56}{figure.caption.32}%
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Example of a custom report.}}{56}{figure.caption.33}%
+\contentsline {figure}{\numberline {7.9}{\ignorespaces A sample from feedback questionnaire for students.}}{57}{figure.caption.35}%
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Viewing the results of the feedback questionnaire.}}{58}{figure.caption.36}%
+\contentsline {figure}{\numberline {7.11}{\ignorespaces Clear separation of topics for microlearning}}{58}{figure.caption.37}%
+\contentsline {figure}{\numberline {7.12}{\ignorespaces A student's performance across various categories.}}{59}{figure.caption.38}%
+\contentsline {figure}{\numberline {7.13}{\ignorespaces An incorrect answer displays a hint to the student.}}{59}{figure.caption.39}%
+\contentsline {figure}{\numberline {7.14}{\ignorespaces Related theory section is suggested after an incorrect answer.}}{60}{figure.caption.40}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Restore a course from a backup in Moodle}}{B-4}{figure.caption.55}%
-\contentsline {figure}{\numberline {B.2}{\ignorespaces Restore a backup as a new course}}{B-4}{figure.caption.56}%
-\contentsline {figure}{\numberline {B.3}{\ignorespaces Installing a plugin from a ZIP file in Moodle}}{B-5}{figure.caption.57}%
-\contentsline {figure}{\numberline {B.4}{\ignorespaces Recreating Configurable reports in Moodle, step 1}}{B-6}{figure.caption.58}%
-\contentsline {figure}{\numberline {B.5}{\ignorespaces Recreating Configurable reports in Moodle, step 2}}{B-6}{figure.caption.59}%
-\contentsline {figure}{\numberline {B.6}{\ignorespaces Recreating Configurable reports in Moodle, step 3}}{B-7}{figure.caption.60}%
-\contentsline {figure}{\numberline {B.7}{\ignorespaces Recreating a Generico filter in Moodle}}{B-7}{figure.caption.61}%
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Restore a course from a backup in Moodle}}{B-4}{figure.caption.63}%
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Restore a backup as a new course}}{B-4}{figure.caption.64}%
+\contentsline {figure}{\numberline {B.3}{\ignorespaces Installing a plugin from a ZIP file in Moodle}}{B-5}{figure.caption.65}%
+\contentsline {figure}{\numberline {B.4}{\ignorespaces Recreating Configurable reports in Moodle, step 1}}{B-6}{figure.caption.66}%
+\contentsline {figure}{\numberline {B.5}{\ignorespaces Recreating Configurable reports in Moodle, step 2}}{B-6}{figure.caption.67}%
+\contentsline {figure}{\numberline {B.6}{\ignorespaces Recreating Configurable reports in Moodle, step 3}}{B-7}{figure.caption.68}%
+\contentsline {figure}{\numberline {B.7}{\ignorespaces Recreating a Generico filter in Moodle}}{B-7}{figure.caption.69}%
 \addvspace {10\p@ }
