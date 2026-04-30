@@ -205,7 +205,7 @@ From the solution description, we can extract lists of functional and nonfunctio
 
 \textbf{Class diagram of the system}
 
-This diagram describes the entire system as we intend it to function. It shows all the major entities that should be found there - users, course and its content, tools for tracking progress and modules for additional features such as adaptive learning and gamification.
+This diagram describes the entire system as we intend it to function. It shows all the major entities that should be found there - users, course and its content, tools for tracking progress and modules for additional features such as adaptive learning.
 
 \begin{figure}[ht]
 \centering
@@ -220,7 +220,7 @@ This diagram describes the entire system as we intend it to function. It shows a
 
 \textbf{Activity diagram - student}
 
-The activity diagram describes a student's interaction with the system. The student will log in to the system and view the course. They will complete the theoretical section including the micro-exercises in between modules and receiving feedback on their responses. Then they will complete the practical section containing more exercises. Exercises will be recommended based on how successful their responses were across various topics. 
+The activity diagram describes a student's interaction with the system. The student will log in to the system and view a course. They will complete the introductory test. Then they will proceed to the theoretical section with micro-exercises in between modules and the practical section containing more exercises. Content will be recommended based on how successful their responses were across various topics. The student can come back to the theoretical section and the exercises and redo them until they are satisfied with their results.
 
 Lastly, the student will enter the evaluation section, where they will complete a test (which will not give them instant feedback this time), and fill in a feedback questionnaire.
 
@@ -236,7 +236,7 @@ Lastly, the student will enter the evaluation section, where they will complete 
 
 \textbf{Sequence diagram - whole system}
 
-The sequence diagram describes the interaction between all the major entities in the system - teacher, system, student. The teacher needs to authenticate themselves and create a course along with its contents. Then the student can enroll in the course and complete it in the flow already described in the activity diagram (see figure~\ref{fig:student_activity_diagram}). Lastly, the teacher can review the student's results and make their conclusions.
+The sequence diagram describes the interaction between all the major entities in the system - teacher, student, user interface, backend. Steps such as authentication were omitted for better clarity. The teacher needs to create courses and their contents. Then the student can enroll in a course and complete it in the flow already described in the activity diagram (see figure~\ref{fig:student_activity_diagram}). Lastly, the teacher can review the student's results and make their conclusions and adjustments.
 
 
 \begin{figure}[ht]
