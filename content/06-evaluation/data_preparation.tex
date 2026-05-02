@@ -1,0 +1,74 @@
+\section{Data preparation}
+
+\textbf{Questionnaires}
+
+To compare the introductory questionnaire and the final questionnaire, we created a composite index (design\_index) in the feedback questionnaire by calculating the average responses of the following questions:
+
+\textbf{Playful variant:} (What is your attitude towards playful study materials?)
+\begin{itemize}
+    \item I would enjoy if other study materials were more playful as well
+    \item The playful design (memes, badges, language) motivated me
+    \item I enjoyed the playful narration in the theory section
+\end{itemize}
+\textbf{Competitive variant:} (What is your attitude towards competitive activities?)
+\begin{itemize}
+    \item I enjoyed the aggressive narration in the theory section
+    \item I would enjoy if I were to compete with my classmates more often
+    \item Seeing my performance compared to others motivated me
+\end{itemize}
+
+\todo{tento satisfaction index... nebude len robit bordel v korelaciach? Nemali by sme ho len vypocitat raz radsej?}
+We proposed another index (satisfaction\_index) that should numerically express the usefulness of creating similar e-learning materials. It was made as the average response to the following questions:
+\begin{itemize}
+    \item I enjoyed the format of the course	
+    \item I would voluntarily take a similar course.
+    \item The course kept me engaged.
+    \item This e-learning material added value to the university course PSI.
+    \item I would like to encounter more e-learning materials during my studies at FIIT STU.
+\end{itemize}
+
+We substituted responses to the question \enquote{Was any of the topics of the course insufficiently explained or hard to understand?} with the number of topics the student marked.
+
+\textbf{Reports and logs}
+
+We combined the logs and reports from the previous section into a single table for better clarity and processing. This was only applied to reports that contained data for individual students - data about exercises, categories and questionnaire answers were not included. 
+\todo{link to appendix}
+
+-Derived features:
+    -theory/quiz interactions ratio
+    -restructure interactions so that they are in buckets
+    -theory clicks
+
+-Data bucketing
+    -duration cat
+    -(interactions)
+
+-cleaning
+    -time was capped at 2:15 hrs per user
+    -removed feedback interactions
+-disregarded reports
+
+    
+%     # we have theory pages in C: 3+10+10+3=26
+% # theory pages in P: 3+9+12+3=27
+
+The resulting dataset contained features describing each student's performance, behavior and derived metrics. The resulting features were:\todo{add derived features when made up, add explanations to the features}
+
+\begin{itemize}
+    \item id - user id for the participants' identification
+    \item finalgrade - 
+    \item improvement - 
+    \item intro\_score - 
+    \item final\_score - 
+    \item duration\_mins - 
+    \item total\_attempts - 
+    \item quiz - 
+    \item theory - number of interactions with the theory pages
+    \item !!!!!!!!!!
+\end{itemize}
+
+\textbf{Exercises}
+
+The data needed very little cleaning. The most difficult exercises made the categories they belonged to appear more difficult than they were. We attribute this to exercise design rather than insufficient understanding of the concepts. The exercises were removed from their respective categories, but kept for overall aggregate measurements. 
+
+Additional dataset was created that calculates the average performance across categories per course type.
