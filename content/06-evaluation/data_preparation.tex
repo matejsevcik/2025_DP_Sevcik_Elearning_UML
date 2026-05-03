@@ -1,4 +1,5 @@
-\section{Data preparation}
+\section{Data preparation \label{sec:data_prep}}
+
 
 \textbf{Questionnaires}
 
@@ -17,8 +18,8 @@ To compare the introductory questionnaire and the final questionnaire, we create
     \item Seeing my performance compared to others motivated me
 \end{itemize}
 
-\todo{tento satisfaction index... nebude len robit bordel v korelaciach? Nemali by sme ho len vypocitat raz radsej?}
-We proposed another index (satisfaction\_index) that should numerically express the usefulness of creating similar e-learning materials. It was made as the average response to the following questions:
+% \todo{tento satisfaction index... nebude len robit bordel v korelaciach? Nemali by sme ho len vypocitat raz radsej?}
+We created another index (satisfaction\_index) that numerically expresses the usefulness of creating similar e-learning materials. It was calculated as the average response to the following questions:
 \begin{itemize}
     \item I enjoyed the format of the course	
     \item I would voluntarily take a similar course.
@@ -34,37 +35,45 @@ We substituted responses to the question \enquote{Was any of the topics of the c
 We combined the logs and reports from the previous section into a single table for better clarity and processing. This was only applied to reports that contained data for individual students - data about exercises, categories and questionnaire answers were not included. 
 \todo{link to appendix}
 
--Derived features:
-    -theory/quiz interactions ratio
-    -restructure interactions so that they are in buckets
-    -theory clicks
+% -Derived features:
+%     -theory/quiz interactions ratio
+%     -restructure interactions so that they are in buckets
+%     -theory clicks
 
--Data bucketing
-    -duration cat
-    -(interactions)
+% -Data bucketing
+%     -duration cat
+%     -(interactions)
 
--cleaning
-    -time was capped at 2:15 hrs per user
-    -removed feedback interactions
--disregarded reports
+% -cleaning
+%     -time was capped at 2:15 hrs per user
+%     -removed feedback interactions
+% -disregarded reports
 
     
 %     # we have theory pages in C: 3+10+10+3=26
 % # theory pages in P: 3+9+12+3=27
 
-The resulting dataset contained features describing each student's performance, behavior and derived metrics. The resulting features were:\todo{add derived features when made up, add explanations to the features}
+Time taken to complete quizzes in the course was capped at 135 minutes. The reason is that students could leave a quiz open and leave, resulting in course attempts spanning even days. We only included time spent on quiz attempts, as total time spent on the courses was too blurred by students' breaks to be interpreted.
+
+The resulting dataset contained features describing each student's performance, behavior and derived metrics. The resulting features were:
 
 \begin{itemize}
     \item id - user id for the participants' identification
-    \item finalgrade - 
-    \item improvement - 
-    \item intro\_score - 
-    \item final\_score - 
-    \item duration\_mins - 
-    \item total\_attempts - 
-    \item quiz - 
+    \item finalgrade - final grade calculated from weighted quiz results
+    \item intro\_score - score in the introductory assessment quiz 
+    \item final\_score - score in the final assessment quiz
+    \item improvement - final\_score-intro\_score
+    \item duration\_mins - time taken completing quizzes
+    \item duration\_cat - time taken completing quizzes expressed divided into 4 categories 
+    \item total\_attempts - total number of attempts at quizzes
+    \item quiz -  number of interactions with quizzes
     \item theory - number of interactions with the theory pages
-    \item !!!!!!!!!!
+    \item theory/quiz interactions ratio
+    \item extra\_theory - number of theory pages subtracted from all theory interactions
+    \item extra\_theory/quiz interactions ratio
+    \item extra\_attempts - attempts at quizzes beyond the mandatory one attempt per quiz
+    \item extra\_theory\_per\_minute - extra\_theory/duration\_mins
+    \item course - P or C, indicating which course the data point belongs to
 \end{itemize}
 
 \textbf{Exercises}
