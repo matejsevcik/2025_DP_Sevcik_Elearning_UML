@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.12.8)  3 MAY 2026 03:41
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.12.8)  3 MAY 2026 13:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2796,7 +2796,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 Chapter 9.
-) [87] (content/08-resume/resume.tex
+[87]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2804,11 +2804,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[88
+[88])
 
-]) [89
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-]
+[89] (content/08-resume/resume.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2818,7 +2822,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [90
 
-] [91]
+]) [91
+
+]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2828,262 +2834,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [92
 
-] (main.lof
-Underfull \vbox (badness 1383) has occurred while \output is active []
-
- [93])
-\tf@lof=\write8
-\openout8 = `main.lof'.
-
-
+] [93]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[94] (main.lot)
-\tf@lot=\write9
-\openout9 = `main.lot'.
-
- [95
-
-]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[96
-
-]
-Overfull \hbox (0.23888pt too wide) in paragraph at lines 117--117
-[]\TU/TeXGyrePagellaX(0)/m/n/10.95 Yung-Ming Cheng. “  What makes learners enha
-nce learning outcomes in MOOCs?
- []
-
-[97]
-Overfull \hbox (0.56276pt too wide) in paragraph at lines 117--117
-\TU/TeXGyrePagellaX(0)/m/n/10.95 Collaborative Learning”. In: \TU/TeXGyrePagell
-aX(0)/m/it/10.95 2023 IEEE Frontiers in Education Conference (FIE)\TU/TeXGyrePa
-gellaX(0)/m/n/10.95 . IEEE.
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[98]
-Overfull \hbox (3.16162pt too wide) in paragraph at lines 117--117
-\TU/TeXGyrePagellaX(0)/m/n/10.95 UML diagram Evaluation”. In: \TU/TeXGyrePagell
-aX(0)/m/it/10.95 Academic Journal of Nawroz University \TU/TeXGyrePagellaX(0)/m
-/n/10.95 10 (Sept. 2021),
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[99]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[100
-
-]
-Overfull \hbox (1.57216pt too wide) in paragraph at lines 123--128
-\TU/TeXGyrePagellaX(0)/m/n/10.95 OpenAI (2026), ChatGPT, Section 8.3, generatin
-g code for data analysis, language Python 
- []
-
-Package biblatex Info: Reference segment=0 on input line 129.
-[101]
-\openout2 = `appendices/digital_medium.aux'.
-
- (appendices/digital_medium.tex
-Appendix A.
-
-LaTeX Warning: Marginpar on page B-1 moved.
-
-
-LaTeX Warning: Marginpar on page B-1 moved.
-
-[1
-
-
-]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[2
-
-]
-Appendix B.
-File: assets/images/installation/course_restore_screen.png Graphic file (type b
-mp)
-<assets/images/installation/course_restore_screen.png>
-
-Overfull \hbox (61.75046pt too wide) in paragraph at lines 58--64
-[]\TU/TeXGyrePagellaX(0)/m/n/10.95 Drop one of the attached backups (\TU/lmtt/m
-/n/10.95 course_backups/competitive_backup_no_users.mbz
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3]
-File: assets/images/installation/restore_as_new_course.png Graphic file (type b
-mp)
-<assets/images/installation/restore_as_new_course.png>
-
-Underfull \vbox (badness 4013) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[4]
-File: assets/images/installation/plugin_installer.png Graphic file (type bmp)
-<assets/images/installation/plugin_installer.png>
-File: assets/images/installation/Configurable_reports_nav_1.png Graphic file (t
-ype bmp)
-<assets/images/installation/Configurable_reports_nav_1.png>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[5]
-File: assets/images/installation/Configurable_reports_nav_2.png Graphic file (t
-ype bmp)
-<assets/images/installation/Configurable_reports_nav_2.png>
-File: assets/images/installation/Configurable_reports_nav_3.png Graphic file (t
-ype bmp)
-<assets/images/installation/Configurable_reports_nav_3.png>
-
-Overfull \hbox (127.56715pt too wide) in paragraph at lines 119--125
-[]\TU/TeXGyrePagellaX(0)/m/n/10.95 Drag each report backup (\TU/lmtt/m/n/10.95 
-configurable_reports/competitive_course_backups/interactions.txt\TU/TeXGyrePage
-llaX(0)/m/n/10.95 )
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[6]
-File: assets/images/installation/generico.png Graphic file (type bmp)
-<assets/images/installation/generico.png>
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[7])
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[8]
-\openout2 = `appendices/plan.aux'.
-
- (appendices/plan.tex
-Appendix C.
-[1
-
-
-
-
-]
-Overfull \hbox (1.00365pt too wide) in paragraph at lines 54--55
- []\TU/TeXGyrePagellaX(0)/b/n/10.95 Statement on the execution of the plan:[] \
-TU/TeXGyrePagellaX(0)/m/n/10.95 The goal for DP2 was to implement the course.
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[2])
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[3] (main.aux (preamble/title.aux) (preamble/annotation.aux)
-(preamble/acknowledgements.aux) (appendices/digital_medium.aux)
-(appendices/plan.aux))
- ***********
-LaTeX2e <2025-11-01>
-L3 programming layer <2020/03/25>
- ***********
-
-
-LaTeX Warning: There were undefined references.
-
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2A8612CFC08BF8F83BBCD8B015A0C297;12651.
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
-Package logreq Info: Writing requests to 'main.run.xml'.
-\openout1 = `main.run.xml'.
-
- ) 
-Here is how much of TeX's memory you used:
- 43536 strings out of 402987
- 937069 string characters out of 5448524
- 1844645 words of memory out of 5000000
- 71439 multiletter control sequences out of 15000+600000
- 644847 words of font info for 127 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 103i,17n,108p,1981b,5928s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-Output written on main.pdf (130 pages).
+(fancy
