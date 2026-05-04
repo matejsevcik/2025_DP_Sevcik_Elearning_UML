@@ -4,4 +4,301 @@
 
 \textbf{Úvod}
 
-Strojové učenie je dôležitá oblasť umelej inteligencie...
+\ac{uml} je široko používaný nástroj v oblasti softvérového modelovania, ktorý umožňuje opisovať systémy na abstraktnej úrovni z rôznych perspektív. Schopnosť porozumieť mu a správne ho používať je dôležitá pre študentov aj profesionálov, no v praxi sa často ukazuje, že tieto znalosti sú len povrchné alebo nepresné.
+
+Tradičné vzdelávanie často neposkytuje dostatok priestoru na individuálny prístup a priebežnú spätnú väzbu, čo vedie k nižšej úrovni praktických zručností. Jedným z riešení je e-learning, ktorý umožňuje využívať interaktívne materiály, okamžitú spätnú väzbu a praktické cvičenia. Zároveň podporuje angažovanosť študentov prostredníctvom prvkov gamifikácie, ako sú súťaž alebo zábavné prvky.
+
+Diagram tried patrí medzi najdôležitejšie UML diagramy, no študenti s ním majú napriek tomu často problémy. Cieľom tejto práce je preto navrhnúť e-learningový kurz zameraný na jeho výučbu ako doplnok k univerzitnému predmetu.
+
+Kurz využíva moderné e-learningové prístupy a je implementovaný v dvoch variantoch – zábavnom a kompetitívnom. Tie boli experimentálne overené na študentoch FIIT STU s cieľom porovnať ich vplyv na výsledky, správanie a subjektívne vnímanie.
+
+\textbf{\ac{uml}}
+
+\ac{uml} je štandardizovaný vizuálny modelovací jazyk, ktorého prvá verzia bola publikovaná v roku 1997 a neskôr rozšírená na UML 2.0 v roku 2005 s cieľom zjednotiť rôzne prístupy k modelovaniu softvérových systémov. Najnovšou verziou je UML 2.5.1 z roku 2017. Jazyk slúži na špecifikáciu, dokumentáciu a vizualizáciu softvérových systémov prostredníctvom diagramov.
+
+% Model predstavuje zjednodušenú reprezentáciu systému z určitého pohľadu, pričom zachytáva len relevantné aspekty. UML umožňuje modelovať štruktúru systému, jeho správanie, ako aj vzťahy medzi jednotlivými komponentmi a procesmi počas rôznych fáz vývoja.
+
+UML definuje viacero typov diagramov, ktoré možno rozdeliť na štrukturálne a behaviorálne. Štrukturálne diagramy (napr. diagram tried, objektov, komponentov alebo nasadenia) zobrazujú statickú štruktúru systému pomocou tried, atribútov, operácií a vzťahov. Behaviorálne diagramy (napr. sekvenčný, aktivitný alebo stavový diagram) sa zameriavajú na dynamiku systému, teda interakcie medzi objektmi a zmeny ich stavov počas vykonávania.
+
+% \todo{ref to table}
+
+\textbf{Diagram tried}
+
+Diagram tried patrí medzi najdôležitejšie UML diagramy a slúži na opis statickej štruktúry systému, jeho prvkov a vzťahov medzi nimi. Využíva sa naprieč viacerými fázami vývoja softvéru – od analýzy až po implementáciu – pričom môže pracovať s rôznymi úrovňami abstrakcie. Okrem dokumentácie systému môže slúžiť aj ako podklad pre generovanie kódu.
+
+% Z hľadiska abstrakcie rozlišujeme tri hlavné pohľady. Doménový model zachytáva pojmy z reálneho sveta a ich vzťahy s cieľom podporiť komunikáciu so zainteresovanými stranami. Logický model pridáva technické detaily, ako sú zodpovednosti tried či typy vzťahov, pričom ostáva nezávislý od konkrétnej implementácie. Fyzický model už odráža konkrétnu implementáciu, napríklad štruktúru kódu alebo databázy. Diagram tried má zároveň blízky vzťah k ER diagramom, pričom ponúka rozšírené možnosti, ako napríklad dedičnosť či definovanie operácií.
+
+Základnými prvkami diagramu tried sú triedy, ich atribúty, operácie a vzťahy. 
+
+Trieda predstavuje šablónu pre objekty, zatiaľ čo objekt je jej konkrétna inštancia. 
+
+Atribúty definujú vlastnosti triedy vrátane dátových typov a viditeľnosti. 
+
+Operácie reprezentujú správanie objektov a zahŕňajú názov, parametre a návratovú hodnotu. 
+
+Viditeľnosť určuje prístup k prvkom (napr. public, private) a modifikátory ako \textit{abstract}, \textit{static} alebo \textit{final} bližšie špecifikujú ich správanie.
+
+Diagram tried podporuje viacero typov vzťahov medzi triedami. Asociácia predstavuje všeobecné prepojenie medzi triedami. 
+
+\begin{itemize}
+    \item Agregácia a kompozícia vyjadrujú vzťah celok–časť, pričom kompozícia je silnejšia a viaže životný cyklus častí na celok
+    \item Dedičnosť umožňuje vytvárať hierarchie tried a zdieľať vlastnosti medzi nimi
+    \item Závislosť vyjadruje dočasné použitie jednej triedy druhou a realizácia popisuje implementáciu rozhraní
+\end{itemize}
+  
+Dôležitou súčasťou vzťahov je aj kardinalita, ktorá určuje počet inštancií zapojených do vzťahu.%\todo{ak treba tak vztahy mozu byt odrazky}
+
+\textbf{E-learning}
+
+E-learning je digitálny prístup k vzdelávaniu, ktorý umožňuje flexibilné a samostatné štúdium. Oproti tradičnej výučbe prináša vyššiu dostupnosť a individualizáciu, no vyžaduje väčšiu disciplínu a prináša nižšiu mieru sociálnej interakcie.
+
+Výskumy ukazujú, že e-learning má potenciál zlepšiť motiváciu aj výsledky študentov.%, najmä pri použití gamifikácie a automatizovanej spätnej väzby.
+
+Medzi hlavné techniky patria gamifikácia, mikro-učenie, adaptívne a self-directed učenie, zmiešané učenie a sociálne učenie. Ich kombinácia vedie k lepšej angažovanosti a efektivite učenia.
+% \textbf{Techniky v e-learningu}
+
+\textbf{Využitie e-learningu pri vyučovaní diagramu tried}
+
+Výskum v oblasti výučby UML diagramu tried sa dlhodobo zameriava na zlepšenie motivácie študentov a efektivity učenia pomocou nástrojov ako sú programy na automatizované opravovanie diagramov, alebo e-learningových prístupov, najmä gamifikácie, mikro-učenia a kolaboratívneho učenia.
+
+Gamifikácia patrí medzi najčastejšie skúmané prístupy. Existujúce riešenia využívajú mechaniky ako body, úrovne, skúsenostné systémy, odznaky, rebríčky či prispôsobiteľné avatary. Cieľom je zvýšiť zapojenie študentov prostredníctvom motivácie, súťaženia a okamžitej vizuálnej spätnej väzby. 
+
+Výsledky štúdií vo všeobecnosti ukazujú pozitívny vplyv na motiváciu aj výkon, zároveň však upozorňujú, že gamifikácia musí byť navrhnutá opatrne, pretože príliš komplexné alebo povrchové mechaniky môžu spočiatku znižovať výkon, kým si na ne študenti zvyknú.
+
+Mikro-učenie sa využíva najmä rozdelením učiva do menších tematických celkov. Tento prístup znižuje kognitívne zaťaženie a zlepšuje pochopenie najmä v počiatočných fázach učenia. Na druhej strane môže byť menej vhodný pri komplexnejších témach, kde je potrebné prepájať väčšie množstvo konceptov.
+
+Kolaboratívne a sociálne učenie, napríklad diskusie, zdieľanie riešení či analýza prác iných študentov, preukázalo pozitívny vplyv na porozumenie aj motiváciu. Tieto prístupy podporujú reflexiu a umožňujú študentom vidieť alternatívne riešenia.
+
+Významnú časť výskumu tvoria aj automatizované nástroje na hodnotenie UML diagramov. Ich cieľom je znížiť záťaž učiteľov automatickým vyhodnocovaním riešení a poskytovaním spätnej väzby porovnaním so vzorovým riešením. 
+
+Hoci sú tieto systémy efektívne z pohľadu času, narážajú na problém viacerých správnych riešení a obmedzenú schopnosť poskytovať detailnú spätnú väzbu. Objavujú sa aj prístupy založené na strojovom učení, tie však zatiaľ neposkytujú dostatočne interpretovateľné výsledky.
+
+Ďalšie práce skúmajú nástroje na prevod diagramov do kódu a odporúčacie systémy, ktoré pomáhajú prepájať abstraktné UML koncepty s implementáciou a usmerňujú študentov pri učení.
+
+Celkovo literatúra naznačuje, že najefektívnejšie prístupy kombinujú štruktúrované delenie obsahu, okamžitú spätnú väzbu a motivačné prvky ako gamifikácia a sociálne porovnávanie. 
+
+V literatúre ale môžeme pozorovať nedostatok výskumu zameraného na porovnávanie vplyvu rôznych kombinácií týchto prvkov, čo vytvára priestor pre ďalší výskum.
+
+% \textbf{Ciele práce}
+
+\textbf{Návrh riešenia}
+
+Návrh kurzu vychádzal z obmedzení rozsahu a cieľov práce. Kurz bol koncipovaný ako krátky, približne hodinový doplnok k existujúcemu predmetu, zameraný výlučne na diagram tried, ktorý je jedným z najpoužívanejších a pre študentov najzrozumiteľnejších UML diagramov.
+
+Riešenie bolo navrhnuté na existujúcej LMS platforme, ktorá umožňuje jednoduchú implementáciu obsahu, zaznamenávanie výsledkov a podporu interaktívnych cvičení.
+
+Štruktúra kurzu pozostáva zo štyroch častí: vstupný test, teoretická časť, praktické cvičenia a záverečný test doplnený o dotazník. 
+
+Teória je organizovaná postupne, po malých celkoch, pričom jednotlivé koncepty sú vysvetľované na príklade tvorby diagramu. 
+
+Cvičenia nahrádzajú priame modelovanie a sú navrhnuté tak, aby simulovali jeho aspekty a poskytovali okamžitú spätnú väzbu. Cvičenia boli takto navrhnuté pre absenciu nástroja na automatizované vyhodnocovanie diagramov a nutnosti mať plne automatizovanú spätnú väzbu.
+
+Kurz využíva viacero e-learningových techník, najmä mikro-učenie, gamifikáciu, adaptívne prvky, self-paced a blended learning. Rozlíšenie medzi variantmi je založené na aplikácii zábanvných a kompetitívnych prvkov, ako sú odmeny, odznaky, porovnávanie výkonu alebo emotívne podfarbená narácia kurzu.
+
+Vyhodnotenie riešenia pozostáva zo subjektívnej časti (dotazníky), objektívnej časti (vstupný a výstupný test) a analýzy správania študentov (interakcie, čas, aktivita v systéme).
+
+\textbf{Funkčné požiadavky}
+\begin{itemize}
+    \item Automatické vyhodnocovanie cvičení a testov s okamžitou spätnou väzbou
+    \item Podpora e-learningových techník
+    \item 
+    \begin{itemize}
+        \item Podpora gamifikácie (vizuálna spätná väzba, indikátory náročnosti, odznaky)
+        \item Podpora mikro-učenia
+        \item Podpora adaptívneho učenia (odporúčanie obsahu na základe výsledkov študenta)
+        \item Podpora sociálneho učenia (zobrazenie anonymizovaných výsledkov ostatných študentov)
+    \end{itemize}   
+    \item Podpora interaktívnych cvičení a študijných materiálov:
+    \begin{itemize}
+        \item UML kódové ukážky prepojené s diagramami
+        \item príklady diagramov s vysvetlením návrhových rozhodnutí
+        \item drag-and-drop cvičenia
+        \item párovacie a výberové úlohy
+        \item teoretické otázky
+    \end{itemize}
+    \item Zber anonymnej spätnej väzby od študentov
+    \item Testovanie vedomostí študentov
+    \item Monitorovanie správania študentov v systéme
+\end{itemize}
+
+\textbf{Nefunkčné požiadavky}
+\begin{itemize}
+    \item Jednoduchosť použitia a učenia sa systému
+    \item Open-source alebo bezplatné riešenie
+    \item Ukladanie a správa dát o študentoch
+    \item Škálovateľnosť a udržiavateľnosť pre budúce rozšírenia
+    \item Jednoduchá rozšíriteľnosť o nové funkcie a obsah
+    \item Obmedzený prístup len pre študentov a učiteľov FIIT STU
+    \item Prístupnosť obsahu kedykoľvek a odkiaľkoľvek
+\end{itemize}
+
+\textbf{Opis riešenia - obsah kurzov}
+
+Na implementáciu kurzu sme zvolili LMS systém Moodle, ktorý spĺňa väčšinu našich funkčných aj nefunkčných požiadaviek. Ide o open-source riešenie, ktoré je možné nasadiť na vlastnú infraštruktúru, čím získavame kontrolu nad dostupnými zdrojmi a možnosť škálovania.
+
+% Moodle umožňuje jednoduchú správu používateľov, obmedzenie prístupu, ako aj automatické zaznamenávanie dát o správaní a výsledkoch študentov. Zároveň ponúka široké možnosti rozšírenia prostredníctvom pluginov a podporuje rôzne typy interaktívnych cvičení vrátane výberových otázok, priraďovania, práce s kódom či drag-and-drop úloh.
+
+Nevýhodou je absencia natívnej podpory pre tvorbu UML diagramov. Tento nedostatok sme riešili využitím alternatívnych typov úloh, najmä drag-and-drop cvičení simulujúcich proces modelovania.
+
+% \vspace{0.5em}
+
+Teoretická časť kurzu je realizovaná pomocou zdroja \textit{Book}, ktorý umožňuje štruktúrovať obsah do kapitol a podkapitol podobne ako v klasickej učebnici. Študent tak má prehľad o svojom postupe a môže sa k obsahu jednoducho vracať. 
+
+Výklad je postavený na postupnom vytváraní ukážkového diagramu tried, pričom jednotlivé koncepty sú zavádzané postupne a v kontexte praktického príkladu (Fig~\ref{fig:theory_example}). 
+
+Prvá časť sa zameriava na základné pojmy, ako sú triedy, objekty, atribúty, metódy či modifikátory prístupu. Druhá časť sa venuje vzťahom medzi triedami a ich vlastnostiam.
+
+Po každej časti nasleduje krátky kvíz na overenie porozumenia.
+
+% \vspace{0.5em}
+
+Cvičenia tvoria kľúčovú časť kurzu. Vytvorili sme spolu 29 úloh rôznych typov, ktoré simulujú reálne modelovacie situácie.
+
+Študenti napríklad identifikujú entity zo zadania, určujú typy vzťahov, hľadajú chyby v diagramoch alebo priraďujú kód k diagramom. Významnú časť tvoria aj úlohy, kde študenti skladajú diagram pomocou drag-and-drop komponentov (Fig~\ref{fig:exercises_drag_and_drop}).
+
+Pri nesprávnych odpovediach systém poskytuje spätnú väzbu, vysvetlenia alebo odkazy na relevantnú teóriu .
+
+% \vspace{0.5em}
+
+Na testovanie vedomostí sme využili aktivitu \textit{Quiz}, ktorá umožňuje kombinovať úlohy do celkov.
+
+V priebežných častiach kurzu je dostupná okamžitá spätná väzba a možnosť opakovaných pokusov, pričom počet bodov sa pri opakovaní znižuje. Naopak, vstupný a záverečný test majú obmedzený počet pokusov a neposkytujú okamžitú spätnú väzbu.
+
+% \vspace{0.5em}
+
+Moodle zároveň poskytuje rozsiahle štatistické prehľady o výsledkoch študentov. Pre potreby experimentu sme vytvorili aj vlastné reporty pomocou pluginu \textit{Configurable reports}, ktoré umožňujú detailnejšiu analýzu správania a výkonu študentov.
+
+Niektoré z týchto reportov boli sprístupnené aj študentom, napríklad na porovnanie ich výkonu s ostatnými.
+
+% \vspace{0.5em}
+
+Zber subjektívnych dát bol realizovaný prostredníctvom aktivity \textit{Feedback}. Tá umožňuje anonymné odpovede na otázky týkajúce sa spokojnosti, vnímania kurzu a celkovej skúsenosti študentov.
+
+Tieto údaje predstavovali dôležitý vstup pre následnú analýzu experimentu.
+
+\textbf{Opis riešenia - e-learningové techniky a rozlíšenie variantov}
+
+V kurze sme implementovali viacero bežných e-learningových techník s cieľom zvýšiť efektivitu učenia a zapojenie študentov.
+
+Využili sme princípy mikro-učenia rozdelením teórie na krátke, tematicky úzko zamerané celky, pričom medzi jednotlivé časti boli vložené cvičenia. Tým sa podporilo priebežné upevňovanie vedomostí.
+
+% Kurz bol navrhnutý ako self-paced, čo znamená, že študenti si mohli zvoliť vlastné tempo štúdia bez časového obmedzenia. Zároveň bol použitý v rámci reálneho predmetu, čím vznikla forma blended learningu kombinujúca e-learning s tradičnou výučbou.
+
+Dôležitou súčasťou bola okamžitá spätná väzba. Po každej odpovedi študent získal informáciu o správnosti riešenia spolu s vysvetlením, prípadne odkazom na relevantnú teóriu. K dispozícii mal aj prehľady o vlastnom výkone.
+
+Pre lepšiu orientáciu bola náročnosť úloh vizuálne označená.
+
+% \vspace{0.5em}
+
+Zábavný variant (PV) využíval gamifikačné prvky, ako sú odmeny za správne odpovede, odznaky za dosiahnutie míľnikov a neformálny, odľahčený štýl komunikácie v teoretických častiach.
+
+% \vspace{0.5em}
+
+Kompetitívny variant (CV) bol postavený na prvkoch súťaženia. Obsahoval rebríček najlepších študentov, porovnanie individuálneho výkonu s priemerom kurzu a zobrazenie priemerných výsledkov pri jednotlivých úlohách. Komunikácia v tomto variante bola asertívnejšia a dôraznejšia.
+
+Oba prístupy predstavujú odlišné stratégie motivácie študentov, ktoré boli následne predmetom experimentálneho porovnania.
+
+% \textbf{Opis riešenia - rozlíšenie variantov kurzov}
+
+\textbf{Nasadenie riešenia}
+
+Riešenie bolo nasadené na serveri poskytnutom FIIT STU počas trvania experimentu. Parametre servera boli nasledovné:
+
+\begin{itemize}
+\item Operačný systém: Ubuntu 22.04 LTS
+\item Počet virtuálnych CPU jadier: 2
+\item Veľkosť pamäte: 4 GB
+\item Veľkosť úložiska: 50 GB
+\end{itemize}
+
+Kapacita servera bola navrhnutá pre maximálne desiatky používateľov súčasne. Pre zabezpečenie prístupu bola využitá doména \textit{fiiture.sk}, ktorú nám poskytol Ing. Juraj Vincúr, PhD. Registrácia nových používateľov bola zakázaná a účty boli vopred vytvorené a distribuované študentom, čím sa obmedzil prístup len na cieľovú skupinu.
+
+\textbf{Opis experimentu}
+
+Experiment bol realizovaný na vzorke študentov FIIT STU zapísaných na predmet softvérové modelovanie. Študenti boli náhodne rozdelení do dvoch variantov kurzu – zábavného (PV) a kompetitívneho (CV), aby sa predišlo skresleniu výberom podľa preferencií. Účasť bola dobrovoľná a motivovaná bodovým ohodnotením. Celkovo kurz dokončilo 35 študentov (PV: 21, CV: 14).
+
+\textbf{Dáta}
+
+Dáta (priložené v časti Appendix A) boli zbierané z viacerých zdrojov: dvoch dotazníkov (pred a po kurze), systémových reportov a logov z prostredia Moodle. 
+
+Dotazníky zachytávali sebahodnotené schopnosti, postoje k e-learningu a subjektívne vnímanie kurzu, pričom obsahovali aj otvorené otázky. 
+
+Výkonnostné dáta zahŕňali skóre v kvízoch, zlepšenie medzi vstupným a záverečným testom a výsledné hodnotenie. 
+
+Logy poskytovali informácie o správaní študentov, ako napríklad počet interakcií s teóriou a kvízmi či počet pokusov.
+
+Na účely analýzy boli vytvorené agregované metriky, napríklad \textit{design\_index} (postoj k danému typu dizajnu) a \textit{satisfaction\_index} (celková spokojnosť). 
+
+Dáta z rôznych zdrojov boli zlúčené do jednej tabuľky na úrovni jednotlivých študentov, pričom boli odvodené aj ďalšie ukazovatele opisujúce výkon a správanie (napr. pomer interakcií, počet dodatočných pokusov, čas strávený v kvízoch). 
+
+Časové údaje boli upravené tak, aby minimalizovali vplyv neaktivity. Úlohy boli zároveň kategorizované podľa tém, čo umožnilo analyzovať výkonnosť naprieč rôznymi oblasťami učiva.
+
+% \textbf{Analýza objektívnych výsledkov}
+
+% Dáta ukázali, že študenti v zábavnom variante (PV) mali na začiatku nižšie sebahodnotené aj objektívne znalosti UML, ktoré sa po absolvovaní kurzu vyrovnali s kompetitívnym variantom (CV). PV zároveň dosiahol vyššie miery zlepšenia, čo súvisí najmä s nižšou vstupnou úrovňou a väčším priestorom na progres, pričom skóre v záverečnom teste bolo v oboch skupinách podobné.\todo{reff}
+
+% CV dosahoval konzistentne vyššie skóre vo väčšine úloh a kategórií, čo môže súvisieť nielen s vyššou vstupnou úrovňou, ale aj s odlišným správaním študentov. Zlepšenie bolo výraznejšie u študentov s nižším vstupným skóre, zatiaľ čo výkon silnejších študentov sa menil minimálne alebo mierne klesal.
+
+% \textbf{Analýza správania študentov}
+
+% Správanie študentov sa medzi variantmi líšilo v spôsobe interakcie s obsahom. V PV bola vyššia aktivita pri štúdiu teórie, zatiaľ čo v CV prevládali interakcie s kvízmi a opakované pokusy.\todo{ref to table}
+
+% \textbf{Analýza subjektívneho vnímania študentov}
+
+% Textové odpovede naznačujú vyššiu mieru zapojenia a pozitívnejšie reakcie v PV, vrátane väčšej dĺžky a entuziazmu odpovedí. Študenti CV uvádzali skôr stručné komentáre a návrhy na drobné zlepšenia.
+
+% Likertové a škálové odpovede potvrdzujú vyššiu spokojnosť a angažovanosť v PV, zatiaľ čo CV vykazuje väčšiu variabilitu odpovedí (polarizačný efekt).\todo{reff}
+
+% Celkovo PV dosahuje vyššie subjektívne hodnotenia, no zároveň sa v ňom objavil mierny pokles záujmu o samotné softvérové modelovanie, ktorý však nie je štatisticky významný.\todo{reff}
+
+% \textbf{E-learning na \ac{fiit}}
+
+% Výsledky dotazníka naznačujú celkovo pozitívny postoj študentov k e-learningu na FIIT STU. Účastníci v PV prejavili vyšší záujem o ďalšie e-learningové materiály a vyššiu celkovú spokojnosť v porovnaní s CV. Obe skupiny sa však zhodli, že kurz prispel k lepšiemu pochopeniu UML diagramu tried.\todo{reff}
+
+\textbf{Limitácie experimentu}
+
+Experimentálne výsledky sú obmedzené viacerými faktormi. Dáta boli anonymizované, čo znemožnilo prepojenie správania študentov s ich postojmi. Skupiny mali nerovnakú veľkosť (PV: 21, CV: 14) a časť účastníkov vypadla, čo znižuje štatistickú silu výsledkov. Zároveň rozdielna počiatočná úroveň znalostí komplikuje porovnanie skupín.
+
+Krátke trvanie kurzu (1 hodina) neumožnilo implementovať pokročilejšie didaktické prvky ani dlhodobejšie učenie. 
+
+Absencia automatizovaného hodnotenia diagramov a nemožnosť zásahu učiteľa viedli k použitiu zjednodušených cvičení, čo mohlo ovplyvniť realizmus úloh a výsledky experimentu.
+
+\textbf{Zhrnutie experimentov}
+
+Výsledky ukazujú, že objektívne výkony boli vyššie v CV (Fig~\ref{fig:avg_score_by_tag}), zatiaľ čo miera zlepšenia bola vyššia v PV. Tento rozdiel je do veľkej miery vysvetlený vyššou počiatočnou úrovňou vedomostí v CV, čo obmedzovalo priestor na zlepšenie (Fig~\ref{fig:imporvement_vs_introductory_assessment_score}). Celkovo sa však nepreukázal jednoznačný rozdiel v celkových učebných výsledkoch medzi oboma prístupmi.
+
+Z hľadiska správania študentov sa prejavili rozdielne vzorce interakcie. Študenti v CV častejšie opakovali kvízové úlohy a orientovali sa na dosahovanie merateľných výsledkov, zatiaľ čo študenti v PV viac pracovali s teoretickým obsahom, čo naznačuje viac exploratívny prístup (Fig~\ref{tab:engagement_simple}).
+
+Subjektívne hodnotenia ukazujú, že PV dosahuje vyššiu mieru spokojnosti, angažovanosti a celkového pozitívneho vnímania vo väčšine metrik (Fig~\ref{fig:engagement_means_comparison}).
+
+Na druhej strane sa v PV pozoroval pokles záujmu o softvérové modelovanie po absolvovaní kurzu, čo môže naznačovať riziko oslabenia intrinzickej motivácie pri nevhodnom návrhu zábavných prvkov. Tento efekt však nebol štatisticky signifikantný (Fig~\ref{fig:interest_pre_post}).
+
+CV vykazuje vyššiu variabilitu odpovedí, čo naznačuje polarizujúci efekt kompetitívneho dizajnu – časť študentov ho hodnotí veľmi pozitívne, iní menej priaznivo. PV je v tomto smere konzistentnejší a prístupnejší širšiemu spektru študentov (Fig~\ref{fig:engagement_violinplots}). 
+
+Celkové výsledky naznačujú, že kompetitívny dizajn môže byť vhodnejší pre študentov s vyššou vstupnou úrovňou a záujmom o predmet, zatiaľ čo zábavný dizajn je všeobecne prístupnejší a vedie k vyššej subjektívnej spokojnosti.
+
+Študenti zároveň prejavili záujem o ďalšie e-learningové materiály na \ac{fiit}, čo podporuje význam ďalšieho rozvoja e-learningu v oblasti softvérového modelovania (Fig~\ref{fig:prospects_for_elearning}).
+
+\textbf{Zhrnutie práce}
+
+Softvérové modelovanie a \ac{uml} sú dôležitou súčasťou vzdelávania softvérových inžinierov. Napriek tomu študenti často preukazujú len povrchové alebo nepresné znalosti \ac{uml}.
+
+Problémy tradičného vyučovania, najmä nedostatok spätnej väzby a obmedzený individuálny prístup, môžu byť čiastočne riešené pomocou e-learningu. Ten umožňuje okamžitú spätnú väzbu, interaktívne úlohy a personalizované učenie, čo zvyšuje efektivitu štúdia.
+
+Cieľom práce bolo vytvoriť a experimentálne overiť e-learningový kurz pre \ac{uml} triedny diagram, pričom boli porovnané dva prístupy gamifikácie – zábavný a kompetitívny.
+
+Výsledky ukázali rozdiely najmä v správaní a subjektívnom vnímaní študentov. Zábavný dizajn bol spojený s vyššou mierou spokojnosti, angažovanosti a záujmu o ďalší e-learning, zatiaľ čo kompetitívny dizajn vykazoval väčšiu variabilitu odpovedí a viac cieľovo orientované správanie. Rozdiely v objektívnych výsledkoch učenia neboli jednoznačné.
+
+Celkové výsledky naznačujú, že e-learning má potenciál zlepšiť výučbu softvérového modelovania a jeho ďalší rozvoj na \ac{fiit} je opodstatnený.
+
+\textbf{Ďalšie smerovanie výskumu}
+
+Ďalší výskum by sa mal zamerať na rozšírenie kurzu o automatizované hodnotenie diagramov, generovanie cvičení a odporúčacie systémy. Perspektívne je aj skúmanie adaptívneho učenia a dlhodobejších experimentov, ktoré by umožnili presnejšie vyhodnotenie efektov jednotlivých prístupov. Do kurzu sa môžu pridať ďalšie druhy diagramov, prípadne sa dajú skúmať aj iné prístupy okrem zábavného a kompetitívneho.
+% Na základe nášho experimentu odporúčame pokračovať vo výzkume v oblasti e-learningu na \ac{fiit}. Na náš výskum sa dá nadviazať integráciou rôznych nástrojov do nášho kurzu - napríklad nástroj na automatizované vyhodnocovanie diagramov, genrátor cvičení alebo mechanizmus na odporúčanie cvičení na základe predchádzajúcich výsledkov a správania študenta. 
+
+% Je možné implementovať a porovnať ďalšie e-learningové praktiky - najmä spomínané adaptívne učenie. 
+
+% Použité praktiky - zábavný a súťaživý dizajn
+
+% \ac{fiit}
+

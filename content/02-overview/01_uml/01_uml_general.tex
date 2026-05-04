@@ -14,7 +14,7 @@
 
 \textbf{Introduction}
 
-The \ac{uml} is a standardized visual modeling language. Its first version was published in 1997 and later updated to UML 2.0 in 2005 as an attempt to unify various approaches to modeling software systems\\footnote{Visual Paradigm, "What is Unified Modeling Language (UML)?," \textit{Visual Paradigm}, https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-uml/, accessed February 23, 2025.}. The latest version of \ac{uml} is UML 2.5.1 and it was published in December 2017\footnote{Conrad Bock et al., "Unified Modeling Language," \textit{Object Management Group (OMG)}, https://www.omg.org/spec/UML/, accessed February 23, 2025.}.
+The \ac{uml} is a standardized visual modeling language. Its first version was published in 1997 and later updated to UML 2.0 in 2005 as an attempt to unify various approaches to modeling software systems\footnote{Visual Paradigm, "What is Unified Modeling Language (UML)?," \textit{Visual Paradigm}, https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-uml/, accessed February 23, 2025.}. The latest version of \ac{uml} is UML 2.5.1 and it was published in December 2017\footnote{Conrad Bock et al., "Unified Modeling Language," \textit{Object Management Group (OMG)}, https://www.omg.org/spec/UML/, accessed February 23, 2025.}.
 
 The purpose of the language is to specify, document, and visualize parts of software systems. That is accomplished by designing standardized diagrams, each intended to describe a different aspect of the system, usually from various stakeholders' perspectives. Those may include the architect, programmer, project manager, customer, and others.
 
@@ -71,8 +71,7 @@ The behavioral diagrams are:
 % \subsection{\ac{uml} modeling tools\textsuperscript{1}}
 % \footnotetext[1]{The section was made with the use of \ac{genai}}
 
-\section[UML modeling tools]{UML modeling tools\footnotemark}
-\footnotetext{This section was made with the use of \ac{genai}}
+\section[UML modeling tools]{UML modeling tools}
 
 % \todo{revise the numbering of footnotes}
 % \todo{revise the tool descriptions if essential, they are all generated now}
@@ -88,108 +87,57 @@ The behavioral diagrams are:
 
 There are many tools for creating \ac{uml} diagrams available. They differ in complexity, support of features, price or intended use. We selected some of the most popular ones for closer inspection and compared them.
 
-\textbf{StarUML}\footnote{"StarUML," \textit{StarUML Official Website}, https://staruml.io/, accessed May 24, 2025.}
+% \textbf{StarUML}\footnote{"StarUML," \textit{StarUML Official Website}, https://staruml.io/, accessed May 24, 2025.}
 
 
-StarUML is a fast, lightweight UML tool geared toward developers. It supports modern UML standards and allows extension via plugins. StarUML is widely appreciated for its clean interface and Markdown-compatible documentation features.
+% StarUML is a fast, lightweight UML tool geared toward developers. It supports modern UML standards and allows extension via plugins. StarUML is widely appreciated for its clean interface and Markdown-compatible documentation features.
 
 \textbf{Enterprise Architect}\footnote{"Enterprise Architect," \textit{Sparx Systems}, https://sparxsystems.com/products/ea/, accessed May 24, 2025.}
 
-
-Enterprise Architect by Sparx Systems is a powerful, professional-grade modeling tool. It supports UML, SysML, BPMN, ArchiMate, and more. EA is often used in large-scale software development and system engineering projects.
+Enterprise is a complex desktop application. It supports a wide range of industry standards, but can have a slow learning curve. It supports many advanced features and has high performance\footnote{"Medium", \textit{Icepanel},\url{https://icepanel.medium.com/top-9-visual-modelling-tools-for-software-architecture-b84ccf3cfdbc}, accessed May 4, 2026}.
+% Enterprise Architect by Sparx Systems is a powerful, professional-grade modeling tool. It supports UML, SysML, BPMN, ArchiMate, and more. EA is often used in large-scale software development and system engineering projects.
 
 \textbf{Diagrams.net}\footnote{"Diagrams.net (Draw.io)," \textit{Diagrams.net}, https://www.diagrams.net/, accessed May 24, 2025.}
 
 
-Diagrams.net, also known as Draw.io, is a free, browser-based diagramming tool. While it’s not strictly tailored for UML, it offers sufficient shapes and templates to support simple to moderately complex UML diagrams. It is therefore mainly used for making quick sketches or by students.
+Diagrams.net, (also known as Draw.io), is a free and simple diagramming tool. It supports \ac{uml}, but is not specifically aimed at it and does not support some of the advanced functionality of professional modeling tools. It is mainly used by students and for quick sketches.
 
 \textbf{Visual Paradigm}\footnote{"Visual Paradigm," \textit{Visual Paradigm}, https://www.visual-paradigm.com/, accessed May 24, 2025.}
 
+Visual Paradigm is a desktop application with a simpler free browser version. It is flexible and supports project management and agile development tracking, while also supporting many industry standard types\footnotemark[5].
 
-Visual Paradigm is a comprehensive UML and software design tool. It supports all UML diagram types and extends into system modeling, business process modeling, and database design. Visual Paradigm is favored in both academia and industry for its clarity, template variety, and export options. Visual Paradigm also provides a simpler online diagram editing tool that we used for designing diagrams in our study.
+% Visual Paradigm is a comprehensive UML and software design tool. It supports all UML diagram types and extends into system modeling, business process modeling, and database design. Visual Paradigm is favored in both academia and industry for its clarity, template variety, and export options. Visual Paradigm also provides a simpler online diagram editing tool that we used for designing diagrams in our study.
 
-\textbf{Lucidchart}\footnote{"Lucidchart," \textit{Lucidchart}, https://www.lucidchart.com/, accessed May 24, 2025.}
+% \textbf{Lucidchart}\footnote{"Lucidchart," \textit{Lucidchart}, https://www.lucidchart.com/, accessed May 24, 2025.}
 
-Lucidchart is an online diagramming application with strong collaboration features. It supports UML and other diagram types like flowcharts, ERDs, and wireframes. It is widely used in business and education settings.
+% Lucidchart is an online diagramming application with strong collaboration features. It supports UML and other diagram types like flowcharts, ERDs, and wireframes. It is widely used in business and education settings.
 
 \textbf{Overall comparison}
 
-% \begin{table}[ht]
-% \centering
-% % \small
-% % \setlength{\tabcolsep}{3pt}
-% \begin{tabular}{|c|c|c|c|c|c|}
-% \hline
-% \textbf{Tool} & \textbf{Visual Paradigm} & \textbf{Enterprise Architect} & \textbf{Diagrams.net (Draw.io)} & \textbf{Lucidchart} & \textbf{StarUML} \\
-% \hline
-% \textbf{UML Support} & Full & Full & Partial (manual) & Moderate & Full \\
-% \hline
-% \textbf{Platform} & Web/Desktop & Windows Desktop & Web/Desktop & Web & Win/macOS/Linux \\
-% \hline
-% \textbf{License} & Free + Paid tiers & Paid (Proprietary) & Free (Open Source) & Free + Paid tiers & Paid (Low-cost) \\
-% \hline
-% \textbf{Collaboration} & Yes & Yes & Limited & Real-time & No \\
-% \hline
-% \textbf{Code Engineering} & Yes & Yes & No & No & Yes \\
-% \hline
-% \textbf{Templates} & Rich & Rich & Limited & Rich & Moderate \\
-% \hline
-% \textbf{Best Use Case} & Academic / Professional & Enterprise Systems & Quick sketches / Students & Collaborative Teams & Developers / Students \\
-% \hline
-% \end{tabular}
-% \caption{Comparison of selected \ac{uml} diagram tools}
-% \label{tab:uml_tool_comparison}
-% \end{table}
-
+\FloatBarrier
 \begin{table}[ht]
 \centering
-\setlength{\tabcolsep}{3pt}
-\begin{tabular}{|c|c|c|c|}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{|l|c|c|c|}
 \hline
-\textbf{Tool} & \textbf{StarUML} & \textbf{Enterprise Architect} & \textbf{Diagrams.net} \\
+\textbf{Tool} & \textbf{Enterprise Architect} & \textbf{Visual Paradigm} & \textbf{Diagrams.net} \\
 \hline
-\textbf{UML Support} & Full & Full & Partial (manual) \\
+UML Support & Full & Full & Partial (manual) \\
 \hline
-\textbf{Platform} & Win/macOS/Linux & Windows Desktop & Web/Desktop \\
+Platform & Windows Desktop & Web / Desktop & Web / Desktop \\
 \hline
-\textbf{License} & Paid (Low-cost) & Paid (Proprietary) & Free (Open Source) \\
+License & Paid (Proprietary) & Free + Paid tiers & Free (Open Source) \\
 \hline
-\textbf{Collaboration} & No & Yes & Limited \\
+Collaboration & Yes & Yes & Limited \\
 \hline
-\textbf{Code Engineering} & Yes & Yes & No \\
+Code Engineering & Yes & Yes & No \\
 \hline
-\textbf{Templates} & Moderate & Rich & Limited \\
+Templates & Rich & Rich & Limited \\
 \hline
-\textbf{Best Use Case} & Developers & Enterprise Systems & Quick sketches \\
-\hline
-\end{tabular}
-\caption{Comparison of UML tools: StarUML, Enterprise Architect, Diagrams.net}
-\label{tab:uml_tool_comparison_part1}
-\end{table}
-
-\begin{table}[ht]
-\centering
-\begin{tabular}{|c|c|c|}
-\hline
-\textbf{Tool} & \textbf{Visual Paradigm} & \textbf{Lucidchart} \\
-\hline
-\textbf{UML Support} & Full & Moderate \\
-\hline
-\textbf{Platform} & Web/Desktop & Web \\
-\hline
-\textbf{License} & Free + Paid tiers & Free + Paid tiers \\
-\hline
-\textbf{Collaboration} & Yes & Real-time \\
-\hline
-\textbf{Code Engineering} & Yes & No \\
-\hline
-\textbf{Templates} & Rich & Rich \\
-\hline
-\textbf{Best Use Case} & Academic / Professional & Collaborative Teams \\
+Best Use Case & Enterprise systems & Academic / Professional & Quick sketches \\
 \hline
 \end{tabular}
-\caption{Comparison of UML tools: Visual Paradigm and Lucidchart}
-\label{tab:uml_tool_comparison_part2}
+\caption{Comparison of UML tools: Enterprise Architect, Visual Paradigm, and Diagrams.net}
+\label{tab:uml_tool_comparison}
 \end{table}
-
-\newpage
+\FloatBarrier

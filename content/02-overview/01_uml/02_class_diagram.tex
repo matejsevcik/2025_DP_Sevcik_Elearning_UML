@@ -23,28 +23,28 @@ It is even possible to generate code from the class diagram. It is commonly used
 % \subsection{Perspecitves of a class diagram\textsuperscript{1}}
 % \footnotetext[1]{The section was made with the use of \ac{genai}}
 
-\subsection[Perspecitves of Class Diagrams]{Perspecitves of the Class Diagram\footnotemark[3]}
-% \footnotetext{This section was made with the use of \ac{genai}}
+% \subsection{Perspectives of Class Diagrams}
+% % \footnotetext{This section was made with the use of \ac{genai}}
 
-%\todo{refs to explanations}
+% %\todo{refs to explanations}
 
-Class diagrams are one of the most fundamental diagram types in the Unified Modeling Language (UML) and serve various purposes throughout the software development lifecycle. They apply various levels of abstraction and each level of abstraction uses class diagrams slightly differently, but they all help bridge the gap between stakeholder understanding and technical implementation.
+% Class diagrams are one of the most fundamental diagram types in the Unified Modeling Language (UML) and serve various purposes throughout the software development lifecycle. They apply various levels of abstraction and each level of abstraction uses class diagrams slightly differently, but they all help bridge the gap between stakeholder understanding and technical implementation.
 
-\textbf{Domain Model} At the highest level of abstraction, class diagrams are used to model concepts from the problem domain. These diagrams represent real-world entities and their relationships, often using language familiar to stakeholders. The focus here is on understanding and communicating the essential structure of the domain.
+% \textbf{Domain Model} At the highest level of abstraction, class diagrams are used to model concepts from the problem domain. These diagrams represent real-world entities and their relationships, often using language familiar to stakeholders. The focus here is on understanding and communicating the essential structure of the domain.
 
-\textbf{Logical Model} As the design progresses, the domain model is refined into a logical model. This level introduces more technical detail, such as class responsibilities, access modifiers, and associations with navigability or multiplicity. It provides a blueprint for the software's internal design while remaining independent of specific implementation technologies.
+% \textbf{Logical Model} As the design progresses, the domain model is refined into a logical model. This level introduces more technical detail, such as class responsibilities, access modifiers, and associations with navigability or multiplicity. It provides a blueprint for the software's internal design while remaining independent of specific implementation technologies.
 
-\textbf{Physical Model} Eventually, the logical model is translated into a physical model, where class diagrams may reflect actual code structures, database schemas, or deployment components. At this stage, technical constraints and implementation details (such as data types or platform-specific features) are included.
+% \textbf{Physical Model} Eventually, the logical model is translated into a physical model, where class diagrams may reflect actual code structures, database schemas, or deployment components. At this stage, technical constraints and implementation details (such as data types or platform-specific features) are included.
 
 
-Class diagrams also share conceptual similarities with Entity-Relationship (ER) diagrams, which are commonly used in database design. In fact, UML class diagrams can serve as a richer alternative to ER diagrams, especially when modeling object-oriented systems:
+% Class diagrams also share conceptual similarities with Entity-Relationship (ER) diagrams, which are commonly used in database design. In fact, UML class diagrams can serve as a richer alternative to ER diagrams, especially when modeling object-oriented systems:
 
-\begin{itemize}
-        \item Entities in ER diagrams correspond to classes in UML
-        \item Attributes are represented similarly
-        \item Relationships in ER diagrams map to associations, aggregations, or compositions in class diagrams, often with multiplicity annotations
-        \item UML also supports advanced features such as inheritance and method specification, which are typically absent in ER diagrams
-\end{itemize}
+% \begin{itemize}
+%         \item Entities in ER diagrams correspond to classes in UML
+%         \item Attributes are represented similarly
+%         \item Relationships in ER diagrams map to associations, aggregations, or compositions in class diagrams, often with multiplicity annotations
+%         \item UML also supports advanced features such as inheritance and method specification, which are typically absent in ER diagrams
+% \end{itemize}
 
 
 \subsection{Components of Class Diagrams}
@@ -76,15 +76,15 @@ Data types define what kind of information can be stored in a variable (or retur
 
 Visibility sets which entities are allowed to view and interact with an attribute or an operation. There are four types of visibility - public, protected, default and private. 
 
-\textbf{Modifiers}\footnotemark[3]
+% \textbf{Modifiers}
 % \footnotetext{This section was made with the use of \ac{genai}}
 
 
-Modifiers in UML class diagrams provide additional information about the behavior and constraints of classes, attributes, and operations. Common modifiers include abstract, which indicates that a class or method cannot be instantiated or directly invoked and must be extended or overridden; final, which marks a class as not extendable or a method as not overridable; and static, which signifies that an attribute or operation belongs to the class itself rather than to any instance of it.
+% Modifiers in UML class diagrams provide additional information about the behavior and constraints of classes, attributes, and operations. Common modifiers include abstract, which indicates that a class or method cannot be instantiated or directly invoked and must be extended or overridden; final, which marks a class as not extendable or a method as not overridable; and static, which signifies that an attribute or operation belongs to the class itself rather than to any instance of it.
 
-UML also supports the interface modifier to represent interfaces—types that declare operations without implementing them, which classes can then realize. These modifiers help clarify the intended usage, inheritance, and design principles of class components in object-oriented modeling.
+% UML also supports the interface modifier to represent interfaces—types that declare operations without implementing them, which classes can then realize. These modifiers help clarify the intended usage, inheritance, and design principles of class components in object-oriented modeling.
 
-\textbf{Example of a class}\footnotemark[3]
+\textbf{Example of a class}
 
 The following figure displays an example of a class from a class diagram. It models a simple User entity that has credentials and a birthdate, allowing the system to update the password and email. It demonstrates the key features of a class, such as attributes, operations, types, operation parameters or access modifiers.
 
@@ -104,7 +104,7 @@ The following figure displays an example of a class from a class diagram. It mod
 % \subsection{Relationships\textsuperscript{1}}
 % \footnotetext[1]{The section was made with the use of \ac{genai}}
 
-\section[Relationships]{Relationships\footnotemark[3]}
+\subsection{Relationships}
 % \footnotetext{This section was made with the use of \ac{genai}}
 
 The class diagram defines several types of relationships between different classes, each representing a distinct kind of interaction or connection within a system.
@@ -141,7 +141,7 @@ Cardinality tells how many instances of a class are to be associated with an ins
 % \footnotetext[1]{The section was made with the use of \ac{genai}}
 
 
-\section[Example of a Class Diagram]{Example of a Class Diagram\footnotemark[3]}
+\subsection{Example of a Class Diagram}
 % \footnotetext{This section was made with the use of \ac{genai}}
 
 % \todo{optional: notation with descriptions of what each component looks like. But that is tedious, so only if we have time to spare}
